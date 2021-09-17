@@ -1,0 +1,69 @@
+# header information:
+Hinv-1x|9.07
+
+# Views:
+Vicon|ic
+Vlayout|lay
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D11.0
+
+# Cell inverter;1{ic}
+Cinverter;1{ic}||artwork|1631866983287|1631867229835|E
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NOpened-Thicker-Polygon|art@2||-0.25|0|3.5|4|||trace()V[-1.75/-2,-1.75/2,1.75/0,-1.75/-2]
+NThick-Circle|art@3||1.75|0|0.5|0.5||
+Nschematic:Bus_Pin|pin@0||-4|0||||
+Nschematic:Wire_Pin|pin@1||-2|0||||
+Nschematic:Bus_Pin|pin@2||4.5|0||||
+Nschematic:Wire_Pin|pin@3||2|0||||
+Aschematic:wire|net@0|||0|pin@1||-2|0|pin@0||-4|0
+Aschematic:wire|net@1|||1800|pin@3||2|0|pin@2||4.5|0
+EINP||D5G2;X-1.5;|pin@0||I
+EOUT||D5G2;X2;|pin@2||O
+X
+
+# Cell inverter;1{lay}
+Cinverter;1{lay}||mocmos|1631866107414|1631866107414|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell inverter;1{sch}
+Cinverter;1{sch}||schematic|1631866071767|1631871083720|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NOff-Page|conn@0||-37|-0.5||||
+NOff-Page|conn@1||-5|-0.5||||
+NGround|gnd@0||-18|-11.5||||
+Iinverter;1{ic}|inverter@0||7|18.5|||D5G4;
+NTransistor|nmos@0||-20|-4.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S4|SIM_spice_model(D5G1;X-1;Y-3;)Snmos
+NWire_Pin|pin@0||-27|3.5||||
+NWire_Pin|pin@1||-27|-4.5||||
+NWire_Pin|pin@2||-27|-0.5||||
+NWire_Pin|pin@3||-18|-0.5||||
+NTransistor|pmos@0||-20|3.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S8|SIM_spice_model(D5G1;X1;Y-3;)Spmos
+NPower|pwr@0||-18|10.5||||
+Awire|net@0|||900|pwr@0||-18|10.5|pmos@0|d|-18|5.5
+Awire|net@1|||900|pmos@0|s|-18|1.5|pin@3||-18|-0.5
+Awire|net@2|||900|pin@3||-18|-0.5|nmos@0|d|-18|-2.5
+Awire|net@3|||0|conn@1|a|-7|-0.5|pin@3||-18|-0.5
+Awire|net@4|||2700|gnd@0||-18|-9.5|nmos@0|s|-18|-6.5
+Awire|net@5|||0|pmos@0|g|-21|3.5|pin@0||-27|3.5
+Awire|net@6|||1800|pin@1||-27|-4.5|nmos@0|g|-21|-4.5
+Awire|net@7|||900|pin@0||-27|3.5|pin@2||-27|-0.5
+Awire|net@8|||900|pin@2||-27|-0.5|pin@1||-27|-4.5
+Awire|net@9|||1800|conn@0|a|-39|-0.5|pin@2||-27|-0.5
+EINP||D5G2;|conn@0|a|I
+EOUT||D5G2;|conn@1|y|O
+X
+
+# Cell test-inverter;1{sch}
+Ctest-inverter;1{sch}||schematic|1631870930369|1631871089367|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+Iinverter;1{ic}|inverter@0||-2.5|-0.5|||D5G4;
+NWire_Pin|pin@0||-11|-0.5||||
+NWire_Pin|pin@1||7.5|-0.5||||
+Ngeneric:Invisible-Pin|pin@2||-2.5|4.5|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\" ",v1 vdd gnd DC 0.8 ,v2 INP gnd pwl(0 0 100p 0.8 1n 0.8 1.1n 0 2n 0),.tran 2.1n,.END]
+Awire|INP|D5G1;||0|inverter@0|INP|-6.5|-0.5|pin@0||-11|-0.5
+Awire|OUT|D5G1;||1800|inverter@0|OUT|2|-0.5|pin@1||7.5|-0.5
+X

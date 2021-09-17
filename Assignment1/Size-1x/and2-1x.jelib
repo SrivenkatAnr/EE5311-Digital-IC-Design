@@ -1,0 +1,81 @@
+# header information:
+Hand2-1x|9.07
+
+# Views:
+Vicon|ic
+Vlayout|lay
+Vschematic|sch
+
+# External Libraries:
+
+Linv-1x|inv-1x
+
+Lnand2-1x|nand2-1x
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D11.0
+
+# Cell and2;1{ic}
+Cand2;1{ic}||artwork|1631868791518|1631869047784|E
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NThick-Circle|art@2||0|0|5|5.1|RRR||ART_degrees()F[0.0,3.1415927]
+NOpened-Thicker-Polygon|art@4||-1.5|0|3|5|||trace()V[1.5/2.5,-1.5/2.5,-1.5/-2.5,1.5/-2.5]
+Nschematic:Bus_Pin|pin@0||-6|1||||
+Nschematic:Wire_Pin|pin@1||-3|1||||
+Nschematic:Bus_Pin|pin@2||-6|-1||||
+Nschematic:Wire_Pin|pin@3||-3|-1||||
+Nschematic:Bus_Pin|pin@4||5.5|0||||
+Nschematic:Wire_Pin|pin@5||2.5|0||||
+Aschematic:wire|net@0|||0|pin@1||-3|1|pin@0||-6|1
+Aschematic:wire|net@1|||0|pin@3||-3|-1|pin@2||-6|-1
+Aschematic:wire|net@2|||1800|pin@5||2.5|0|pin@4||5.5|0
+EA||D5G2;|pin@0||I
+EB||D5G2;|pin@2||I
+EOUT||D5G2;X2;|pin@4||O
+X
+
+# Cell and2;1{lay}
+Cand2;1{lay}||mocmos|1631866095888|1631866095888|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell and2;1{sch}
+Cand2;1{sch}||schematic|1631866059344|1631871144117|
+Iand2;1{ic}|and2@1||24|16.5|||D5G4;
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NOff-Page|conn@0||-18.5|4.5||||
+NOff-Page|conn@1||-19|-2||||
+NOff-Page|conn@2||16|1||||
+Iinv-1x:inverter;1{ic}|inverter@0||5|1|||D5G4;
+Inand2-1x:nand2;1{ic}|nand2@0||-8.5|-1|||D5G4;
+NWire_Pin|pin@0||-15.5|2||||
+NWire_Pin|pin@1||-15.5|0||||
+NWire_Pin|pin@2||14.5|1||||
+NWire_Pin|pin@4||-15.5|-2||||
+NWire_Pin|pin@5||-15.5|4.5||||
+Awire|net@0|||1800|nand2@0|Y|-3.5|1|inverter@0|INP|1|1
+Awire|net@1|||0|nand2@0|A|-14|2|pin@0||-15.5|2
+Awire|net@2|||0|nand2@0|B|-14|0|pin@1||-15.5|0
+Awire|net@3|||1800|inverter@0|OUT|9.5|1|pin@2||14.5|1
+Awire|net@6|||900|pin@1||-15.5|0|pin@4||-15.5|-2
+Awire|net@7|||1800|conn@1|y|-17|-2|pin@4||-15.5|-2
+Awire|net@8|||1800|conn@0|y|-16.5|4.5|pin@5||-15.5|4.5
+Awire|net@9|||900|pin@5||-15.5|4.5|pin@0||-15.5|2
+Awire|net@10|||1800|conn@2|a|14|1|pin@2||14.5|1
+EA||D5G2;|conn@0|y|I
+EB||D5G2;|conn@1|y|I
+EOUT||D5G2;|conn@2|a|O
+X
+
+# Cell test-and2;1{sch}
+Ctest-and2;1{sch}||schematic|1631870938012|1631871152183|
+Iand2;1{ic}|and2@0||-1|0|||D5G4;
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NWire_Pin|pin@0||-13|1||||
+NWire_Pin|pin@2||10.5|0||||
+NWire_Pin|pin@3||-13|-1||||
+Ngeneric:Invisible-Pin|pin@4||-2|8.5|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.param vdd {0.8},v1 vdd gnd DC {vdd},v2 A gnd PWL(0 0 400p 0 500p {vdd} 900p {vdd} 1n 0 1.4n 0 1.5n {vdd} 1.9n {vdd} 2n 0),v3 B gnd PWL(0 0 900p 0 1n {vdd} 1.9n {vdd} 2n 0),.meas tran delay_a_to_out,+trig v(a) val={vdd/2} cross=3,+targ v(out) val={vdd/2} cross=1,.tran 0 2n]
+Awire|A|D5G1;||0|and2@0|A|-7|1|pin@0||-13|1
+Awire|B|D5G1;||0|and2@0|B|-7|-1|pin@3||-13|-1
+Awire|OUT|D5G1;||1800|and2@0|OUT|4.5|0|pin@2||10.5|0
+X
