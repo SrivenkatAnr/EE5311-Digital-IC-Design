@@ -108,7 +108,7 @@ EOUT||D5G2;|conn@5|a|O
 X
 
 # Cell and2-1x__and2;1{lay}
-Cand2-1x__and2;1{lay}|and2|mocmos|1631866095888|1631876316704||DRC_last_good_drc_area_date()G1631876320325|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631876320325
+Cand2-1x__and2;1{lay}|and2|mocmos|1631866095888|1631876786864||DRC_last_good_drc_area_date()G1631876320325|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631876320325
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@14||-17.5|12||3||
 NMetal-1-P-Active-Con|contact@15||-25.5|12||3||
@@ -189,7 +189,6 @@ APolysilicon-1|net@81|||S0|pmos@3|poly-left|-21.5|6|contact@20||-32.5|6
 AMetal-1|net@82||1|S900|pin@40||-9.5|0.5|contact@18||-9.5|-8
 APolysilicon-1|net@83|||S0|pin@42||-13.5|-18|pin@43||-33|-18
 APolysilicon-1|net@84|||S2700|pin@43||-33|-18|pin@44||-33|-2
-APolysilicon-1|net@85||3|S0|contact@21||-32.5|-2|pin@44||-33|-2
 APolysilicon-1|net@86|||S900|nmos@4|poly-left|-13.5|-14|pin@42||-13.5|-18
 AN-Active|net@87|||S0|nmos@5|diff-top|8.25|-8|contact@22||7|-8
 AN-Active|net@88|||S1800|nmos@5|diff-bottom|15.75|-8|contact@23||17|-8

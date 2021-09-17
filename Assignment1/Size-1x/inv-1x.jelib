@@ -11,7 +11,7 @@ Tmocmos|ScaleFORmocmos()D11.0
 Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell inv-1x__inverter;1{lay}
-Cinv-1x__inverter;1{lay}|inverter|mocmos|1631866107414|1631876091220||DRC_last_good_drc_area_date()G1631875932586|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631875932586
+Cinv-1x__inverter;1{lay}|inverter|mocmos|1631866107414|1631876091220||DRC_last_good_drc_area_date()G1631876851125|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631876851125
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-18.5|-5||||
 NMetal-1-N-Active-Con|contact@1||-9.5|-5||||
