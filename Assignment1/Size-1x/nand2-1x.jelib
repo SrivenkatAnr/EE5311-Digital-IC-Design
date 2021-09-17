@@ -11,14 +11,14 @@ Tmocmos|ScaleFORmocmos()D11.0
 Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell fanout-nand2;1{sch}
-Cfanout-nand2;1{sch}||schematic|1631876996644|1631879267848|
+Cfanout-nand2;1{sch}||schematic|1631876996644|1631879987097|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Inand2;1{ic}|nand2@0||-7|-0.5|||D5G4;
-Inand2;1{ic}|nand2@1||18|22|||D5G4;
+Inand2;1{ic}|nand2@1||18|22.5|||D5G4;
 Inand2;1{ic}|nand2@2||18|13|||D5G4;
 Inand2;1{ic}|nand2@3||18|6|||D5G4;
 Inand2;1{ic}|nand2@4||18|-3|||D5G4;
-Inand2;1{ic}|nand2@5||18|-10.5|||D5G4;
+Inand2;1{ic}|nand2@5||18|-11|||D5G4;
 Inand2;1{ic}|nand2@6||18|-19.5|||D5G4;
 Inand2;1{ic}|nand2@7||18|-26.5|||D5G4;
 Inand2;1{ic}|nand2@8||18|-35.5|||D5G4;
@@ -28,11 +28,39 @@ NWire_Pin|pin@5||0.5|1.5||||
 Ngeneric:Invisible-Pin|pin@6||-31.5|-17|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.param vdd {0.8},v1 vdd gnd DC {vdd},v2 A gnd PWL(0 {vdd} 200p {vdd} 300p 0 800p 0 900p {vdd} 1n {vdd} 2.1n {vdd}),v3 B gnd PWL(0 {vdd} 1n {vdd} 1.2n {vdd} 1.3n 0 1.8n 0 1.9n {vdd} 2.1n {vdd}),.meas tran delay_b_fix_a_fall_to_y,+trig v(a) val={vdd/2} cross=1,+targ v(y) val={vdd/2} cross=1,.meas tran delay_b_fix_a_rise_to_y,+trig v(a) val={vdd/2} cross=2,+targ v(y) val={vdd/2} cross=2,.meas tran delay_a_fix_b_fall_to_y,+trig v(b) val={vdd/2} cross=1,+targ v(y) val={vdd/2} cross=3,.meas tran delay_a_fix_b_rise_to_y,+trig v(b) val={vdd/2} cross=2,+targ v(y) val={vdd/2} cross=4,.tran 0 2.1n,.end]
 NWire_Pin|pin@7||-22|2.5||||
 NWire_Pin|pin@9||-22|0.5||||
+NWire_Pin|pin@11||0.5|16||||
+NWire_Pin|pin@12||0.5|25.5||||
+NWire_Pin|pin@13||12.5|25.5||||
+NWire_Pin|pin@14||0.5|9||||
+NWire_Pin|pin@15||0.5|0||||
+NWire_Pin|pin@16||0.5|-8||||
+NWire_Pin|pin@17||0.5|0||||
+NWire_Pin|pin@18||0.5|-16.5||||
+NWire_Pin|pin@19||0.5|-23.5||||
+NWire_Pin|pin@20||0.5|-32.5||||
 Awire|A|D5G1;||1800|pin@2||-19.5|2.5|nand2@0|A|-12.5|2.5
 Awire|B|D5G1;X-1.5;||0|nand2@0|B|-12.5|0.5|pin@4||-16.5|0.5
 Awire|Y|D5G1;||1800|nand2@0|Y|-2|1.5|pin@5||0.5|1.5
 Awire|net@8|||0|pin@2||-19.5|2.5|pin@7||-22|2.5
 Awire|net@9|||0|pin@4||-16.5|0.5|pin@9||-22|0.5
+Awire|net@12|||0|nand2@2|A|12.5|16|pin@11||0.5|16
+Awire|net@14|||2700|pin@11||0.5|16|pin@12||0.5|25.5
+Awire|net@15|||1800|pin@12||0.5|25.5|pin@13||12.5|25.5
+Awire|net@16|||2700|nand2@1|A|12.5|25.5|pin@13||12.5|25.5
+Awire|net@17|||900|pin@11||0.5|16|pin@14||0.5|9
+Awire|net@19|||0|nand2@3|A|12.5|9|pin@14||0.5|9
+Awire|net@20|||900|pin@14||0.5|9|pin@15||0.5|0
+Awire|net@21|||2700|pin@15||0.5|0|pin@5||0.5|1.5
+Awire|net@22|||0|nand2@4|A|12.5|0|pin@15||0.5|0
+Awire|net@23|||0|nand2@5|A|12.5|-8|pin@16||0.5|-8
+Awire|net@24|||2700|pin@16||0.5|-8|pin@17||0.5|0
+Awire|net@25|||1800|pin@15||0.5|0|pin@17||0.5|0
+Awire|net@26|||0|nand2@6|A|12.5|-16.5|pin@18||0.5|-16.5
+Awire|net@27|||2700|pin@18||0.5|-16.5|pin@16||0.5|-8
+Awire|net@28|||0|nand2@7|A|12.5|-23.5|pin@19||0.5|-23.5
+Awire|net@29|||2700|pin@19||0.5|-23.5|pin@18||0.5|-16.5
+Awire|net@30|||0|nand2@8|A|12.5|-32.5|pin@20||0.5|-32.5
+Awire|net@31|||2700|pin@20||0.5|-32.5|pin@19||0.5|-23.5
 X
 
 # Cell nand2;1{ic}

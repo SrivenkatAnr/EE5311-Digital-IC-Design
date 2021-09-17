@@ -2,3 +2,4 @@
 *.spi
 *.raw
 *.op.raw
+*.plt
