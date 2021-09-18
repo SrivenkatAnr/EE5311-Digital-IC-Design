@@ -1,2 +1,69 @@
-# EE5311-Digital-IC-Design
-Assignments of Digital IC Design Course. Jul-Nov 2021
+# Member-3: Sidesh S (EE18B032)
+Given Parameters:  
+
+INV_4X : 4X inverter : L=2λ,Wn=16λ,Wp=32λ
+
+NAND2_4X : 4X NAND2 : L=2λ,Wn=32λ,Wp=32λ 
+
+## Fanout 0 :
+
+- delay_b_fixed_a_fall=9.95313e-012 FROM 9.5e-010 TO 9.59953e-010
+- delay_b_fixed_a_rise=1.30259e-011 FROM 2.05e-009 TO 2.06303e-009
+- delay_a_fixed_b_fall=7.45867e-012 FROM 2.95e-009 TO 2.95746e-009
+- delay_a_fixed_b_rise=6.86663e-012 FROM 4.05e-009 TO 4.05687e-009
+
+## Fanout 1
+
+- delay_b_fixed_a_fall=1.31624e-011 FROM 9.5e-010 TO 9.63162e-010
+- delay_b_fixed_a_rise=1.6899e-011 FROM 2.05e-009 TO 2.0669e-009
+- delay_a_fixed_b_fall=1.09024e-011 FROM 2.95e-009 TO 2.9609e-009
+- delay_a_fixed_b_rise=1.08702e-011 FROM 4.05e-009 TO 4.06087e-009
+
+## Fanout 2
+
+- delay_b_fixed_a_fall=1.5903e-011 FROM 9.5e-010 TO 9.65903e-010
+- delay_b_fixed_a_rise=2.00928e-011 FROM 2.05e-009 TO 2.07009e-009
+- delay_a_fixed_b_fall=1.381e-011 FROM 2.95e-009 TO 2.96381e-009
+- delay_a_fixed_b_rise=1.42988e-011 FROM 4.05e-009 TO 4.0643e-009
+
+## Fanout 3
+
+- delay_b_fixed_a_fall=1.8319e-011 FROM 9.5e-010 TO 9.68319e-010
+- delay_b_fixed_a_rise=2.28042e-011 FROM 2.05e-009 TO 2.0728e-009
+- delay_a_fixed_b_fall=1.63373e-011 FROM 2.95e-009 TO 2.96634e-009
+- delay_a_fixed_b_rise=1.73227e-011 FROM 4.05e-009 TO 4.06732e-009
+
+## Fanout 4
+
+- delay_b_fixed_a_fall=2.05095e-011 FROM 9.5e-010 TO 9.7051e-010
+- delay_b_fixed_a_rise=2.52432e-011 FROM 2.05e-009 TO 2.07524e-009
+- delay_a_fixed_b_fall=1.86708e-011 FROM 2.95e-009 TO 2.96867e-009
+- delay_a_fixed_b_rise=2.00786e-011 FROM 4.05e-009 TO 4.07008e-009
+
+## Fanout 5
+
+- delay_b_fixed_a_fall=2.25604e-011 FROM 9.5e-010 TO 9.7256e-010
+- delay_b_fixed_a_rise=2.74343e-011 FROM 2.05e-009 TO 2.07743e-009
+- delay_a_fixed_b_fall=2.07462e-011 FROM 2.95e-009 TO 2.97075e-009
+- delay_a_fixed_b_rise=2.25977e-011 FROM 4.05e-009 TO 4.0726e-009
+
+## Fanout 6
+
+- delay_b_fixed_a_fall=2.44282e-011 FROM 9.5e-010 TO 9.74428e-010
+- delay_b_fixed_a_rise=2.95189e-011 FROM 2.05e-009 TO 2.07952e-009
+- delay_a_fixed_b_fall=2.27728e-011 FROM 2.95e-009 TO 2.97277e-009
+- delay_a_fixed_b_rise=2.49673e-011 FROM 4.05e-009 TO 4.07497e-009
+
+## Fanout 7
+
+- delay_b_fixed_a_fall=2.62513e-011 FROM 9.5e-010 TO 9.76251e-010
+- delay_b_fixed_a_rise=3.14436e-011 FROM 2.05e-009 TO 2.08144e-009
+- delay_a_fixed_b_fall=2.46132e-011 FROM 2.95e-009 TO 2.97461e-009
+- delay_a_fixed_b_rise=2.71686e-011 FROM 4.05e-009 TO 4.07717e-009
+
+## Fanout 8
+
+- delay_b_fixed_a_fall=2.79553e-011 FROM 9.5e-010 TO 9.77955e-010
+- delay_b_fixed_a_rise=3.32558e-011 FROM 2.05e-009 TO 2.08326e-009
+- delay_a_fixed_b_fall=2.63624e-011 FROM 2.95e-009 TO 2.97636e-009
+- delay_a_fixed_b_rise=2.92697e-011 FROM 4.05e-009 TO 4.07927e-009
