@@ -8,7 +8,6 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell inv;1{ic}
 Cinv;1{ic}||artwork|1631949015896|1631952968951|E
@@ -54,7 +53,7 @@ EY|OUT|D5G2;X-2.5;|conn@1|a|O
 X
 
 # Cell inv_4x__inv;1{lay}
-Cinv_4x__inv;1{lay}|inv|mocmos|1631949130980|1631953159065||DRC_last_good_drc_area_date()G1631953031461|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631953031461
+Cinv_4x__inv;1{lay}|inv|mocmos|1631949130980|1631953159065||DRC_last_good_drc_area_date()G1632052102078|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632052102078
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@1||-8|25.5||27||
 NMetal-1-P-Active-Con|contact@2||1|25.5||27||

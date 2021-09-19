@@ -1,5 +1,5 @@
 # header information:
-Hnot|9.07
+Hnot_2x|9.07
 
 # Views:
 Vicon|ic
@@ -8,7 +8,6 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell inverter;1{ic}
 Cinverter;1{ic}||artwork|1631767822917|1631769559852|E
@@ -62,7 +61,7 @@ EOUT||D5G2;|conn@0|a|O
 X
 
 # Cell test_inverter;1{lay}
-Ctest_inverter;1{lay}|inverter|mocmos|1631713824874|1631880225524||DRC_last_good_drc_area_date()G1631880045051|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631880045051
+Ctest_inverter;1{lay}|inverter|mocmos|1631713824874|1631880225524||DRC_last_good_drc_area_date()G1632052108998|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632052108998
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||-5|19||11||
 NMetal-1-P-Active-Con|contact@1||7|19||11||

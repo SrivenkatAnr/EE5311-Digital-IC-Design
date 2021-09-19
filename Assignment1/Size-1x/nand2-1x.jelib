@@ -8,7 +8,6 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell fanout-nand2;1{sch}
 Cfanout-nand2;1{sch}||schematic|1631876996644|1631879987097|

@@ -8,7 +8,6 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell inv-1x__inverter;1{lay}
 Cinv-1x__inverter;1{lay}|inverter|mocmos|1631866107414|1631876091220||DRC_last_good_drc_area_date()G1631876851125|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1631876851125
