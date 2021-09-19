@@ -62,6 +62,6 @@ NAND2_2X : 2X NAND2 : L=2λ,Wn=16λ,Wp=16λ
 ## Fanout 8
 
 - delay_b_fix_a_fall_to_y=2.77204e-011 FROM 2.5e-010 TO 2.7772e-010
-- delay_a_fix_b_fall_to_y=2.60236e-011 FROM 1.25e-009 TO 1.27602e-009
 - delay_b_fix_a_rise_to_y=3.303e-011 FROM 8.5e-010 TO 8.8303e-010
+- delay_a_fix_b_fall_to_y=2.60236e-011 FROM 1.25e-009 TO 1.27602e-009
 - delay_a_fix_b_rise_to_y=2.90034e-011 FROM 1.85e-009 TO 1.879e-009
