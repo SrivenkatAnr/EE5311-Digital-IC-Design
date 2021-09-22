@@ -110,12 +110,12 @@ Evdd||D5G2;|pin@45||P
 X
 
 # Cell test_not;1{sch}
-Ctest_not;1{sch}||schematic|1631769063976|1631769822101|
+Ctest_not;1{sch}||schematic|1631769063976|1632294047586|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-30|-1||||
 NOff-Page|conn@1||-1|-1||||
 Iinverter;1{ic}|inverter@0||-17|-1|||D5G4;
-Ngeneric:Invisible-Pin|pin@2||-14|-8|||||SIM_spice_card(D5G1;)S[".include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",v1 vdd gnd DC 0.8,v2 INP gnd pwl(0 0 100p 0.8 1n 0.8 1.1n 0 2n 0),.tran 2.1n,.END]
+Ngeneric:Invisible-Pin|pin@2||-14|-8|||||SIM_spice_card(D5G1;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",v1 vdd gnd DC 0.8,v2 INP gnd pwl(0 0 100p 0.8 1n 0.8 1.1n 0 2n 0),.tran 2.1n,.END]
 Awire|net@0|||0|inverter@0|INP|-24|-1|conn@0|y|-28|-1
 Awire|net@1|||1800|inverter@0|OUT|-9|-1|conn@1|a|-3|-1
 EINP||D5G2;|conn@0|a|I

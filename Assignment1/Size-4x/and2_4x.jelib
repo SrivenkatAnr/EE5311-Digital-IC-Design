@@ -198,13 +198,13 @@ Evdd||D5G2;|pin@2||P
 X
 
 # Cell text_and2;1{sch}
-Ctext_and2;1{sch}||schematic|1631991974884|1631992522713|
+Ctext_and2;1{sch}||schematic|1631991974884|1632293431526|
 Iand2;1{ic}|and2@0||1|13|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-9.5|14||||
 NOff-Page|conn@1||-9.5|12||||
 NOff-Page|conn@2||12|13|||RR|
-Ngeneric:Invisible-Pin|pin@0||0.5|6|||||SIM_spice_card(D5G1;)S[".include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"",.param vdd = 0.8,v1 vdd gnd DC {vdd},v2 A gnd PULSE(0 {vdd} 900p 100p 100p 1n 2n 2),v3 B gnd PULSE(0 {vdd} 1.4n 100p 100p 2n 4n 1),.tran 5n]
+Ngeneric:Invisible-Pin|pin@0||0.5|6|||||SIM_spice_card(D5G1;)S["*.include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.param vdd = 0.8,v1 vdd gnd DC {vdd},v2 A gnd PULSE(0 {vdd} 900p 100p 100p 1n 2n 2),v3 B gnd PULSE(0 {vdd} 1.4n 100p 100p 2n 4n 1),.tran 5n]
 Awire|net@11|||1800|conn@1|y|-7.5|12|and2@0|B|-4|12
 Awire|net@13|||1800|and2@0|Y|6|13|conn@2|y|10|13
 Awire|net@14|||0|and2@0|A|-4|14|conn@0|y|-7.5|14

@@ -224,13 +224,13 @@ Evdd||D5G2;|pin@136||P
 X
 
 # Cell test_and;1{sch}
-Ctest_and;1{sch}||schematic|1631780852680|1631783300585|
+Ctest_and;1{sch}||schematic|1631780852680|1632293371823|
 Iand;1{ic}|and@0||-3|1|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-15|4||||
 NOff-Page|conn@1||-15|-3||||
 NOff-Page|conn@3||5|1||||
-Ngeneric:Invisible-Pin|pin@0||-4|8|||||SIM_spice_card(D5G1;)S[".include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",v1 vdd gnd DC 0.8,v2 A gnd pulse(0 0.8 100p 100p 100p 400p 1n),v3 B gnd pulse(0 0.8 100p 100p 100p 900p),.trans 2.1n,.END]
+Ngeneric:Invisible-Pin|pin@0||-4|8|||||SIM_spice_card(D5G1;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",v1 vdd gnd DC 0.8,v2 A gnd pulse(0 0.8 100p 100p 100p 400p 1n),v3 B gnd pulse(0 0.8 100p 100p 100p 900p),.trans 2.1n,.END]
 NWire_Pin|pin@1||-9|4|0.5|0.5||
 NWire_Pin|pin@2||-9|2|0.5|0.5||
 NWire_Pin|pin@3||-12|-3|0.5|0.5||

@@ -94,12 +94,12 @@ Evdd||D5G2;|pin@4||P
 X
 
 # Cell test_inv_4x;1{sch}
-Ctest_inv_4x;1{sch}||schematic|1631949162912|1631950520599|
+Ctest_inv_4x;1{sch}||schematic|1631949162912|1632293536317|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-18|4.5||||
 NOff-Page|conn@1||7.5|4.5|||RR|
 Iinv;1{ic}|inv_4x@0||-4.5|4.5|||D5G4;
-Ngeneric:Invisible-Pin|pin@0||-5|-5|||||SIM_spice_card(D5G1;)S[".include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"",.param vdd=0.8,v1 vdd gnd DC {vdd},v2 INP gnd PULSE(0 {vdd} 800p 200p 200p 1n 2.4n),.tran 4n]
+Ngeneric:Invisible-Pin|pin@0||-5|-5|||||SIM_spice_card(D5G1;)S["*.include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.param vdd=0.8,v1 vdd gnd DC {vdd},v2 INP gnd PULSE(0 {vdd} 800p 200p 200p 1n 2.4n),.tran 4n]
 Awire|net@0|||1800|conn@0|y|-16|4.5|inv_4x@0|X|-9.5|4.5
 Awire|net@1|||1800|inv_4x@0|Y|1.5|4.5|conn@1|y|5.5|4.5
 EINP||D5G2;X-6;|conn@0|y|I
