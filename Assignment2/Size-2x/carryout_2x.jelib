@@ -7,10 +7,9 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632813542171|1632829167751||DRC_last_good_drc_area_date()G1632829149088|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632829149088
+Ccarryout;1{lay}||mocmos|1632813542171|1632829167751||DRC_last_good_drc_area_date()G1632833364315|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632833364315
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@6||-17|-13.5||3||
 NMetal-1-N-Active-Con|contact@7||-9|-13.5||3||
