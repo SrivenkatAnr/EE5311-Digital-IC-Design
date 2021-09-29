@@ -9,7 +9,7 @@ Vschematic|sch
 Tmocmos|ScaleFORmocmos()D11.0
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632674884075|1632819923875||DRC_last_good_drc_area_date()G1632819926376|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632819926376
+Ccarryout;1{lay}||mocmos|1632674884075|1632900162481||DRC_last_good_drc_area_date()G1632900184162|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632900184162
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@1||-6.75|-22.25||3||
 NMetal-1-N-Active-Con|contact@2||28.5|-22.25||3||
@@ -294,13 +294,13 @@ APolysilicon-1|net@361|||S2700|contact@50||8.5|-18.5|pin@155||8.5|-9.75
 EA_1|A|D5G2;|pin@131||I
 EB||D5G2;|pin@153||I
 ECi||D5G2;|pin@117||I
-ECo||D5G2;|pin@138||O
+ECo_bar||D5G2;|pin@138||O
 Egnd||D5G2;|pin@48||G
 Evdd||D5G2;|pin@49||P
 X
 
 # Cell carryout;1{sch}
-Ccarryout;1{sch}||schematic|1632468169059|1632819604066|
+Ccarryout;1{sch}||schematic|1632468169059|1632900179811|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@2||-36.25|6.5||||
 NOff-Page|conn@3||-36.25|1||||
@@ -364,7 +364,7 @@ Awire|B|D5G1;||0|pmos@2|g|-4.5|12.75|pin@51||-5.75|12.75
 Awire|B|D5G1;||1800|pmos@3|g|11|12.75|pin@52||12.25|12.75
 Awire|B|D5G1;||1800|nmos@4|g|11|-12.75|pin@55||12|-12.75
 Awire|Ci|D5G1;||0|pin@34||-11.25|0.25|pin@35||-13.75|0.25
-Awire|Co|D5G1;||1800|pin@8||8|0.25|pin@9||13.75|0.25
+Awire|Co_bar|D5G1;||1800|pin@8||8|0.25|pin@9||13.75|0.25
 Awire|net@0|||900|nmos@0|s|-12.5|-15|pin@0||-12.5|-16
 Awire|net@1|||1800|pin@0||-12.5|-16|pin@1||-1.5|-16
 Awire|net@2|||2700|pin@1||-1.5|-16|nmos@3|s|-1.5|-15
@@ -411,11 +411,11 @@ Awire|net@86|||0|pin@35||-13.75|0.25|pin@58||-14.75|0.25
 EA||D5G2;|conn@2|y|I
 EB||D5G2;|conn@3|y|I
 ECi||D5G2;|conn@4|y|I
-ECo||D5G2;|conn@5|a|O
+ECo_bar||D5G2;|conn@5|a|O
 X
 
 # Cell test_carryout;1{sch}
-Ctest_carryout;1{sch}||schematic|1632818870190|1632819702666|
+Ctest_carryout;1{sch}||schematic|1632818870190|1632900167711|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Icarryout;1{sch}|carryout@0||-0.25|0.25|||D5G4;
 NOff-Page|conn@0||-58|7||||
@@ -432,7 +432,6 @@ Awire|net@1|||0|carryout@0|A|-34.5|6.75|pin@0||-56|6.75
 Awire|net@2|||1800|conn@1|y|-55.75|1.25|carryout@0|B|-34.5|1.25
 Awire|net@3|||1800|conn@2|y|-55.75|-4.25|pin@1||-34.5|-4.25
 Awire|net@4|||900|carryout@0|Ci|-34.5|-3.75|pin@1||-34.5|-4.25
-Awire|net@5|||1800|carryout@0|Co|22|0.5|pin@2||37.5|0.5
 Awire|net@6|||900|pin@2||37.5|0.5|pin@3||37.5|0.5
 Awire|net@7|||0|conn@3|a|39.75|0.5|pin@3||37.5|0.5
 EA||D5G2;|conn@0|y|I
