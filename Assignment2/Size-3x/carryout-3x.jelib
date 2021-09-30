@@ -32,7 +32,7 @@ ECo-not||D5G2;X3;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632976620836|1633018836483||DRC_last_good_drc_area_date()G1633018866882|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633018866882
+Ccarryout;1{lay}||mocmos|1632976620836|1633019157758||DRC_last_good_drc_area_date()G1633018866882|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633018866882
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@17||-36.5|-18||1||
 NMetal-1-N-Active-Con|contact@18||-28|-18||1||
@@ -98,9 +98,6 @@ NP-Well-Pin|pin@20||50.5|-8.5||||
 NP-Well-Pin|pin@21||73.5|-8.5||||
 NP-Well-Pin|pin@22||22.5|-8.5||||
 NP-Well-Pin|pin@23||-44|-8.5||||
-NPolysilicon-1-Pin|pin@24||-24|-13||||
-NPolysilicon-1-Pin|pin@25||-16|-13||||
-NPolysilicon-1-Pin|pin@26||-8|-13||||
 NMetal-2-Pin|pin@27||-36|20.5||||
 NMetal-2-Pin|pin@28||-20|20.5||||
 NMetal-2-Pin|pin@29||-4|20.5||||
@@ -170,9 +167,6 @@ AP-Active|net@130|||S0|contact@40||-19.5|6.5|pmos@2|diff-top|-19.75|6.5
 AP-Active|net@131|||S0|contact@41||-11.5|6.5|pmos@3|diff-top|-11.75|6.5
 AP-Active|net@132|||S1800|contact@41||-12.5|6.5|pmos@2|diff-bottom|-12.25|6.5
 AP-Active|net@133|||S0|contact@40||-20|6.5|pmos@1|diff-bottom|-20.25|6.5
-APolysilicon-1|net@135|||S0|nmos@13|poly-right|-24|-13|pin@24||-24|-13
-APolysilicon-1|net@137|||S0|nmos@14|poly-right|-16|-13|pin@25||-16|-13
-APolysilicon-1|net@139|||S0|nmos@15|poly-right|-8|-13|pin@26||-8|-13
 AP-Active|net@141|||S0|contact@42||-3.5|6.5|pmos@5|diff-top|-3.75|6.5
 AP-Active|net@142|||S0|contact@43||4.5|6.5|pmos@6|diff-top|4.25|6.5
 AP-Active|net@143|||S1800|contact@43||3.5|6.5|pmos@5|diff-bottom|3.75|6.5
