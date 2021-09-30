@@ -7,9 +7,10 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
+Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632674884075|1632978529356||DRC_last_good_drc_area_date()G1632978534313|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632978534313
+Ccarryout;1{lay}||mocmos|1632674884075|1632979120950||DRC_last_good_drc_area_date()G1632979126123|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1632979126123
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@1||-11.5|-25.25||3||
 NMetal-1-N-Active-Con|contact@2||30|-25.25||3||
@@ -43,18 +44,18 @@ NMetal-1-Metal-2-Con|contact@56||-19.5|-25.25||||
 NMetal-1-Metal-2-Con|contact@57||-3.5|-25.25||||
 NMetal-1-Metal-2-Con|contact@59||-11.5|-31.75||||
 NMetal-1-Metal-2-Con|contact@60||4.5|11.25||||
-NMetal-1-Polysilicon-1-Con|contact@62||-15.25|-16.75||||
+NMetal-1-Polysilicon-1-Con|contact@62||-15.5|-16.75||||
 NMetal-1-Polysilicon-1-Con|contact@63||-6|-16.75||||
 NMetal-1-Polysilicon-1-Con|contact@66||33|-3.75||||
 NMetal-1-Polysilicon-1-Con|contact@67||40.5|-16.75||||
-NMetal-1-Metal-2-Con|contact@68||-15.25|-16.75||||
+NMetal-1-Metal-2-Con|contact@68||-15.5|-16.75||||
 NMetal-1-Metal-2-Con|contact@69||40.5|-16.75||||
 NMetal-1-Metal-2-Con|contact@70||40.5|-16.75||||
 NMetal-1-Metal-2-Con|contact@71||-27.5|-1.75||||
 NMetal-1-Metal-2-Con|contact@72||-33.75|-25.25||||
 NMetal-1-Metal-2-Con|contact@73||-27.5|-1.75||||
 NMetal-1-Metal-2-Con|contact@74||49.5|-26||||
-NMetal-1-Metal-2-Con|contact@75||44.5|-2.25||||
+NMetal-1-Metal-2-Con|contact@75||44.5|-1.75||||
 NMetal-1-Polysilicon-1-Con|contact@77||0.75|-3.75||||
 NMetal-1-Polysilicon-1-Con|contact@78||8.75|-3.75||||
 NMetal-1-Polysilicon-1-Con|contact@79||24|-3.75||||
@@ -260,11 +261,11 @@ AMetal-2|net@575|||S1800|pin@268||49.5|-10.25|pin@264||59.75|-10.25
 AMetal-2|net@576|||S900|pin@268||49.5|-10.25|pin@269||49.5|-22.25
 AMetal-2|net@577|||IJS1800|pin@269||49.5|-22.25|pin@270||49.5|-22.25
 AMetal-2|net@578|||S2700|contact@74||49.5|-25.5|pin@270||49.5|-22.25
-AMetal-1|net@579||1|IJS900|contact@33||44.5|4.75|contact@75||44.5|-3
+AMetal-1|net@579||1|IJS900|contact@33||44.5|4.75|contact@75||44.5|-2.75
 AMetal-2|net@580|||IJS1800|pin@266||-27.5|-10.25|pin@271||44.5|-10.25
 AMetal-2|net@581|||S1800|pin@271||44.5|-10.25|pin@268||49.5|-10.25
 AMetal-2|net@582|||S2700|pin@271||44.5|-10.25|pin@272||44.5|-5.5
-AMetal-2|net@583|||S2700|pin@272||44.5|-5.5|contact@75||44.5|-3
+AMetal-2|net@583|||S2700|pin@272||44.5|-5.5|contact@75||44.5|-2.75
 AMetal-2|net@595|||S1800|pin@264||59.75|-10.25|pin@280||64|-10.25
 APolysilicon-1|net@596|||S2700|pmos@0|poly-left|-31.5|-1.25|pin@281||-31.5|-1.25
 APolysilicon-1|net@602|||S0|pin@284||0.5|-1.25|pmos@4|poly-left|0.5|-1.25
@@ -297,7 +298,7 @@ AMetal-1|net@669|||S0|contact@80||-34.5|-3.75|pin@312||-47|-3.75
 APolysilicon-1|net@670|||S900|pin@281||-31.5|-1.25|pin@313||-31.5|-3.75
 APolysilicon-1|net@671|||S1800|contact@80||-34.25|-3.75|pin@313||-31.5|-3.75
 APolysilicon-1|net@674|||S2700|nmos@4|poly-right|34|-19.25|pin@315||34|-16.25
-APolysilicon-1|net@675|||S1800|contact@83||32|-16.25|pin@315||34|-16.25
+APolysilicon-1|net@675|||S1800|contact@83||32.25|-16.25|pin@315||34|-16.25
 AMetal-1|net@676|||S900|contact@66||32.75|-3.75|contact@83||32.75|-16.75
 EA||D5G2;|pin@261||I
 EB||D5G2;|pin@252||I
