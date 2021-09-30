@@ -32,7 +32,7 @@ ECo-not||D5G2;X3;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632976620836|1633034292247||DRC_last_good_drc_area_date()G1633034486193|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633034486193
+Ccarryout;1{lay}||mocmos|1632976620836|1633036408699||DRC_last_good_drc_area_date()G1633036413017|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633036413017
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@17||-36.5|-21||1||
 NMetal-1-N-Active-Con|contact@18||-28|-21||1||
@@ -86,6 +86,13 @@ NMetal-1-Polysilicon-1-Con|contact@69||14.5|-11.5||||
 NMetal-1-Polysilicon-1-Con|contact@70||22.5|-4||||
 NMetal-1-Polysilicon-1-Con|contact@71||31|-4.5||||
 NMetal-1-Polysilicon-1-Con|contact@72||39|-11.5||||
+NMetal-1-Metal-2-Con|contact@73||-28|-18.25||||
+NMetal-1-N-Active-Con|contact@74||-28|-21||||
+NMetal-1-Metal-2-Con|contact@75||-12|-18.25||||
+NMetal-1-Metal-2-Con|contact@76||4|-18.25||||
+NMetal-1-Metal-2-Con|contact@77||20|-18.5||||
+NMetal-1-Metal-2-Con|contact@78||50|-18.5||||
+NMetal-1-Metal-2-Con|contact@79||66|-18.5||||
 NN-Transistor|nmos@12||-32|-21|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@13||-24|-21|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@14||-16|-21|3||R||SIM_spice_model(D5G1;)Snmos
@@ -138,6 +145,8 @@ NMetal-1-Pin|pin@56||-50.5|-4||||
 NPolysilicon-1-Pin|pin@57||32.5|-4.5||||
 NMetal-1-Pin|pin@58||22.5|-4.5||||
 NPolysilicon-1-Pin|pin@59||37.5|-11.75||||
+NMetal-2-Pin|pin@60||20|-18.25||||
+NMetal-1-Pin|pin@61||66|-21||||
 NP-Transistor|pmos@0||-32|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@1||-24|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@2||-16|6.5|9||R||SIM_spice_model(D5G1;)Spmos
@@ -301,6 +310,20 @@ APolysilicon-1|net@292|||S900|pmos@12|poly-left|37.5|-2|pin@59||37.5|-11.75
 APolysilicon-1|net@293|||S900|pin@59||37.5|-11.75|nmos@21|poly-right|37.5|-14.5
 APolysilicon-1|net@294|||S1800|pin@59||37.5|-11.75|contact@72||39.5|-11.75
 AMetal-1|net@295|||S1800|contact@69||14.5|-11.5|contact@72||39|-11.5
+AN-Active|net@296|||S0|nmos@13|diff-top|-27.75|-21|contact@74||-28|-21
+AMetal-1|net@297||1|S900|contact@73||-28|-18.25|contact@74||-28|-21
+AMetal-1|net@298||1|S2700|contact@20||-12|-21|contact@75||-12|-18.25
+AMetal-1|net@300||1|S2700|contact@22||4|-21|contact@76||4|-18.25
+AMetal-1|net@301||1|S2700|contact@24||20|-21|contact@77||20|-19.5
+AMetal-2|net@307|||S1800|contact@73||-28|-18.25|contact@75||-12|-18.25
+AMetal-2|net@308|||S1800|contact@75||-12|-18.25|contact@76||4|-18.25
+AMetal-2|net@309|||S1800|contact@76||4|-18.25|pin@60||20|-18.25
+AMetal-2|net@310|||S2700|contact@77||20|-18.5|pin@60||20|-18.25
+AMetal-1|net@311||1|S2700|contact@30||50|-21|contact@78||50|-19
+AMetal-2|net@312|||S1800|contact@77||20|-18.25|contact@78||50|-18.25
+AMetal-1|net@313||2|S0|contact@32||66|-21|pin@61||66|-21
+AMetal-1|net@314||1|S900|contact@79||66|-19|pin@61||66|-21
+AMetal-2|net@315|||S1800|contact@78||50|-18.25|contact@79||66|-18.25
 X
 
 # Cell carryout;1{sch}
