@@ -32,7 +32,7 @@ ECo-not||D5G2;X3;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632976620836|1633033438443||DRC_last_good_drc_area_date()G1633033525401|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633033525401
+Ccarryout;1{lay}||mocmos|1632976620836|1633034292247||DRC_last_good_drc_area_date()G1633034486193|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633034486193
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@17||-36.5|-21||1||
 NMetal-1-N-Active-Con|contact@18||-28|-21||1||
@@ -84,6 +84,8 @@ NMetal-1-Polysilicon-1-Con|contact@67||-1.5|-11.5||||
 NMetal-1-Polysilicon-1-Con|contact@68||6.5|-4||||
 NMetal-1-Polysilicon-1-Con|contact@69||14.5|-11.5||||
 NMetal-1-Polysilicon-1-Con|contact@70||22.5|-4||||
+NMetal-1-Polysilicon-1-Con|contact@71||31|-4.5||||
+NMetal-1-Polysilicon-1-Con|contact@72||39|-11.5||||
 NN-Transistor|nmos@12||-32|-21|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@13||-24|-21|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@14||-16|-21|3||R||SIM_spice_model(D5G1;)Snmos
@@ -133,6 +135,9 @@ NPolysilicon-1-Pin|pin@52||16|-12||||
 NPolysilicon-1-Pin|pin@53||24|-4||||
 NMetal-1-Pin|pin@55||28.5|17||||
 NMetal-1-Pin|pin@56||-50.5|-4||||
+NPolysilicon-1-Pin|pin@57||32.5|-4.5||||
+NMetal-1-Pin|pin@58||22.5|-4.5||||
+NPolysilicon-1-Pin|pin@59||37.5|-11.75||||
 NP-Transistor|pmos@0||-32|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@1||-24|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@2||-16|6.5|9||R||SIM_spice_model(D5G1;)Spmos
@@ -248,8 +253,6 @@ APolysilicon-1|net@225|||S1800|pin@39||70|-7.5|contact@61||72|-7.5
 AMetal-1|net@226|||S1800|contact@58||63.5|-7.75|contact@61||71.5|-7.75
 AMetal-1|net@227|||S1800|contact@61||71.5|-7.5|contact@62||72.5|-7.5
 AMetal-2|net@232|||S1800|pin@42||-50.5|-7.75|contact@62||71.5|-7.75
-APolysilicon-1|net@241|||S900|pmos@11|poly-left|32.5|-2|nmos@20|poly-right|32.5|-14.5
-APolysilicon-1|net@242|||S900|pmos@12|poly-left|37.5|-2|nmos@21|poly-right|37.5|-14.5
 APolysilicon-1|net@243|||S900|pmos@0|poly-left|-32|-1.5|pin@43||-32|-12
 APolysilicon-1|net@244|||S900|pin@43||-32|-12|nmos@12|poly-right|-32|-16
 APolysilicon-1|net@245|||S0|pin@43||-32|-12|contact@63||-34|-12
@@ -289,6 +292,15 @@ AMetal-1|net@279||1|S900|contact@25||28.5|-19|contact@37||28.5|-26
 AMetal-1|net@283|||S2700|contact@47||28.5|8|pin@55||28.5|17
 AMetal-1|net@284|||S1800|contact@55||12|17|pin@55||28.5|17
 AMetal-1|net@286|||S0|contact@64||-25.5|-4|pin@56||-50.5|-4
+APolysilicon-1|net@287|||S900|pmos@11|poly-left|32.5|-2|pin@57||32.5|-4.5
+APolysilicon-1|net@288|||S900|pin@57||32.5|-4.5|nmos@20|poly-right|32.5|-14.5
+APolysilicon-1|net@289|||S0|pin@57||32.5|-4.5|contact@71||30.5|-4.5
+AMetal-1|net@290|||S0|contact@71||31|-4.5|pin@58||22.5|-4.5
+AMetal-1|net@291||1|S900|contact@70||22.5|-4|pin@58||22.5|-4.5
+APolysilicon-1|net@292|||S900|pmos@12|poly-left|37.5|-2|pin@59||37.5|-11.75
+APolysilicon-1|net@293|||S900|pin@59||37.5|-11.75|nmos@21|poly-right|37.5|-14.5
+APolysilicon-1|net@294|||S1800|pin@59||37.5|-11.75|contact@72||39.5|-11.75
+AMetal-1|net@295|||S1800|contact@69||14.5|-11.5|contact@72||39|-11.5
 X
 
 # Cell carryout;1{sch}
