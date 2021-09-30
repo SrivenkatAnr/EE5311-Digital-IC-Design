@@ -32,7 +32,7 @@ ECo-not||D5G2;X3;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632976620836|1633026131590||DRC_last_good_drc_area_date()G1633026134151|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633026134151
+Ccarryout;1{lay}||mocmos|1632976620836|1633030963853||DRC_last_good_drc_area_date()G1633030966966|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633030966966
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@17||-36.5|-18||1||
 NMetal-1-N-Active-Con|contact@18||-28|-18||1||
@@ -75,6 +75,7 @@ NMetal-1-Polysilicon-1-Con|contact@58||63.5|-7.5||||
 NMetal-1-N-Active-Con|contact@59||74|-18||1||
 NMetal-1-P-Active-Con|contact@60||74|6.5||7||
 NMetal-1-Polysilicon-1-Con|contact@61||71.5|-7.5||||
+NMetal-1-Metal-2-Con|contact@62||71.5|-7.5||||
 NN-Transistor|nmos@12||-32|-18|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@13||-24|-18|3||R||SIM_spice_model(D5G1;)Snmos
 NN-Transistor|nmos@14||-16|-18|3||R||SIM_spice_model(D5G1;)Snmos
@@ -117,6 +118,7 @@ NMetal-2-Pin|pin@35||86.5|20.5||||
 NP-Well-Pin|pin@36||81.5|-27||||
 NP-Well-Pin|pin@37||81.5|-8.5||||
 NPolysilicon-1-Pin|pin@39||70|-7.5||||
+NMetal-2-Pin|pin@42||-49.5|-7.5||||
 NP-Transistor|pmos@0||-32|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@1||-24|6.5|9||R||SIM_spice_model(D5G1;)Spmos
 NP-Transistor|pmos@2||-16|6.5|9||R||SIM_spice_model(D5G1;)Spmos
@@ -238,6 +240,8 @@ APolysilicon-1|net@223|||S900|pmos@16|poly-left|70|-1.5|pin@39||70|-7.5
 APolysilicon-1|net@224|||S900|pin@39||70|-7.5|nmos@32|poly-right|70|-13
 APolysilicon-1|net@225|||S1800|pin@39||70|-7.5|contact@61||72|-7.5
 AMetal-1|net@226|||S1800|contact@58||63.5|-7.5|contact@61||71.5|-7.5
+AMetal-1|net@227|||S1800|contact@61||71.5|-7.5|contact@62||72.5|-7.5
+AMetal-2|net@232|||S1800|pin@42||-49.5|-7.5|contact@62||71.5|-7.5
 X
 
 # Cell carryout;1{sch}
