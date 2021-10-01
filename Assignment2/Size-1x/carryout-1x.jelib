@@ -8,7 +8,6 @@ Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D11.0
-Tmocmos-cn|ScaleFORmocmos-cn()D11.0
 
 # Cell carryout;1{ic}
 Ccarryout;1{ic}||artwork|1633063738942|1633063818708|E
@@ -49,7 +48,7 @@ ECo_bar||D5G2;X7.5;Y0.25;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632674884075|1633063460018||DRC_last_good_drc_area_date()G1633063468724|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633063468724
+Ccarryout;1{lay}||mocmos|1632674884075|1633083791106||DRC_last_good_drc_area_date()G1633083793495|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1633083793495
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@94||-66.75|-27||3||
 NMetal-1-P-Active-Con|contact@95||-66.75|2||11||
@@ -174,12 +173,12 @@ AN-Active|net@752|||S1800|contact@105||-58.25|-27|nmos@14|diff-bottom|-57.25|-27
 AMetal-2|net@754|||IS0|pin@10||-19|-35.5|pin@338||-57.75|-35.5
 AMetal-2|net@766|||S0|pin@13||-1.25|14.5|pin@342||-57.75|14.5
 AMetal-2|net@767|||S1800|pin@342||-57.75|14.5|pin@12||-19|14.5
-AMetal-1|net@784||1|IJS2700|contact@112||-66.75|-31.25|contact@94||-66.75|-28
+AMetal-1|net@784|||IJS2700|contact@112||-66.75|-31.25|contact@94||-66.75|-28
 AN-Active|net@878|||S1800|nmos@18|diff-bottom|-35.75|-27|contact@96||-34.75|-27
 AP-Active|net@879|||S1800|pmos@14|diff-bottom|-35.5|2|contact@97||-34.5|2
-AMetal-1|net@890||1|IJS900|contact@97||-34.5|2|pin@398||-34.5|-3
+AMetal-1|net@890|||IJS900|contact@97||-34.5|2|pin@398||-34.5|-3
 AMetal-1|net@901||1|S900|contact@127||-20.75|1.5|pin@407||-20.75|-3.75
-AMetal-1|net@907||1|S900|contact@127||-20.75|1.5|pin@409||-20.75|-3.5
+AMetal-1|net@907|||S900|contact@127||-20.75|1.5|pin@409||-20.75|-3.5
 AP-Active|net@910|||S0|pmos@12|diff-top|-20|1.5|contact@127||-20.25|1.5
 AN-Active|net@911|||S0|nmos@16|diff-top|-20|-27.25|contact@126||-20.25|-27.25
 AMetal-2|net@945|||S0|pin@329||-65.5|14.5|pin@434||-69.5|14.5
@@ -190,7 +189,7 @@ AMetal-2|net@954|||S1800|pin@436||-2.25|-35.5|pin@439||-0.75|-35.5
 AMetal-2|net@955|||S0|pin@435||-70.25|-35.5|pin@440||-76.75|-35.5
 AMetal-2|net@956|||S0|pin@434||-69.5|14.5|pin@441||-76.75|14.5
 AMetal-1|net@957||1|S900|contact@139||-11.75|1.5|pin@442||-11.75|-3.75
-AMetal-1|net@961||1|S900|contact@139||-11.75|1.5|pin@444||-11.75|-3.5
+AMetal-1|net@961|||S900|contact@139||-11.75|1.5|pin@444||-11.75|-3.5
 AP-Active|net@967|||S1800|pmos@12|diff-bottom|-12.75|1.75|contact@139||-12.25|1.75
 AMetal-2|net@968|||IS1800|pin@338||-57.75|-35.5|pin@11||-5.25|-35.5
 AP-Active|net@971|||S1800|pmos@10|diff-top|-49.5|2|pin@448||-48.5|2
@@ -203,16 +202,16 @@ AN-Active|net@977|||S2700|nmos@14|diff-top|-49.5|-27|pin@450||-49.5|-26
 AMetal-2|net@978||1|S1800|contact@112||-66.75|-32|pin@451||-66.75|-32
 AMetal-2|net@979|||S2700|pin@330||-66.75|-35.5|pin@451||-66.75|-32
 AMetal-1|net@980||1|S1800|contact@145||-66.75|10|pin@452||-66.75|10
-AMetal-1|net@981||1|S2700|contact@95||-66.75|2|pin@452||-66.75|10
+AMetal-1|net@981|||S2700|contact@95||-66.75|2|pin@452||-66.75|10
 AMetal-2|net@982||1|IJS2700|contact@145||-66.75|11|pin@453||-66.75|14.5
 AMetal-2|net@983|||S0|pin@329||-65.5|14.5|pin@453||-66.75|14.5
 AMetal-1|net@985||1|S2700|contact@143||-48.75|2|pin@454||-48.75|11
-AMetal-1|net@989||1|IJS900|contact@144||-48.75|-27|pin@456||-48.75|-33
+AMetal-1|net@989|||IJS900|contact@144||-48.75|-27|pin@456||-48.75|-33
 AMetal-2|net@990|||S0|pin@48||-47|-35.5|pin@457||-48.75|-35.5
 AMetal-2|net@991|||S0|pin@457||-48.75|-35.5|pin@330||-66.75|-35.5
-AMetal-2|net@992||1|IJS900|contact@147||-48.75|-32|pin@457||-48.75|-35.5
+AMetal-2|net@992|||IJS900|contact@147||-48.75|-32|pin@457||-48.75|-35.5
 AMetal-1|net@993||1|IJS2700|contact@147||-48.75|-32|contact@144||-48.75|-26.75
-AMetal-1|net@994||1|S900|contact@146||-48.75|11|contact@143||-48.75|2
+AMetal-1|net@994|||S900|contact@146||-48.75|11|contact@143||-48.75|2
 AMetal-2|net@995||1|IJS2700|contact@146||-48.75|11|pin@458||-48.75|14.5
 AMetal-2|net@996|||S0|pin@49||-47|14.5|pin@458||-48.75|14.5
 APolysilicon-1|net@997|||S900|pmos@11|poly-left|-62.25|-8|pin@459||-62.25|-10.5
@@ -243,7 +242,7 @@ AMetal-1|net@1044|||S1800|pin@482||-76.75|-18.25|contact@149||-54.75|-18.25
 AMetal-1|net@1045|||S1800|contact@149||-54.75|-18.25|contact@150||-45.75|-18.25
 AMetal-1|net@1054||1|S900|contact@155||-11.75|-3.25|pin@488||-11.75|-3.75
 AMetal-1|net@1055||1|S1800|pin@442||-11.75|-3.75|pin@488||-11.75|-3.75
-AMetal-2|net@1058|||S0|contact@155||-10.75|-3.25|pin@491||-24.75|-3.25
+AMetal-2|net@1058|||IJS0|contact@155||-10.75|-3.25|pin@491||-24.75|-3.25
 AMetal-2|net@1066||1|S900|contact@157||-34.5|-3|pin@492||-34.5|-3.25
 AMetal-2|net@1067|||S0|pin@491||-24.75|-3.25|pin@492||-34.5|-3.25
 AMetal-2|net@1068|||S0|pin@478||-24.75|4|pin@479||-27.75|4
@@ -255,12 +254,12 @@ AMetal-2|net@1079|||S1800|pin@498||-24.25|-29.5|pin@500||-11.75|-29.5
 AMetal-2|net@1080||1|IJS900|contact@141||-11.75|-28.5|pin@500||-11.75|-29.5
 AMetal-2|net@1081|||IJS0|contact@159||-27|-22.5|pin@494||-41.75|-22.5
 AMetal-1|net@1082|||IS2700|contact@126||-20.75|-27|pin@501||-20.75|-22.25
-AMetal-1|net@1083|||S1800|contact@159||-27|-22.25|pin@501||-20.75|-22.25
+AMetal-1|net@1083|||IJS1800|contact@159||-27|-22.25|pin@501||-20.75|-22.25
 APolysilicon-1|net@1084|||S1800|contact@160||-17.75|-13.75|pin@502||-16.25|-13.75
 APolysilicon-1|net@1085|||S900|pmos@12|poly-left|-16.25|-8.25|pin@502||-16.25|-13.75
 APolysilicon-1|net@1086|||S2700|nmos@16|poly-right|-16.25|-21|pin@503||-16.25|-13.75
 APolysilicon-1|net@1087|||S1800|contact@160||-17.75|-13.75|pin@503||-16.25|-13.75
-AMetal-1|net@1088||1|S2700|contact@141||-11.75|-29|contact@138||-11.75|-27
+AMetal-1|net@1088|||S2700|contact@141||-11.75|-29|contact@138||-11.75|-27
 AN-Active|net@1089|||S1800|nmos@16|diff-bottom|-12.5|-27|contact@138||-12.25|-27
 AMetal-1|net@1090||1|S1800|contact@161||-17.75|-14.25|contact@160||-17.75|-14.25
 AMetal-2|net@1092|||IS0|contact@161||-17|-14.25|pin@505||-76.75|-14.25
