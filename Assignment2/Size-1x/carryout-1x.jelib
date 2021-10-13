@@ -48,7 +48,7 @@ ECo_bar||D5G2;X7.5;Y0.25;|pin@6||O
 X
 
 # Cell carryout;1{lay}
-Ccarryout;1{lay}||mocmos|1632674884075|1634110570355||DRC_last_good_drc_area_date()G1634110571908|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1634110571908
+Ccarryout;1{lay}||mocmos|1632674884075|1634110917867||DRC_last_good_drc_area_date()G1634110920444|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1634110920444
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@94||-66.75|-27||3||
 NMetal-1-P-Active-Con|contact@95||-66.75|2||11||
@@ -86,9 +86,9 @@ NN-Transistor|nmos@16||-22|-27|5||R|
 NN-Transistor|nmos@17||-44.25|-27|5||R|
 NN-Transistor|nmos@18||-39.25|-27|5||R|
 NMetal-2-Pin|pin@10||-19|-35.5||||
-NMetal-2-Pin|pin@11||-5.25|-35.5||||
+NMetal-2-Pin|pin@11||-7.5|-35.5||||
 NMetal-2-Pin|pin@12||-19|14.5||||
-NMetal-2-Pin|pin@13||-1.25|14.5|||X|
+NMetal-2-Pin|pin@13||-8|14.5|||X|
 NMetal-2-Pin|pin@18||-32.25|14.5||||
 NMetal-2-Pin|pin@19||-32.5|-35.5||||
 NMetal-2-Pin|pin@48||-47|-35.5||||
@@ -103,9 +103,9 @@ NMetal-1-Pin|pin@407||-26.5|-3.5|||X|
 NMetal-1-Pin|pin@409||-26.5|-3.25|||X|
 NMetal-2-Pin|pin@434||-69.5|14.5||||
 NMetal-2-Pin|pin@435||-70.25|-35.5||||
-NMetal-2-Pin|pin@436||-2.25|-35.5||||
-NMetal-2-Pin|pin@438||-0.75|14.5||||
-NMetal-2-Pin|pin@439||-0.75|-35.5||||
+NMetal-2-Pin|pin@436||-7.5|-35.5||||
+NMetal-2-Pin|pin@438||-7.75|14.5||||
+NMetal-2-Pin|pin@439||-7.75|-35.5||||
 NMetal-2-Pin|pin@440||-76.75|-35.5||||
 NMetal-2-Pin|pin@441||-76.75|14.5||||
 NMetal-1-Pin|pin@442||-17.5|-3.75|||X|
@@ -165,13 +165,13 @@ AP-Active|net@718|||S1800|contact@95||-66.25|1.75|pmos@11|diff-top|-66|1.75
 AN-Active|net@719|||S1800|contact@94||-66.25|-26.5|nmos@15|diff-top|-66|-26.5
 AP-Active|net@726|||S0|pmos@13|diff-bottom|-40.25|2|pmos@14|diff-top|-42.75|2
 AN-Active|net@727|||S0|nmos@17|diff-bottom|-40.5|-27|nmos@18|diff-top|-43|-27
-AMetal-2|net@733|||S0|pin@13||-1.25|14.5|pin@334||-48.75|14.5
+AMetal-2|net@733|||S0|pin@13||-8|14.5|pin@334||-48.75|14.5
 AP-Active|net@749|||S1800|contact@106||-58.25|2|pmos@10|diff-bottom|-56.75|2
 AP-Active|net@750|||S0|contact@106||-58.25|2|pmos@11|diff-bottom|-58.5|2
 AN-Active|net@751|||S0|contact@105||-58.25|-27|nmos@15|diff-bottom|-58.5|-27
 AN-Active|net@752|||S1800|contact@105||-58.25|-27|nmos@14|diff-bottom|-57.25|-27
 AMetal-2|net@754|||IS0|pin@10||-19|-35.5|pin@338||-57.75|-35.5
-AMetal-2|net@766|||S0|pin@13||-1.25|14.5|pin@342||-57.75|14.5
+AMetal-2|net@766|||S0|pin@13||-8|14.5|pin@342||-57.75|14.5
 AMetal-2|net@767|||S1800|pin@342||-57.75|14.5|pin@12||-19|14.5
 AMetal-1|net@784|||IJS2700|contact@112||-66.75|-31.25|contact@94||-66.75|-28
 AN-Active|net@878|||S1800|nmos@18|diff-bottom|-35.75|-27|contact@96||-34.75|-27
@@ -183,15 +183,15 @@ AP-Active|net@910|||S0|pmos@12|diff-top|-25.75|1.75|contact@127||-26|1.75
 AN-Active|net@911|||S0|nmos@16|diff-top|-25.75|-27.25|contact@126||-26|-27.25
 AMetal-2|net@945|||S0|pin@329||-65.5|14.5|pin@434||-69.5|14.5
 AMetal-2|net@946|||S0|pin@330||-66.75|-35.5|pin@435||-70.25|-35.5
-AMetal-2|net@947|||S1800|pin@11||-5.25|-35.5|pin@436||-2.25|-35.5
-AMetal-2|net@953|||S1800|pin@13||-1.25|14.5|pin@438||-0.75|14.5
-AMetal-2|net@954|||S1800|pin@436||-2.25|-35.5|pin@439||-0.75|-35.5
+AMetal-2|net@947|||S1800|pin@11||-7.5|-35.5|pin@436||-7.5|-35.5
+AMetal-2|net@953|||S1800|pin@13||-8|14.5|pin@438||-7.75|14.5
+AMetal-2|net@954|||S0|pin@436||-7.5|-35.5|pin@439||-7.75|-35.5
 AMetal-2|net@955|||S0|pin@435||-70.25|-35.5|pin@440||-76.75|-35.5
 AMetal-2|net@956|||S0|pin@434||-69.5|14.5|pin@441||-76.75|14.5
 AMetal-1|net@957||1|S900|contact@139||-17.5|1.5|pin@442||-17.5|-3.75
 AMetal-1|net@961|||S900|contact@139||-17.5|1.5|pin@444||-17.5|-3.5
 AP-Active|net@967|||S1800|pmos@12|diff-bottom|-18.5|1.75|contact@139||-18|1.75
-AMetal-2|net@968|||IS1800|pin@338||-57.75|-35.5|pin@11||-5.25|-35.5
+AMetal-2|net@968|||IS1800|pin@338||-57.75|-35.5|pin@11||-7.5|-35.5
 AP-Active|net@971|||S1800|pmos@10|diff-top|-49.5|2|pin@448||-48.5|2
 AP-Active|net@972||2|S900|contact@143||-48.5|2.5|pin@448||-48.5|2
 AP-Active|net@973||2|S1800|pin@448||-48.5|2|pmos@13|diff-top|-47.75|2
