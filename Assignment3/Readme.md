@@ -1,6 +1,6 @@
 # Description
 	Design the schematic and layout of the sum generation part of the Full adder.
-
+![Full Adder Circuit](https://raw.githubusercontent.com/SrivenkatAnr/EE5311-Digital-IC-Design/main/Assignment3/assets/Given/FA%20char_1.png?raw=true) <br/>
 **Note:** The sizes are relative to a unit transistor whose dimensions are: L=2λ,Wn=4λ
 
 # Group Members:
@@ -35,3 +35,5 @@ A single PDF showing
 * For each step of Cslew measure input slew Sin of the input 
 * Create a table of the output delay of SUM as a function of Sin of A and CLoad (Cin should be tied to the appropriate supply) 
 * Create a table of the output slew of Cout as a function of Sin of Cin and CLoad (A should be tied to the appropriate supply)
+
+![Simulation Circuit](https://github.com/SrivenkatAnr/EE5311-Digital-IC-Design/blob/main/Assignment3/assets/Given/FA-Sum.png?raw=true)
