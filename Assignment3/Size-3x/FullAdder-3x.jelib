@@ -36,7 +36,7 @@ ES_bar||D5G2;X3.25;|pin@8||O
 X
 
 # Cell FA;1{lay}
-CFA;1{lay}||mocmos|1634122139737|1634480041843||DRC_last_good_drc_area_date()G1634480015503
+CFA;1{lay}||mocmos|1634122139737|1634487125220||DRC_last_good_drc_area_date()G1634487125767|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1634487125767
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-70.75|-2.25||3||
 NMetal-1-P-Active-Con|contact@1||-70.75|26.75||11||
@@ -324,15 +324,14 @@ NMetal-2-Pin|pin@193||13.5|-0.75||||
 NMetal-2-Pin|pin@194||17|21.75||||
 NMetal-2-Pin|pin@195||17|29||||
 NMetal-2-Pin|pin@196||32.5|29||||
-NMetal-3-Pin|pin@199||159|-7.75||||
-NMetal-3-Pin|pin@200||5.5|-7.75||||
+NMetal-3-Pin|pin@199||159|-6.25||||
 NMetal-3-Pin|pin@202||145.25|29||||
 NMetal-1-Pin|pin@206||75.5|10||||
-NMetal-2-Pin|pin@207||-79.75|10||||
 NMetal-2-Pin|pin@208||-27.75|10||||
 NMetal-2-Pin|pin@209||-27.75|10.25||||
-NMetal-2-Pin|pin@210||91.5|11.25||||
+NMetal-2-Pin|pin@210||91.5|10.75||||
 NMetal-3-Pin|pin@211||159|29||||
+NMetal-3-Pin|pin@212||5.5|-6.25||||
 NP-Transistor|pmos@0||-57.25|26.75|13||XR|
 NP-Transistor|pmos@1||-66.25|26.75|13||R|
 NP-Transistor|pmos@2||-26|26.75|13||R|
@@ -722,9 +721,7 @@ AMetal-1|net@739|||IJS0|contact@108||43|6.25|contact@106||27|6.25
 AMetal-2|net@742|||S900|contact@240||5.5|29.5|contact@231||5.5|29
 AMetal-2|net@743|||S2700|contact@239||5.5|-4.75|contact@233||5.5|-4.25
 AMetal-2|net@744|||S2700|contact@241||159|-0.25|contact@228||159|0.25
-AMetal-3|net@747|||S900|contact@241||159|0.25|pin@199||159|-7.75
-AMetal-3|net@748|||S0|pin@199||159|-7.75|pin@200||5.5|-7.75
-AMetal-3|net@749|||S2700|pin@200||5.5|-7.75|contact@239||5.5|-4.25
+AMetal-3|net@747|||S900|contact@241||159|0.25|pin@199||159|-6.25
 AMetal-3|net@752|||S1800|contact@240||5.5|29|pin@202||145.25|29
 AMetal-1|net@757|||S0|contact@246||91.5|10.25|contact@130||91.5|10.25
 AMetal-1|net@758|||IJS0|contact@248||84.5|10.25|contact@129||83.5|10.25
@@ -732,20 +729,19 @@ AMetal-1|net@759|||IJS1800|contact@249||74.5|10|pin@206||75.5|10
 AMetal-1|net@760|||S900|contact@128||75.5|10.25|pin@206||75.5|10
 AMetal-1|net@761|||IJS0|contact@247||162.5|11.25|contact@215||161.5|11.25
 AMetal-1|net@764|||IJS1800|contact@245||-28.75|10.25|contact@28||-27.75|10.25
-AMetal-2|net@765|||S1800|pin@207||-79.75|10|pin@208||-27.75|10
 AMetal-2|net@766||1|S900|contact@245||-27.75|10.25|pin@208||-27.75|10
 AMetal-2|net@767|||S2700|pin@208||-27.75|10|pin@209||-27.75|10.25
-AMetal-2|net@768|||S0|contact@249||75.5|10.25|pin@209||-27.75|10.25
-AMetal-2|net@769|||S1800|contact@249||75.5|10.25|contact@248||83.5|10.25
-AMetal-2|net@770|||S1800|contact@248||83.5|10.25|contact@246||91.5|10.25
 AMetal-1|net@771|||IJS1800|contact@250||152.5|11.25|contact@214||153.5|11.25
-AMetal-2|net@772|||S2700|contact@246||91.5|10.25|pin@210||91.5|11.25
-AMetal-2|net@773|||S0|contact@250||153.5|11.25|pin@210||91.5|11.25
-AMetal-2|net@774|||S1800|contact@250||153.5|11.25|contact@247||161.5|11.25
+AMetal-2|net@772|||S2700|contact@246||91.5|10.25|pin@210||91.5|10.75
 AMetal-1|net@775|||IJS900|contact@229||159|27.75|contact@212||159|25.25
 AMetal-2|net@776|||IJS1800|contact@251||158.5|27.75|contact@229||159|27.75
 AMetal-3|net@777|||S1800|pin@202||145.25|29|pin@211||159|29
 AMetal-3|net@778|||IJS2700|contact@251||159|27.75|pin@211||159|29
+AMetal-1|net@780|||IJS1800|contact@214||153.5|11.25|contact@215||161.5|11.25
+AMetal-1|net@781|||IJS1800|contact@128||75.5|10.25|contact@129||83.5|10.25
+AMetal-1|net@782|||IJS1800|contact@129||83.5|10.25|contact@130||91.5|10.25
+AMetal-3|net@783|||S0|pin@199||159|-6.25|pin@212||5.5|-6.25
+AMetal-3|net@784|||IJS900|contact@239||5.5|-4.25|pin@212||5.5|-6.25
 X
 
 # Cell FA;1{sch}
