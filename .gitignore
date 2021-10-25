@@ -1,3 +1,4 @@
+*.spi
 *.log
 *.raw
 *.op.raw
