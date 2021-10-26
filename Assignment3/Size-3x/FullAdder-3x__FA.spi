@@ -1,7 +1,7 @@
 *** SPICE deck for cell FullAdder-3x__FA{lay} from library FullAdder-3x
 *** Created on Wed Oct 13, 2021 16:18:59
-*** Last revised on Sat Oct 23, 2021 20:37:01
-*** Written on Sat Oct 23, 2021 20:37:32 by Electric VLSI Design System, version 9.07
+*** Last revised on Tue Oct 26, 2021 11:38:39
+*** Written on Tue Oct 26, 2021 11:38:49 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.01FF
 ***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
@@ -239,9 +239,9 @@ R147 Ci#27pin@220_polysilicon-1 Ci 4.65
 R148 Co_bar Co_bar#0contact@24_metal-1-metal-2 5.239
 
 * Spice Code nodes in cell cell 'FullAdder-3x__FA{lay}'
-.include "H:\Acads\Sem7\EE5311_Digital_IC_Design\DIC-Electric\22nm_HP.pm"
+*.include "H:\Acads\Sem7\EE5311_Digital_IC_Design\DIC-Electric\22nm_HP.pm"
 .ENDS FullAdder-3x__FA
 
 
-XFullAdder-3x__FA A B Ci Co_bar gnd S_bar vdd FullAdder-3x__FA
+*XFullAdder-3x__FA A B Ci Co_bar gnd S_bar vdd FullAdder-3x__FA
 
