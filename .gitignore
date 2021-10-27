@@ -3,6 +3,5 @@
 *.raw
 *.op.raw
 *.plt
-*.xlsx
 *.py
 *.docx
