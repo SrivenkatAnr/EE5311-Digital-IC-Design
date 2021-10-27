@@ -440,7 +440,7 @@ ES_bar||D5G2;X-3;|conn@3|a|O
 X
 
 # Cell FullAdder-3x__FA;1{lay}
-CFullAdder-3x__FA;1{lay}|FA|mocmos|1634122139737|1635228529889||DRC_last_good_drc_area_date()G1635001401195|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1635001401195
+CFullAdder-3x__FA;1{lay}|FA|mocmos|1634122139737|1635228529889||DRC_last_good_drc_area_date()G1635309485573|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1635309485573
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-70.75|-2.25||3||
 NMetal-1-P-Active-Con|contact@1||-70.75|26.75||11||
