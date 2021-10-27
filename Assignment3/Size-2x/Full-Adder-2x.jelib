@@ -1047,7 +1047,7 @@ ES-not||D5G2;X-2.75;|conn@4|a|O
 X
 
 # Cell testbench-FA-delay_slew;1{sch}
-Ctestbench-FA-delay_slew;1{sch}||schematic|1635240849705|1635283121812|
+Ctestbench-FA-delay_slew;1{sch}||schematic|1635240849705|1635320675878|
 IFull-Adder-2x;1{ic}|Full-Add@0||-77.75|-38.25|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NCapacitor|cap@0||-68.75|-33.75|||||SCHEM_capacitance(D5G1;)S{Cload}
@@ -1081,7 +1081,7 @@ NWire_Pin|pin@38||-98.25|-33.5||||
 NWire_Pin|pin@39||-111|-38.5||||
 NWire_Pin|pin@40||-97.75|-44||||
 NWire_Pin|pin@41||-110.75|-44||||
-Ngeneric:Invisible-Pin|pin@43||-103|-15.75|||||SIM_spice_card(D5G1;)S[".include \"D:\\Program_Files\\22nm_HP.pm\"",.params VDD = 0.8 Cslew  = 10f Cload  = 10f,v1 VDD GND DC {VDD},v2 A_in gnd DC 0,v3 B_in gnd DC 0,v4 Ci_in gnd PWL(0 0 2n 0 3n {VDD} 20n {VDD}),*--------------------------------------------,.meas tran Output_Slew,+ trig v(Co-not) val = {0.1*VDD},+ targ v(Co-not) val = {0.9*VDD},*-------------------------------------------,.meas tran Sin,+ trig v(Ci) val = {0.9*VDD},+ targ v(Ci) val = {0.1*VDD},*-------------------------------------------,.step param Cload 10f 500f 50f,.step param Cslew 10f 200f 10f,*-------------------------------------------,.tran 20n]
+Ngeneric:Invisible-Pin|pin@43||-36.25|-36.75|||||SIM_spice_card(D5G1;)S[".include \"D:\\Program_Files\\22nm_HP.pm\"",.params VDD = 0.8 Cslew  = 10f Cload  = 10f,v1 VDD GND DC {VDD},*--------Default Input--------,v2 B_in gnd DC 0,*---------Input for ouput slew of Cout---------,*v3 A_in gnd DC 0,*v4 Ci_in gnd PWL(0 0 2n 0 2.1n {VDD} 20n {VDD}),*--------Input for output delay of Sum---------,v3 A_in gnd PWL(0 {VDD} 2n {VDD} 2.1n 0 20n 0),v4 Ci_in gnd DC 0,*--------------------------------------------,.meas tran Output_Delay,+ trig v(A) val={0.5*VDD},+ targ v(S-not) val={0.5*VDD},*--------------------------------------------,*.meas tran Output_Slew,*+ trig v(Co-not) val = {0.1*VDD},*+ targ v(Co-not) val = {0.9*VDD},*-------------------------------------------,.meas tran Sin,*+ trig v(Ci) val = {0.9*VDD},*+ targ v(Ci) val = {0.1*VDD},+ trig v(A) val = {0.1*VDD},+ targ v(A) val = {0.9*VDD},*-------------------------------------------,.step param Cload 10f 500f 50f,.step param Cslew 10f 200f 10f,*-------------------------------------------,.tran 20n]
 Awire|A|D5G1;X-1.5;||0|pin@25||-89|-36.25|pin@34||-91|-36.25
 Awire|A|D5G1;X1.25;||1800|inv@0|Y|-100.25|-33.5|pin@38||-98.25|-33.5
 Awire|B|D5G1;X-5;||0|Full-Add@0|B|-82.25|-38.25|pin@26||-91|-38.25
