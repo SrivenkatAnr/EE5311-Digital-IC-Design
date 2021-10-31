@@ -567,7 +567,7 @@ Ezc||D5G2;|pin@64||O
 X
 
 # Cell multiplier;1{sch}
-Cmultiplier;1{sch}||schematic|1635573791800|1635697967698|
+Cmultiplier;1{sch}||schematic|1635573791800|1635702544348|
 Iand;1{ic}|and@1||14|12|||D5G4;
 Iand;1{ic}|and@2||-17.75|12|||D5G4;
 Iand;1{ic}|and@4||-46|12|||D5G4;
@@ -698,11 +698,8 @@ Ifull_adder;1{ic}|full_add@106||-327|-279|||D5G4;
 Ifull_adder;1{ic}|full_add@107||-357|-279|||D5G4;
 Ifull_adder;1{ic}|full_add@108||-387|-279|||D5G4;
 Ifull_adder;1{ic}|full_add@109||-417|-279|||D5G4;
-NGround|gnd@2||-254.5|-48|||RR|
 NGround|gnd@13||-282|-85|||RR|
-NGround|gnd@14||-309.5|-121|||RR|
 NGround|gnd@15||-337|-157|||RR|
-NGround|gnd@16||-364.5|-193.5|||RR|
 NGround|gnd@17||-392|-230.5|||RR|
 NGround|gnd@19||-222|-9|||RR|
 NGround|gnd@20||-192|-9.5|||RR|
@@ -719,10 +716,10 @@ Iinverter;1{ic}|inverter@3||-299.5|-261|RRR||D5G4;
 Iinverter;1{ic}|inverter@4||-343.5|-259|RRR||D5G4;
 Iinverter;1{ic}|inverter@5||-359.5|-259.5|RRR||D5G4;
 Iinverter;1{ic}|inverter@6||-405.5|-257|RRR||D5G4;
-Iinverter;1{ic}|inverter@11||-297|-294.75|RRR||D5G4;
-Iinverter;1{ic}|inverter@12||-357|-295.75|RRR||D5G4;
-Iinverter;1{ic}|inverter@13||-417|-295.5|RRR||D5G4;
-Iinverter;1{ic}|inverter@14||-237|-295|RRR||D5G4;
+Iinverter;1{ic}|inverter@11||-297|-292.75|RRR||D5G4;
+Iinverter;1{ic}|inverter@12||-357|-293.75|RRR||D5G4;
+Iinverter;1{ic}|inverter@13||-417|-293.5|RRR||D5G4;
+Iinverter;1{ic}|inverter@14||-237|-293.25|RRR||D5G4;
 Iinverter;1{ic}|inverter@15||-179.5|-258.25|RRR||D5G4;
 Iinverter;1{ic}|inverter@16||-124.5|-186.5|RRR||D5G4;
 Iinverter;1{ic}|inverter@17||-69.5|-113.75|RRR||D5G4;
@@ -1024,7 +1021,6 @@ NWire_Pin|pin@460||-405.5|-268|0.5|0.5||
 NWire_Pin|pin@461||-405.5|-269.25|0.5|0.5||
 NWire_Pin|pin@462||-405.5|-241.5|0.5|0.5||
 NWire_Pin|pin@463||-434|-279|0.5|0.5||
-NWire_Pin|pin@464||-297|-300.5|0.5|0.5||
 NWire_Pin|pin@465||-196|15.875|0.5|0.5||
 NWire_Pin|pin@466||-198|15.875|0.5|0.5||
 NWire_Pin|pin@467||-197|2.125|0.5|0.5||
@@ -1091,12 +1087,12 @@ NWire_Pin|pin@586||-42|-12.5||||
 NWire_Pin|pin@587||-327|-288.5||||
 NWire_Pin|pin@588||-267|-287||||
 NWire_Pin|pin@589||-207|-286||||
-NWire_Pin|pin@590||-237|-289.5||||
+NWire_Pin|pin@590||-237|-287.75||||
 NWire_Pin|pin@591||-237|-300.5||||
 NWire_Pin|pin@592||-297|-288.75||||
 NWire_Pin|pin@593||-297|-300.5||||
-NWire_Pin|pin@594||-357|-290.25||||
-NWire_Pin|pin@595||-357|-299.5||||
+NWire_Pin|pin@594||-357|-288.25||||
+NWire_Pin|pin@595||-357|-297.5||||
 NWire_Pin|pin@596||-417|-288.75||||
 NWire_Pin|pin@597||-417|-300.5||||
 NWire_Pin|pin@598||-16.25|-48.75||||
@@ -1108,9 +1104,14 @@ NWire_Pin|pin@603||-179.5|-251.25||||
 NWire_Pin|pin@604||-419.5|-269.25||||
 NWire_Pin|pin@605||-419.5|-269.25||||
 NWire_Pin|pin@606||-204.5|-269.25||||
+NWire_Pin|pin@607||-309.5|-122.25||||
+NWire_Pin|pin@608||-364.5|-194.75||||
 NPower|pwr@1||-227|-9.5||||
 NPower|pwr@2||-419.5|-265.25||||
 NPower|pwr@3||-204.5|-266||||
+NPower|pwr@4||-254.5|-46||||
+NPower|pwr@5||-309.5|-119.75||||
+NPower|pwr@6||-364.5|-191.5||||
 Awire|net@4|||2700|and@1|A|14|15.875|pin@2||14|20
 Awire|net@9|||2700|and@5|A|-76|15.875|pin@9||-76|20
 Awire|net@12|||2700|and@2|A|-17.75|15.875|pin@10||-17.75|20
@@ -1182,7 +1183,6 @@ Awire|net@201|||2700|full_add@13|A|-134.5|-49.25|full_add@6|S_bar|-134.5|-31.75
 Awire|net@202|||2700|full_add@14|A|-164.5|-49.25|full_add@7|S_bar|-164.5|-31.75
 Awire|net@203|||2700|full_add@15|A|-194.5|-49.25|full_add@8|S_bar|-194.5|-31.75
 Awire|net@204|||2700|full_add@16|A|-224.5|-49.25|full_add@9|S_bar|-224.5|-32
-Awire|net@205|||900|full_add@17|A|-254.5|-49.25|gnd@2||-254.5|-50
 Awire|net@206|||0|full_add@3|Co_bar|-54.25|-22|pin@155||-60|-22
 Awire|net@207|||900|pin@155||-60|-22|pin@156||-60|-59
 Awire|net@208|||0|pin@156||-60|-59|full_add@11|Ci|-63|-59
@@ -1272,7 +1272,6 @@ Awire|net@312|||900|full_add@53|B|-214.5|-122.25|nand2@21|Y|-214.5|-122.5
 Awire|net@313|||2700|nand2@22|Y|-244.5|-122.5|full_add@54|B|-244.5|-122.25
 Awire|net@314|||2700|nand2@23|Y|-274.5|-122.5|full_add@55|B|-274.5|-122.25
 Awire|net@321|||1800|pin@218||-153.5|-110.5|pin@216||-123.5|-110.5
-Awire|net@324|||900|full_add@56|A|-309.5|-122.25|gnd@14||-309.5|-123
 Awire|net@326|||0|pin@231||-115|-132|full_add@50|Ci|-118|-132
 Awire|net@328|||0|pin@233||-84.5|-132|full_add@49|Ci|-88|-132
 Awire|net@330|||0|pin@235||-144.5|-132|full_add@51|Ci|-148|-132
@@ -1393,7 +1392,6 @@ Awire|net@487|||900|full_add@83|B|-269.5|-194.75|nand2@29|Y|-269.5|-195
 Awire|net@488|||2700|nand2@30|Y|-299.5|-195|full_add@84|B|-299.5|-194.75
 Awire|net@489|||2700|nand2@31|Y|-329.5|-195|full_add@85|B|-329.5|-194.75
 Awire|net@491|||1800|pin@333||-208.5|-183|pin@331||-178.5|-183
-Awire|net@492|||900|full_add@86|A|-364.5|-194.75|gnd@16||-364.5|-195.5
 Awire|net@493|||0|pin@345||-170|-204.5|full_add@80|Ci|-173|-204.5
 Awire|net@494|||0|pin@346||-139.5|-204.5|full_add@79|Ci|-143|-204.5
 Awire|net@495|||0|pin@347||-199.5|-204.5|full_add@81|Ci|-203|-204.5
@@ -1513,7 +1511,6 @@ Awire|net@708|||1800|full_add@109|B|-414.5|-269.25|pin@461||-405.5|-269.25
 Awire|net@709|||2700|inverter@6|INP|-405.5|-251.5|pin@462||-405.5|-241.5
 Awire|net@710|||1800|pin@462||-405.5|-241.5|full_add@101|Co_bar|-399.25|-241.5
 Awire|net@712|||0|full_add@109|Co_bar|-426.75|-279|pin@463||-434|-279
-Awire|net@719|||0|conn@21|a|-297|-300.5|pin@464||-297|-300.5
 Awire|net@727|||1800|conn@25|a|-439|-279|pin@463||-434|-279
 Awire|net@729|||2700|conn@27|a|-152|-218|full_add@79|S_bar|-152|-214.25
 Awire|net@731|||2700|conn@29|a|-97|-145|full_add@49|S_bar|-97|-141.75
@@ -1631,21 +1628,21 @@ Awire|net@928|||900|full_add@102|S_bar|-207|-288.75|conn@24|a|-207|-300.5
 Awire|net@929|||900|full_add@104|S_bar|-267|-288.75|conn@22|a|-267|-300.5
 Awire|net@930|||900|pin@587||-327|-288.5|conn@20|a|-327|-300.5
 Awire|net@931|||900|full_add@108|S_bar|-387|-288.75|conn@18|a|-387|-300.5
-Awire|net@932|||1800|inverter@14|INP|-237|-289.5|pin@590||-237|-289.5
-Awire|net@933|||900|full_add@103|S_bar|-237|-288.75|pin@590||-237|-289.5
-Awire|net@934|||900|inverter@14|OUT|-237|-298.75|pin@591||-237|-300.5
+Awire|net@932|||1800|inverter@14|INP|-237|-287.75|pin@590||-237|-287.75
+Awire|net@933|||2700|full_add@103|S_bar|-237|-288.75|pin@590||-237|-287.75
+Awire|net@934|||900|inverter@14|OUT|-237|-297|pin@591||-237|-300.5
 Awire|net@935|||0|conn@23|a|-237|-300.5|pin@591||-237|-300.5
-Awire|net@936|||2700|inverter@11|INP|-297|-289.25|pin@592||-297|-288.75
+Awire|net@936|||900|inverter@11|INP|-297|-287.25|pin@592||-297|-288.75
 Awire|net@937|||0|full_add@105|S_bar|-297|-288.75|pin@592||-297|-288.75
-Awire|net@938|||900|inverter@11|OUT|-297|-298.5|pin@593||-297|-300.5
+Awire|net@938|||900|inverter@11|OUT|-297|-296.5|pin@593||-297|-300.5
 Awire|net@939|||0|conn@21|a|-297|-300.5|pin@593||-297|-300.5
-Awire|net@940|||1800|inverter@12|INP|-357|-290.25|pin@594||-357|-290.25
-Awire|net@941|||900|full_add@107|S_bar|-357|-288.75|pin@594||-357|-290.25
-Awire|net@942|||1800|inverter@12|OUT|-357|-299.5|pin@595||-357|-299.5
-Awire|net@943|||2700|conn@19|a|-357|-300.5|pin@595||-357|-299.5
-Awire|net@944|||2700|inverter@13|INP|-417|-290|pin@596||-417|-288.75
+Awire|net@940|||1800|inverter@12|INP|-357|-288.25|pin@594||-357|-288.25
+Awire|net@941|||2700|full_add@107|S_bar|-357|-288.75|pin@594||-357|-288.25
+Awire|net@942|||1800|inverter@12|OUT|-357|-297.5|pin@595||-357|-297.5
+Awire|net@943|||2700|conn@19|a|-357|-300.5|pin@595||-357|-297.5
+Awire|net@944|||900|inverter@13|INP|-417|-288|pin@596||-417|-288.75
 Awire|net@945|||0|full_add@109|S_bar|-417|-288.75|pin@596||-417|-288.75
-Awire|net@946|||900|inverter@13|OUT|-417|-299.25|pin@597||-417|-300.5
+Awire|net@946|||900|inverter@13|OUT|-417|-297.25|pin@597||-417|-300.5
 Awire|net@947|||0|conn@17|a|-417|-300.5|pin@597||-417|-300.5
 Awire|net@948|||2700|inverter@18|INP|-16.25|-35.25|full_add@2|S_bar|-16.25|-31.75
 Awire|net@949|||900|inverter@18|OUT|-16.25|-44.5|pin@598||-16.25|-48.75
@@ -1666,6 +1663,11 @@ Awire|net@964|||900|pwr@2||-419.5|-265.25|pin@605||-419.5|-269.25
 Awire|net@965|||0|pin@604||-419.5|-269.25|pin@605||-419.5|-269.25
 Awire|net@966|||900|pwr@3||-204.5|-266|pin@606||-204.5|-269.25
 Awire|net@967|||1800|full_add@102|B|-204.5|-269.25|pin@606||-204.5|-269.25
+Awire|net@968|||900|pwr@4||-254.5|-46|full_add@17|A|-254.5|-49.25
+Awire|net@969|||900|pwr@5||-309.5|-119.75|pin@607||-309.5|-122.25
+Awire|net@970|||0|full_add@56|A|-309.5|-122.25|pin@607||-309.5|-122.25
+Awire|net@971|||900|pwr@6||-364.5|-191.5|pin@608||-364.5|-194.75
+Awire|net@972|||0|full_add@86|A|-364.5|-194.75|pin@608||-364.5|-194.75
 Awire|x0|D5G2;Y1.5;||900|and@1|B|12|15.875|pin@3||12|14.5
 Awire|x0|D5G2;Y1.5;||900|and@10|B|-8.25|-2.875|pin@24||-8.25|-4.5
 Awire|x0|D5G2;Y1.5;||900|nand2@0|B|-40.5|-40|pin@81||-40.5|-42.5
@@ -1774,7 +1776,7 @@ Ezc||D5G2;X1;|conn@25|y|O
 X
 
 # Cell multiplier-tb;1{sch}
-Cmultiplier-tb;1{sch}||schematic|1635663712231|1635696420628|
+Cmultiplier-tb;1{sch}||schematic|1635663712231|1635700905623|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-6.5|23||||
 NOff-Page|conn@1||-6.5|19.5||||
@@ -1809,7 +1811,7 @@ NOff-Page|conn@29||79.75|-22.75||||
 NOff-Page|conn@30||79.75|-26.25||||
 NOff-Page|conn@31||79.75|-29.75||||
 Imultiplier;1{ic}|multipli@0||26.5|1.75|||D5G4;
-Ngeneric:Invisible-Pin|pin@0||33.25|41.25|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd 0.8,v1 vdd gnd DC {vdd},v2 x0 gnd DC {vdd},v3 x1 gnd DC 0,v4 x2 gnd DC {vdd},v5 x3 gnd DC 0,v6 x4 gnd DC 0,v7 x5 gnd DC 0,v8 x6 gnd DC 0,v9 x7 gnd DC 0,v10 y0 gnd DC {vdd},v11 y1 gnd DC {vdd},v12 y2 gnd DC ,v13 y3 gnd DC 0,v14 y4 gnd DC 0,v15 y5 gnd DC 0,v16 y6 gnd DC 0,v17 y7 gnd DC 0,.tran 2n,.meas tran x param (V(x7)*(-128) + V(x6)*64 + V(x5)*32 + V(x4)*16 + V(x3)*8 + V(x2)*4 + V(x1)*2 + V(x0)*1)/0.8 at 1n,.meas tran y param (V(y7)*(-128) + V(y6)*64 + V(y5)*32 + V(y4)*16 + V(y3)*8 + V(y2)*4 + V(y1)*2 + V(y0)*1)/0.8 at 1n,.meas tran z param (V(z15)*(-32768) + V(z14)*16384 + V(z13)*8192 + V(z12)*4096 + V(z11)*2048 + V(z10)*1024 + V(z9)*512 + V(z8)*256 + V(z7)*128 + V(z6)*64 + V(z5)*32 + V(z4)*16 + V(z3)*8 + V(z2)*4 + V(z1)*2 + V(z0)*1)/0.8 at 1n,.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@0||33.25|41.25|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd 0.8,v1 vdd gnd DC {vdd},v2 x0 gnd DC {vdd},v3 x1 gnd DC {vdd},v4 x2 gnd DC {vdd},v5 x3 gnd DC {vdd},v6 x4 gnd DC {vdd},v7 x5 gnd DC {vdd},v8 x6 gnd DC {vdd},v9 x7 gnd DC 0,v10 y0 gnd DC {vdd},v11 y1 gnd DC {vdd},v12 y2 gnd DC {vdd},v13 y3 gnd DC {vdd},v14 y4 gnd DC {vdd},v15 y5 gnd DC {vdd},v16 y6 gnd DC {vdd},v17 y7 gnd DC 0,.tran 2n,.meas tran x param (V(x7)*(-128) + V(x6)*64 + V(x5)*32 + V(x4)*16 + V(x3)*8 + V(x2)*4 + V(x1)*2 + V(x0)*1)/0.8 at 1n,.meas tran y param (V(y7)*(-128) + V(y6)*64 + V(y5)*32 + V(y4)*16 + V(y3)*8 + V(y2)*4 + V(y1)*2 + V(y0)*1)/0.8 at 1n,.meas tran z param (V(z15)*(-32768) + V(z14)*16384 + V(z13)*8192 + V(z12)*4096 + V(z11)*2048 + V(z10)*1024 + V(z9)*512 + V(z8)*256 + V(z7)*128 + V(z6)*64 + V(z5)*32 + V(z4)*16 + V(z3)*8 + V(z2)*4 + V(z1)*2 + V(z0)*1)/0.8 at 1n,.option noopiter,.END]
 NWire_Pin|pin@1||3.5|16.75||||
 NWire_Pin|pin@2||4|14.75||||
 NWire_Pin|pin@3||3.75|12.75||||
