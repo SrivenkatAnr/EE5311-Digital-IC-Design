@@ -20,45 +20,5 @@ Gmin = 2.70769e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-.step wc=1 ws=1
-.step wc=2 ws=1
-.step wc=3 ws=1
-.step wc=1 ws=2
-.step wc=2 ws=2
-.step wc=3 ws=2
-.step wc=1 ws=3
-.step wc=2 ws=3
-.step wc=3 ws=3
-
-
-Measurement: crit-path-delay
-  step	crit-path-delay	FROM	TO
-     1	5.13947e-010	1.05e-009	1.56395e-009
-     2	4.49966e-010	1.05e-009	1.49997e-009
-     3	4.45374e-010	1.05e-009	1.49537e-009
-     4	5.22153e-010	1.05e-009	1.57215e-009
-     5	4.09124e-010	1.05e-009	1.45912e-009
-     6	3.81562e-010	1.05e-009	1.43156e-009
-     7	5.79919e-010	1.05e-009	1.62992e-009
-     8	4.2379e-010	1.05e-009	1.47379e-009
-     9	3.79706e-010	1.05e-009	1.42971e-009
-
-
-Date: Mon Nov 01 11:51:22 2021
-Total elapsed time: 647.416 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 2719
-traniter = 2263
-tranpoints = 1048
-accept = 1048
-rejected = 0
-matrix size = 1678
-fillins = 72
-solver = Normal
-Thread vector: 942.1/430.4[8] 405.5/38.5[8] 104.2/57.0[8] 27.5/21.5[4]  2592/500
-Matrix Compiler1: 246.55 KB object code size  439.3/205.6/[85.9]
-Matrix Compiler2: 206.89 KB object code size  194.9/154.5/[45.0]
-
+.step wc=1 ws=1 wg=1
+.step wc=2 ws=1 wg=1
