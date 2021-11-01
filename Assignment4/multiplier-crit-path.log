@@ -1,0 +1,64 @@
+Circuit: *** SPICE deck for cell multiplier-crit-path{sch} from library 8bit-CSM
+
+Direct Newton iteration for .op point skipped.
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step wc=1 ws=1
+.step wc=2 ws=1
+.step wc=3 ws=1
+.step wc=1 ws=2
+.step wc=2 ws=2
+.step wc=3 ws=2
+.step wc=1 ws=3
+.step wc=2 ws=3
+.step wc=3 ws=3
+
+
+Measurement: crit-path-delay
+  step	crit-path-delay	FROM	TO
+     1	3.99614e-010	1.05e-009	1.44961e-009
+     2	3.62889e-010	1.05e-009	1.41289e-009
+     3	3.67073e-010	1.05e-009	1.41707e-009
+     4	4.39411e-010	1.05e-009	1.48941e-009
+     5	3.53285e-010	1.05e-009	1.40328e-009
+     6	3.34337e-010	1.05e-009	1.38434e-009
+     7	5.06728e-010	1.05e-009	1.55673e-009
+     8	3.77833e-010	1.05e-009	1.42783e-009
+     9	3.42287e-010	1.05e-009	1.39229e-009
+
+
+Date: Mon Nov 01 11:11:15 2021
+Total elapsed time: 398.844 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2712
+traniter = 2257
+tranpoints = 1048
+accept = 1048
+rejected = 0
+matrix size = 1678
+fillins = 72
+solver = Normal
+Thread vector: 1896.3/400.9[8] 415.9/89.0[8] 209.8/103.0[8] 40.1/30.4[4]  2592/500
+Matrix Compiler1: 246.55 KB object code size  439.0/233.6/[111.1]
+Matrix Compiler2: 206.89 KB object code size  261.7/209.8/[73.9]
+
