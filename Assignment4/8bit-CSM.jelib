@@ -2290,7 +2290,7 @@ Ezc||D5G2;|conn@49|y|O
 X
 
 # Cell multiplier-tb;1{sch}
-Cmultiplier-tb;1{sch}||schematic|1635663712231|1635770519124|
+Cmultiplier-tb;1{sch}||schematic|1635663712231|1635785776583|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-6.5|23||||
 NOff-Page|conn@1||-6.5|19.5||||
@@ -2325,7 +2325,7 @@ NOff-Page|conn@29||79.75|-22.75||||
 NOff-Page|conn@30||79.75|-26.25||||
 NOff-Page|conn@31||79.75|-29.75||||
 Imultiplier;1{ic}|multipli@0||26.5|1.75|||D5G4;
-Ngeneric:Invisible-Pin|pin@0||33.25|41.25|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 wc=3 ws=2 wg=4,v1 vdd gnd DC {vdd},v2 x0 gnd DC {vdd},v3 x1 gnd DC {vdd},v4 x2 gnd DC {vdd},v5 x3 gnd DC {vdd},v6 x4 gnd DC {vdd},v7 x5 gnd DC {vdd},v8 x6 gnd DC {vdd},v9 x7 gnd DC {vdd},v10 y0 gnd DC {vdd},v11 y1 gnd DC {vdd},v12 y2 gnd DC {vdd},v13 y3 gnd DC {vdd},v14 y4 gnd DC {vdd},v15 y5 gnd DC {vdd},v16 y6 gnd DC {vdd},v17 y7 gnd DC {vdd},.tran 2n uic,.meas tran x param (round(V(x7))*(-128) + round(V(x6))*64 + round(V(x5))*32 + round(V(x4))*16 +,	+ round(V(x3))*8 + round(V(x2))*4 + round(V(x1))*2 + round(V(x0))*1) at 1n,.meas tran y param (round(V(y7))*(-128) + round(V(y6))*64 + round(V(y5))*32 + round(V(y4))*16 +,	+ round(V(y3))*8 + round(V(y2))*4 + round(V(y1))*2 + round(V(y0))*1) at 1n,.meas tran z param (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) at 1n,.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@0||33.25|41.25|||||SIM_spice_card(D5G1;)S[".include \"D:\\Program_Files\\22nm_HP.pm\"",.params vdd=0.8 wc=3 ws=2 wg=4,v1 vdd gnd DC {vdd},".include \"A4_Param_Inputs.txt\"",.tran 2n uic,.meas tran x param (round(V(x7))*(-128) + round(V(x6))*64 + round(V(x5))*32 + round(V(x4))*16 +,	+ round(V(x3))*8 + round(V(x2))*4 + round(V(x1))*2 + round(V(x0))*1) at 1n,.meas tran y param (round(V(y7))*(-128) + round(V(y6))*64 + round(V(y5))*32 + round(V(y4))*16 +,	+ round(V(y3))*8 + round(V(y2))*4 + round(V(y1))*2 + round(V(y0))*1) at 1n,.meas tran z param (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) at 1n,.option noopiter,.END]
 NWire_Pin|pin@1||3.5|16.75||||
 NWire_Pin|pin@2||4|14.75||||
 NWire_Pin|pin@3||3.75|12.75||||
