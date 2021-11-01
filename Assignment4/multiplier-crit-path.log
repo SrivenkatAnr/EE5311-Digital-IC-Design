@@ -33,24 +33,24 @@ Gmin stepping succeeded in finding the operating point.
 
 Measurement: crit-path-delay
   step	crit-path-delay	FROM	TO
-     1	5.07811e-010	1.05e-009	1.55781e-009
-     2	4.42497e-010	1.05e-009	1.4925e-009
-     3	4.36617e-010	1.05e-009	1.48662e-009
-     4	5.1376e-010	1.05e-009	1.56376e-009
-     5	3.99614e-010	1.05e-009	1.44961e-009
-     6	3.70894e-010	1.05e-009	1.42089e-009
-     7	5.69689e-010	1.05e-009	1.61969e-009
-     8	4.12655e-010	1.05e-009	1.46265e-009
-     9	3.67502e-010	1.05e-009	1.4175e-009
+     1	5.13947e-010	1.05e-009	1.56395e-009
+     2	4.49966e-010	1.05e-009	1.49997e-009
+     3	4.45374e-010	1.05e-009	1.49537e-009
+     4	5.22153e-010	1.05e-009	1.57215e-009
+     5	4.09124e-010	1.05e-009	1.45912e-009
+     6	3.81562e-010	1.05e-009	1.43156e-009
+     7	5.79919e-010	1.05e-009	1.62992e-009
+     8	4.2379e-010	1.05e-009	1.47379e-009
+     9	3.79706e-010	1.05e-009	1.42971e-009
 
 
-Date: Mon Nov 01 11:33:05 2021
-Total elapsed time: 682.873 seconds.
+Date: Mon Nov 01 11:51:22 2021
+Total elapsed time: 647.416 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2703
+totiter = 2719
 traniter = 2263
 tranpoints = 1048
 accept = 1048
@@ -58,7 +58,7 @@ rejected = 0
 matrix size = 1678
 fillins = 72
 solver = Normal
-Thread vector: 1087.5/689.5[8] 377.1/81.9[8] 214.2/98.7[8] 34.2/25.3[4]  2592/500
-Matrix Compiler1: 246.55 KB object code size  406.4/204.4/[97.4]
-Matrix Compiler2: 206.89 KB object code size  254.8/230.1/[60.8]
+Thread vector: 942.1/430.4[8] 405.5/38.5[8] 104.2/57.0[8] 27.5/21.5[4]  2592/500
+Matrix Compiler1: 246.55 KB object code size  439.3/205.6/[85.9]
+Matrix Compiler2: 206.89 KB object code size  194.9/154.5/[45.0]
 
