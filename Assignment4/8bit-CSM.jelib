@@ -1776,7 +1776,7 @@ Ezc||D5G2;X1;|conn@25|y|O
 X
 
 # Cell multiplier-crit-path;1{sch}
-Cmultiplier-crit-path;1{sch}||schematic|1635739368791|1635741553029|
+Cmultiplier-crit-path;1{sch}||schematic|1635739368791|1635741804019|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||13.5|119||||
 NOff-Page|conn@16||-238.5|-172.25|||RRR|
@@ -1877,7 +1877,7 @@ NWire_Pin|pin@416||-32.5|70||||
 NWire_Pin|pin@417||-28.5|32.75||||
 NWire_Pin|pin@418||-21|-75.25||||
 NWire_Pin|pin@419||-18.5|-112.5||||
-Ngeneric:Invisible-Pin|pin@421||-190.25|-7|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd 0.8,v1 vdd gnd DC {vdd},v2 A0 gnd PWL(0 0 1n 0 1.1n {vdd} 2n {vdd}),.tran 2n,.plot tran V(A0) V(z8) V(z9) V(z9) V(z10) V(z11) V(z12) V(z13) V(z14) V(z15) ,.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@421||-127.75|-68|||||SIM_spice_card(D5G1;)S[".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd 0.8,v1 vdd gnd DC {vdd},v2 A0 gnd PWL(0 0 1n 0 1.1n {vdd} 2n {vdd}),.tran 2n,.meas tran crit-path-delay,	+trig v(A0) = {0.5*vdd},	+targ v(z15) = {0.5*vdd}   ,.option noopiter,.END]
 NWire_Pin|pin@423||-60.75|-139||||
 NPower|pwr@0||-48.5|120.75||||
 NPower|pwr@1||-241|-135||||
