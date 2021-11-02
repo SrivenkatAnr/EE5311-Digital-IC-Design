@@ -1,9 +1,3 @@
-def twos_comp(val, bits):
-    if (val & (1 << (bits - 1))) != 0:
-        val = bin(val) - (1 << bits)        # compute negative value
-    return str(bin(val))  
-
-
 x = int(input("Enter the Multiplicand value: "))
 y = int(input("Enter the Multiplier Value: "))
 
