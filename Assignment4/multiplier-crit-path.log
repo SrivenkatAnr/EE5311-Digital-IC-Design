@@ -74,8 +74,8 @@ Measurement: crit-path-delay
     27	4.3581e-010	1.05e-009	1.48581e-009
 
 
-Date: Mon Nov 01 18:06:38 2021
-Total elapsed time: 113.036 seconds.
+Date: Sun Nov 07 15:57:54 2021
+Total elapsed time: 125.837 seconds.
 
 tnom = 27
 temp = 27
@@ -88,7 +88,7 @@ rejected = 0
 matrix size = 3940
 fillins = 324
 solver = Normal
-Thread vector: 1629.3/450.9[8] 416.1/74.4[8] 204.5/68.2[8] 43.8/26.2[8]  2592/500
-Matrix Compiler1: 653.21 KB object code size  668.2/297.5/[84.9]
-Matrix Compiler2: 499.90 KB object code size  315.6/241.5/[61.7]
+Thread vector: 1299.9/349.3[12] 399.5/120.7[12] 179.9/88.6[12] 35.3/27.4[5]  2592/500
+Matrix Compiler1: 653.21 KB object code size  707.3/287.1/[68.4]
+Matrix Compiler2: 499.90 KB object code size  342.9/233.1/[50.9]
 
