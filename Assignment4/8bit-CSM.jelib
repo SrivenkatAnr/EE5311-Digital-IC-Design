@@ -1776,7 +1776,7 @@ Ezc||D5G2;X1;|conn@25|y|O
 X
 
 # Cell multiplier-crit-path;1{sch}
-Cmultiplier-crit-path;1{sch}||schematic|1635739368791|1636301900788|
+Cmultiplier-crit-path;1{sch}||schematic|1635739368791|1636308310082|
 Iand;1{ic}|and@19||-176.25|58.25|||D5G4;
 Iand;1{ic}|and@24||-171.25|-13.75|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
@@ -1848,7 +1848,7 @@ NGround|gnd@48||-327.5|-61.25|||RR|
 NGround|gnd@49||-322.5|-61|||RR|
 NGround|gnd@50||-267.75|-62.75|||RR|
 NGround|gnd@51||-262.75|-62.5|||RR|
-NGround|gnd@52||-375|-76.25||||
+NGround|gnd@52||-375|-76||||
 NGround|gnd@53||-314.5|-77.25||||
 NGround|gnd@54||-255.25|-78.25||||
 NGround|gnd@55||-439.75|-124.75|||RR|
@@ -1870,7 +1870,7 @@ Inand2;1{ic}|nand2@34||-174.75|22.75|||D5G4;
 Inand2;1{ic}|nand2@39||-169.75|-49.75|||D5G4;
 Inand2;1{ic}|nand2@45||-166.25|118|RRR||D5G4;
 Inand2;1{ic}|nand2@49||-167.25|-82|||D5G4;
-Ngeneric:Invisible-Pin|pin@421||-334.25|8.5|||||SIM_spice_card(D5G6;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 *wg=1 wc=1 ws=1,v1 vdd gnd DC {vdd},v2 A0 gnd PWL(0 {vdd} 1n {vdd} 1.1n 0 2n 0),.meas tran crit-path-delay,	+trig v(A0) = {0.5*vdd} td=0.75n,	+targ v(z15) = {0.5*vdd} td=0.75n,.step param wc 1 3 1,.step param ws 1 3 1,.step param wg list 1 2 4,.tran 2n uic,*.option noopiter,*.option gminsteps=0,*.option srcsteps=0,.END]
+Ngeneric:Invisible-Pin|pin@421||-348.25|26.75|||||SIM_spice_card(D5G6;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 *wg=1 wc=1 ws=1,v1 vdd gnd DC {vdd},v2 A0 gnd PWL(0 0 1n 0 1.1n {vdd} 2n {vdd}),.meas tran crit-path-delay,	+trig v(A0) = {0.5*vdd} td=1n,	+targ v(z15) = {0.5*vdd} td=1n,.step param wc 1 3 1,.step param ws 1 3 1,.step param wg list 1 2 4,.tran 2n uic,*.option noopiter,*.option gminsteps=0,*.option srcsteps=0,.END]
 NWire_Pin|pin@501||-171.25|81.25|0.5|0.5||
 NWire_Pin|pin@502||-171.25|81.25|0.5|0.5||
 NWire_Pin|pin@503||-200.75|118|0.5|0.5||
@@ -1959,7 +1959,7 @@ NWire_Pin|pin@859||-177|27.25||||
 NWire_Pin|pin@860||-144.75|18||||
 NWire_Pin|pin@861||-149.75|18||||
 NWire_Pin|pin@862||-138.25|8.25||||
-Ngeneric:Invisible-Pin|pin@863||-179.75|-13|||||ART_message(D5G1;)SF
+Ngeneric:Invisible-Pin|pin@863||-179.75|-13|||||ART_message(D5G1;)SR
 NWire_Pin|pin@864||-169.5|-8.25||||
 NWire_Pin|pin@865||-175|-8.25||||
 NWire_Pin|pin@866||-171.25|-8.25||||
@@ -2000,7 +2000,7 @@ NWire_Pin|pin@901||-267.75|-66.5||||
 NWire_Pin|pin@902||-262.75|-66.5||||
 NWire_Pin|pin@903||-256.25|-76.25||||
 NWire_Pin|pin@904||-316|-75.25||||
-NWire_Pin|pin@905||-376.5|-74.25||||
+NWire_Pin|pin@905||-376.5|-74||||
 NPower|pwr@17||-187.25|130.75||||
 NPower|pwr@19||-159|119||||
 NPower|pwr@20||-152.75|58.25||||
@@ -2266,8 +2266,8 @@ Awire|net@1400|||0|gnd@54||-255.25|-76.25|pin@903||-256.25|-76.25
 Awire|net@1401|||2700|full_add@114|Ci|-256.25|-76.25|pin@903||-256.25|-76.25
 Awire|net@1402|||0|gnd@53||-314.5|-75.25|pin@904||-316|-75.25
 Awire|net@1403|||900|full_add@116|Ci|-316|-75.25|pin@904||-316|-75.25
-Awire|net@1404|||0|gnd@52||-375|-74.25|pin@905||-376.5|-74.25
-Awire|net@1405|||900|full_add@118|Ci|-376.5|-74|pin@905||-376.5|-74.25
+Awire|net@1404|||0|gnd@52||-375|-74|pin@905||-376.5|-74
+Awire|net@1405|||900|full_add@118|Ci|-376.5|-74|pin@905||-376.5|-74
 Awire|net@1406|||900|pwr@50||-153.25|93|full_add@70|A|-153.25|91
 Awire|net@1407|||900|pwr@51||-148.25|93.25|full_add@70|B|-148.25|91
 Awire|net@1408|||900|gnd@56||-434.75|-110.5|inverter@17|INP|-434.75|-111.5
