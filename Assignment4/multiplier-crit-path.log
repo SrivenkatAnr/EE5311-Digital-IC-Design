@@ -13,34 +13,83 @@ WARNING: Node FULL_ADD@107_A is floating.
 WARNING: Node FULL_ADD@107_B is floating.
 WARNING: Node FULL_ADD@128_A is floating.
 WARNING: Node FULL_ADD@128_B is floating.
-WARNING: Node FULL_ADD@129_CI is floating.
-WARNING: Node FULL_ADD@130_CI is floating.
-WARNING: Node FULL_ADD@131_CI is floating.
-WARNING: Node FULL_ADD@132_CI is floating.
-WARNING: Node FULL_ADD@133_CI is floating.
-WARNING: Node FULL_ADD@134_CI is floating.
 
 Per .tran options, skipping operating point for transient analysis.
+.step wc=1 ws=1 wg=1
+.step wc=2 ws=1 wg=1
+.step wc=3 ws=1 wg=1
+.step wc=1 ws=2 wg=1
+.step wc=2 ws=2 wg=1
+.step wc=3 ws=2 wg=1
+.step wc=1 ws=3 wg=1
+.step wc=2 ws=3 wg=1
+.step wc=3 ws=3 wg=1
+.step wc=1 ws=1 wg=2
+.step wc=2 ws=1 wg=2
+.step wc=3 ws=1 wg=2
+.step wc=1 ws=2 wg=2
+.step wc=2 ws=2 wg=2
+.step wc=3 ws=2 wg=2
+.step wc=1 ws=3 wg=2
+.step wc=2 ws=3 wg=2
+.step wc=3 ws=3 wg=2
+.step wc=1 ws=1 wg=4
+.step wc=2 ws=1 wg=4
+.step wc=3 ws=1 wg=4
+.step wc=1 ws=2 wg=4
+.step wc=2 ws=2 wg=4
+.step wc=3 ws=2 wg=4
+.step wc=1 ws=3 wg=4
+.step wc=2 ws=3 wg=4
+.step wc=3 ws=3 wg=4
 
 
-Measurement "crit-path-delay" FAIL'ed
+Measurement: crit-path-delay
+  step	crit-path-delay	FROM	TO
+     1	3.92372e-010	1.05e-009	1.44237e-009
+     2	3.52896e-010	1.05e-009	1.4029e-009
+     3	3.56403e-010	1.05e-009	1.4064e-009
+     4	4.0384e-010	1.05e-009	1.45384e-009
+     5	3.23621e-010	1.05e-009	1.37362e-009
+     6	3.06449e-010	1.05e-009	1.35645e-009
+     7	4.49365e-010	1.05e-009	1.49936e-009
+     8	3.35937e-010	1.05e-009	1.38594e-009
+     9	3.05559e-010	1.05e-009	1.35556e-009
+    10	3.86672e-010	1.05e-009	1.43667e-009
+    11	3.45783e-010	1.05e-009	1.39578e-009
+    12	3.48026e-010	1.05e-009	1.39803e-009
+    13	3.95602e-010	1.05e-009	1.4456e-009
+    14	3.14136e-010	1.05e-009	1.36414e-009
+    15	2.95886e-010	1.05e-009	1.34589e-009
+    16	4.39183e-010	1.05e-009	1.48918e-009
+    17	3.24664e-010	1.05e-009	1.37466e-009
+    18	2.93227e-010	1.05e-009	1.34323e-009
+    19	3.8561e-010	1.05e-009	1.43561e-009
+    20	3.43774e-010	1.05e-009	1.39377e-009
+    21	3.45191e-010	1.05e-009	1.39519e-009
+    22	3.91955e-010	1.05e-009	1.44196e-009
+    23	3.096e-010	1.05e-009	1.3596e-009
+    24	2.90664e-010	1.05e-009	1.34066e-009
+    25	4.34063e-010	1.05e-009	1.48406e-009
+    26	3.18696e-010	1.05e-009	1.3687e-009
+    27	2.86594e-010	1.05e-009	1.33659e-009
 
 
-Date: Tue Nov 09 12:04:05 2021
-Total elapsed time: 5.401 seconds.
+Date: Tue Nov 09 13:27:11 2021
+Total elapsed time: 131.262 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2674
-traniter = 2674
-tranpoints = 1049
-accept = 1049
+totiter = 2790
+traniter = 2790
+tranpoints = 1050
+accept = 1050
 rejected = 0
-matrix size = 3947
-fillins = 308
+matrix size = 3941
+fillins = 330
 solver = Normal
-Thread vector: 1680.3/867.3[8] 625.0/143.0[8] 312.8/135.3[8] 46.6/69.0[1]  2592/500
-Matrix Compiler1: 652.91 KB object code size  1026.2/486.9/[100.7]
-Matrix Compiler2: 500.46 KB object code size  489.9/386.5/[66.9]
+Thread vector: 1593.3/474.4[8] 414.8/108.6[8] 197.7/120.3[8] 45.2/21.8[8]  2592/500
+Matrix Compiler1: 652.70 KB object code size  622.5/288.8/[81.1]
+Matrix Compiler2: 498.18 KB object code size  305.4/231.4/[59.8]
 
