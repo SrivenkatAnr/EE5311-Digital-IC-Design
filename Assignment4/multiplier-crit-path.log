@@ -5,6 +5,7 @@ WARNING: Node FULL_ADD@79_B is floating.
 WARNING: Node FULL_ADD@86_A is floating.
 WARNING: Node FULL_ADD@86_B is floating.
 WARNING: Node FULL_ADD@93_A is floating.
+WARNING: Node NET@712 is floating.
 WARNING: Node FULL_ADD@93_B is floating.
 WARNING: Node FULL_ADD@100_A is floating.
 WARNING: Node FULL_ADD@100_B is floating.
@@ -12,83 +13,34 @@ WARNING: Node FULL_ADD@107_A is floating.
 WARNING: Node FULL_ADD@107_B is floating.
 WARNING: Node FULL_ADD@128_A is floating.
 WARNING: Node FULL_ADD@128_B is floating.
+WARNING: Node FULL_ADD@129_CI is floating.
+WARNING: Node FULL_ADD@130_CI is floating.
+WARNING: Node FULL_ADD@131_CI is floating.
+WARNING: Node FULL_ADD@132_CI is floating.
+WARNING: Node FULL_ADD@133_CI is floating.
+WARNING: Node FULL_ADD@134_CI is floating.
 
 Per .tran options, skipping operating point for transient analysis.
-.step wc=1 ws=1 wg=1
-.step wc=2 ws=1 wg=1
-.step wc=3 ws=1 wg=1
-.step wc=1 ws=2 wg=1
-.step wc=2 ws=2 wg=1
-.step wc=3 ws=2 wg=1
-.step wc=1 ws=3 wg=1
-.step wc=2 ws=3 wg=1
-.step wc=3 ws=3 wg=1
-.step wc=1 ws=1 wg=2
-.step wc=2 ws=1 wg=2
-.step wc=3 ws=1 wg=2
-.step wc=1 ws=2 wg=2
-.step wc=2 ws=2 wg=2
-.step wc=3 ws=2 wg=2
-.step wc=1 ws=3 wg=2
-.step wc=2 ws=3 wg=2
-.step wc=3 ws=3 wg=2
-.step wc=1 ws=1 wg=4
-.step wc=2 ws=1 wg=4
-.step wc=3 ws=1 wg=4
-.step wc=1 ws=2 wg=4
-.step wc=2 ws=2 wg=4
-.step wc=3 ws=2 wg=4
-.step wc=1 ws=3 wg=4
-.step wc=2 ws=3 wg=4
-.step wc=3 ws=3 wg=4
 
 
-Measurement: crit-path-delay
-  step	crit-path-delay	FROM	TO
-     1	5.86861e-010	1.05e-009	1.63686e-009
-     2	4.94151e-010	1.05e-009	1.54415e-009
-     3	4.82456e-010	1.05e-009	1.53246e-009
-     4	6.09465e-010	1.05e-009	1.65947e-009
-     5	4.6347e-010	1.05e-009	1.51347e-009
-     6	4.25349e-010	1.05e-009	1.47535e-009
-     7	6.81236e-010	1.05e-009	1.73124e-009
-     8	4.8688e-010	1.05e-009	1.53688e-009
-     9	4.29084e-010	1.05e-009	1.47908e-009
-    10	5.82712e-010	1.05e-009	1.63271e-009
-    11	4.87577e-010	1.05e-009	1.53758e-009
-    12	4.74305e-010	1.05e-009	1.5243e-009
-    13	6.02497e-010	1.05e-009	1.6525e-009
-    14	4.54382e-010	1.05e-009	1.50438e-009
-    15	4.14925e-010	1.05e-009	1.46493e-009
-    16	6.72337e-010	1.05e-009	1.72234e-009
-    17	4.7595e-010	1.05e-009	1.52595e-009
-    18	4.16862e-010	1.05e-009	1.46686e-009
-    19	5.85473e-010	1.05e-009	1.63547e-009
-    20	4.87376e-010	1.05e-009	1.53738e-009
-    21	4.72605e-010	1.05e-009	1.5226e-009
-    22	6.02376e-010	1.05e-009	1.65238e-009
-    23	4.51492e-010	1.05e-009	1.50149e-009
-    24	4.10691e-010	1.05e-009	1.46069e-009
-    25	6.70721e-010	1.05e-009	1.72072e-009
-    26	4.71615e-010	1.05e-009	1.52161e-009
-    27	4.11203e-010	1.05e-009	1.4612e-009
+Measurement "crit-path-delay" FAIL'ed
 
 
-Date: Sun Nov 07 23:37:00 2021
-Total elapsed time: 106.878 seconds.
+Date: Tue Nov 09 12:04:05 2021
+Total elapsed time: 5.401 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2862
-traniter = 2862
-tranpoints = 1050
-accept = 1050
+totiter = 2674
+traniter = 2674
+tranpoints = 1049
+accept = 1049
 rejected = 0
-matrix size = 3940
-fillins = 324
+matrix size = 3947
+fillins = 308
 solver = Normal
-Thread vector: 1522.8/436.2[8] 397.9/68.9[8] 187.7/75.1[8] 41.4/23.6[8]  2592/500
-Matrix Compiler1: 653.51 KB object code size  613.2/286.6/[85.4]
-Matrix Compiler2: 500.46 KB object code size  296.8/229.2/[60.1]
+Thread vector: 1680.3/867.3[8] 625.0/143.0[8] 312.8/135.3[8] 46.6/69.0[1]  2592/500
+Matrix Compiler1: 652.91 KB object code size  1026.2/486.9/[100.7]
+Matrix Compiler2: 500.46 KB object code size  489.9/386.5/[66.9]
 
