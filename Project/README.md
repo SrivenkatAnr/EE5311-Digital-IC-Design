@@ -1,1 +1,3 @@
-https://docs.google.com/viewer?url=https://github.com/SrivenkatAnr/EE5311-Digital-IC-Design/blob/main/Project/Problem-Statement/ee5311-project-jul-nov-2021.pdf
+![PDF-Page-1](https://github.com/SrivenkatAnr/EE5311-Digital-IC-Design/blob/main/Project/Problem-Statement/JPGs/1.png?raw=true)
+![PDF-Page-2](https://github.com/SrivenkatAnr/EE5311-Digital-IC-Design/blob/main/Project/Problem-Statement/JPGs/2.png?raw=true)
+![PDF-Page-3](https://github.com/SrivenkatAnr/EE5311-Digital-IC-Design/blob/main/Project/Problem-Statement/JPGs/3.png?raw=true)
