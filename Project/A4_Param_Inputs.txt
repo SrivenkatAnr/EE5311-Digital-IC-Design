@@ -1,10 +1,10 @@
-v2 x7 gnd DC 0
-v3 x6 gnd DC 0
-v4 x5 gnd DC 0
-v5 x4 gnd DC 0
-v6 x3 gnd DC 0
-v7 x2 gnd DC 0
-v8 x1 gnd DC 0
+v2 x7 gnd DC {VDD}
+v3 x6 gnd DC {VDD}
+v4 x5 gnd DC {VDD}
+v5 x4 gnd DC {VDD}
+v6 x3 gnd DC {VDD}
+v7 x2 gnd DC {VDD}
+v8 x1 gnd DC {VDD}
 v9 x0 gnd DC {VDD}
 v10 y7 gnd DC {VDD}
 v11 y6 gnd DC {VDD}
