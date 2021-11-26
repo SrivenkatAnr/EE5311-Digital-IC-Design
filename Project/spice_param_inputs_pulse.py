@@ -1,19 +1,30 @@
-x = int(input("Enter the Multiplicand value: "))
-y = int(input("Enter the Multiplier Value: "))
+print("Enter 1st set of values \n")
+x1 = int(input("Enter the Multiplicand value: "))
+y1 = int(input("Enter the Multiplier Value: "))
 
-if x<-128 or x>127 or y<-128 or y>127:
+print("\n Enter 2nd set of values \n")
+x2 = int(input("Enter the Multiplicand value: "))
+y2 = int(input("Enter the Multiplier Value: "))
+
+if x1<-128 or x1>127 or y1<-128 or y1>127 or x2<-128 or x2>127 or y2<-128 or y2>127:
 	raise ValueError("Please enter valid inputs for a 8 bit multiplier!!")
-x_2s = ("{0:0>8}").format(bin(x & int("1"*8, 2))[2:])
-y_2s = ("{0:0>8}").format(bin(y & int("1"*8, 2))[2:])
+
+x1_2s = ("{0:0>8}").format(bin(x1 & int("1"*8, 2))[2:])
+y1_2s = ("{0:0>8}").format(bin(y1 & int("1"*8, 2))[2:])
+
+x2_2s = ("{0:0>8}").format(bin(x2 & int("1"*8, 2))[2:])
+y2_2s = ("{0:0>8}").format(bin(y2 & int("1"*8, 2))[2:])
 
 
 with open("A4_Param_Inputs_Pulse.txt",'w') as f:
 	#for x input----
 	for i in range(8):
-		bit = "{VDD}" if x_2s[i]==str(1) else "0"
-		f.write("v"+str(i+2)+" x"+str(7-i)+" gnd PWL (0 0 {0.1n+Tc} 0 {0.2n+Tc} "+bit+" 2n "+bit+")"+"\n")
+		bit1 = "{VDD}" if x1_2s[i]==str(1) else "0"
+		bit2 = "{VDD}" if x2_2s[i]==str(1) else "0"
+		f.write("v"+str(i+2)+" x"+str(7-i)+" gnd PWL (0 0 {0.1n+Tc} 0 {0.2n+Tc} "+bit1+" {0.1n+2*Tc} "+bit1+" {0.2n+2*Tc} "+bit2+" 3n "+bit2+")"+"\n")
 	for i in range(8):
-		bit = "{VDD}" if y_2s[i]==str(1) else "0"
-		f.write("v"+str(i+10)+" y"+str(7-i)+" gnd PWL (0 0 {0.1n+Tc} 0 {0.2n+Tc} "+bit+" 2n "+bit+")"+"\n")
+		bit1 = "{VDD}" if y1_2s[i]==str(1) else "0"
+		bit2 = "{VDD}" if y2_2s[i]==str(1) else "0"
+		f.write("v"+str(i+10)+" y"+str(7-i)+" gnd PWL (0 0 {0.1n+Tc} 0 {0.2n+Tc} "+bit1+" {0.1n+2*Tc} "+bit1+" {0.2n+2*Tc} "+bit2+" 3n "+bit2+")"+"\n")
 print("Text File Updated!!")
 

@@ -1,0 +1,45 @@
+Circuit: *** SPICE deck for cell multiplier-pipelined-tb{sch} from library 8bit-CSM
+
+V17: Removing PWL point (6.8e-010,0.8)
+V16: Removing PWL point (3.9e-010,0)
+V15: Removing PWL point (3.9e-010,0)
+V14: Removing PWL point (3.9e-010,0)
+V13: Removing PWL point (3.9e-010,0)
+V12: Removing PWL point (3.9e-010,0)
+V11: Removing PWL point (3.9e-010,0)
+V9: Removing PWL point (6.8e-010,0.8)
+V8: Removing PWL point (3.9e-010,0)
+V7: Removing PWL point (3.9e-010,0)
+V6: Removing PWL point (3.9e-010,0)
+V5: Removing PWL point (3.9e-010,0)
+V4: Removing PWL point (3.9e-010,0)
+V3: Removing PWL point (3.9e-010,0)
+V2: Removing PWL point (6.8e-010,0.8)
+Per .tran options, skipping operating point for transient analysis.
+
+x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-127 at 7.805e-010
+y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-127 at 7.805e-010
+z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=16129 at 1.3605e-009
+x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 1.0705e-009
+y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=1 at 1.0705e-009
+z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=-1 at 1.6505e-009
+
+
+Date: Fri Nov 26 22:53:16 2021
+Total elapsed time: 25.915 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3577
+traniter = 3577
+tranpoints = 1309
+accept = 1245
+rejected = 64
+matrix size = 14873
+fillins = 4782
+solver = Normal
+Thread vector: 8176.9/2810.1[8] 1939.8/319.6[8] 1187.8/569.4[8] 403.2/227.2[8]  2592/500
+Matrix Compiler1: 3.11 MB object code size  3550.7/1917.5/[1021.8]
+Matrix Compiler2: 1.98 MB object code size  1326.8/1454.5/[700.7]
+
