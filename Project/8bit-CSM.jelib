@@ -1806,7 +1806,7 @@ Ezc||D5G2;|pin@64||O
 X
 
 # Cell multiplier;1{lay}
-Cmultiplier;1{lay}||mocmos|1636793757771|1636793757771|
+Cmultiplier;1{lay}||mocmos|1636793757771|1637907982995|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
@@ -3185,7 +3185,7 @@ Ezc||D5G2;|pin@64||O
 X
 
 # Cell multiplier-cla;1{sch}
-Cmultiplier-cla;1{sch}||schematic|1635573791800|1637840618941|
+Cmultiplier-cla;1{sch}||schematic|1635573791800|1637908078631|
 Iand;1{ic}|and@1||14|12|||D5G4;
 Iand;1{ic}|and@2||-17.75|12|||D5G4;
 Iand;1{ic}|and@4||-46|12|||D5G4;
@@ -3718,7 +3718,6 @@ NWire_Pin|pin@636||-269.5|-269.25||||
 NWire_Pin|pin@637||-264.5|-269.25||||
 NWire_Pin|pin@638||-359.5|-269.25||||
 NWire_Pin|pin@639||-354.5|-269.25||||
-NWire_Pin|pin@640||-204.5|-269.25||||
 NWire_Pin|pin@641||-209.5|-269.25||||
 NWire_Pin|pin@642||-239.5|-269.25||||
 NWire_Pin|pin@643||-234.5|-269.25||||
@@ -3733,9 +3732,8 @@ NWire_Pin|pin@651||-419.5|-269.25||||
 NWire_Pin|pin@652||-414.5|-269.25||||
 NWire_Pin|pin@653||-297|-296.5||||
 NWire_Pin|pin@654||-357|-297.5||||
+Ngeneric:Invisible-Pin|pin@655||-298.25|-282.5|||||ART_message(D5G5;)SCarry Look Ahead Adder should come here
 NPower|pwr@1||-227|-9.5||||
-NPower|pwr@2||-419.5|-265.25||||
-NPower|pwr@3||-204.5|-266||||
 NPower|pwr@4||-254.5|-46||||
 NPower|pwr@5||-309.5|-119.75||||
 NPower|pwr@6||-364.5|-191.5||||
@@ -4217,9 +4215,7 @@ Awire|net@958|||2700|conn@26|a|-179.5|-263.75|pin@602||-179.5|-262
 Awire|net@959|||2700|inverter@15|INP|-179.5|-252.75|pin@603||-179.5|-251.25
 Awire|net@960|||1800|full_add@94|S_bar|-179.5|-251.25|pin@603||-179.5|-251.25
 Awire|net@961|||900|pin@601||-124.5|-193.25|conn@28|a|-124.5|-194.25
-Awire|net@964|||900|pwr@2||-419.5|-265.25|pin@605||-419.5|-269.25
 Awire|net@965|||0|pin@604||-419.5|-269.25|pin@605||-419.5|-269.25
-Awire|net@966|||900|pwr@3||-204.5|-266|pin@606||-204.5|-269.25
 Awire|net@968|||900|pwr@4||-254.5|-46|full_add@17|A|-254.5|-49.25
 Awire|net@969|||900|pwr@5||-309.5|-119.75|pin@607||-309.5|-122.25
 Awire|net@970|||0|full_add@56|A|-309.5|-122.25|pin@607||-309.5|-122.25
@@ -4262,7 +4258,6 @@ Awire|net@1056|||900|full_add@97|S_bar|-269.5|-251.25|pin@636||-269.5|-269.25
 Awire|net@1057|||0|pin@450||-254.5|-269.25|pin@637||-264.5|-269.25
 Awire|net@1058|||900|inverter@5|OUT|-359.5|-263.25|pin@638||-359.5|-269.25
 Awire|net@1059|||900|pin@456||-354.5|-268.5|pin@639||-354.5|-269.25
-Awire|net@1060|||900|pwr@3||-204.5|-266|pin@640||-204.5|-269.25
 Awire|net@1061|||900|pin@634||-209.5|-265.5|pin@641||-209.5|-269.25
 Awire|net@1062|||900|full_add@116|S_bar|-209.5|-251.25|pin@641||-209.5|-269.25
 Awire|net@1063||||pin@628||-209.5|-269.25|pin@641||-209.5|-269.25
