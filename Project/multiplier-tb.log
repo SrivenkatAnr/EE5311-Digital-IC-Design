@@ -14,29 +14,29 @@ V3: Removing PWL point (1.3e-009,0.8)
 V2: Removing PWL point (1.3e-009,0.8)
 Per .tran options, skipping operating point for transient analysis.
 
-x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 1.55822e-009
-y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 1.55822e-009
-z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 2.16134e-009
-x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 2.16134e-009
-y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 2.16134e-009
-z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 2.76524e-009
+x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 1.52025e-009
+y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 1.52025e-009
+z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 2.1196e-009
+x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 2.1196e-009
+y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 2.1196e-009
+z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 2.71955e-009
 
 
-Date: Mon Nov 29 14:47:51 2021
-Total elapsed time: 20.057 seconds.
+Date: Mon Nov 29 18:22:52 2021
+Total elapsed time: 17.729 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3219
-traniter = 3219
+totiter = 3222
+traniter = 3222
 tranpoints = 1218
 accept = 1186
 rejected = 32
-matrix size = 11494
-fillins = 5002
+matrix size = 11512
+fillins = 5010
 solver = Normal
-Thread vector: 13400.5/2310.5[8] 1898.6/311.2[8] 1100.9/499.2[8] 512.3/188.3[8]  2592/500
-Matrix Compiler1: 2.87 MB object code size  3100.3/1692.7/[1545.2]
-Matrix Compiler2: 1.55 MB object code size  1051.8/1047.1/[884.0]
+Thread vector: 4889.3/2114.4[8] 1368.5/331.2[8] 858.2/526.8[8] 262.5/156.9[8]  2592/500
+Matrix Compiler1: 2.88 MB object code size  3122.2/1630.3/[776.6]
+Matrix Compiler2: 1.55 MB object code size  1067.1/951.8/[405.0]
 
