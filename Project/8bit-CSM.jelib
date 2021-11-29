@@ -1934,7 +1934,7 @@ Ez3||D5G2;|conn@10|y|O
 X
 
 # Cell Stage8-VM;2{lay}
-CStage8-VM;2{lay}||mocmos|1638083077662|1638181485526||DRC_last_good_drc_area_date()G1638181487043|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638181487043
+CStage8-VM;2{lay}||mocmos|1638083077662|1638182064502||DRC_last_good_drc_area_date()G1638182067251|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638182067251
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||-88.25|-4||||
 NMetal-1-Metal-2-Con|contact@2||108.25|6.5||||
@@ -2067,7 +2067,7 @@ NMetal-3-Pin|pin@84||136|25||||
 NMetal-2-Pin|pin@86||-88.25|-319||||
 NMetal-3-Pin|pin@88||-95.25|-362.75||||
 NMetal-3-Pin|pin@89||-94.75|-362.75||||
-NMetal-2-Pin|pin@90||-97.75|-368.75||||
+NMetal-2-Pin|pin@90||-97.75|-369||||
 NMetal-2-Pin|pin@91||-97.75|-333.5||||
 NMetal-2-Pin|pin@92||-154.75|44.5||||
 NMetal-2-Pin|pin@93||-154.75|-386||||
@@ -2077,7 +2077,7 @@ NMetal-2-Pin|pin@96||-154.75|31||||
 NMetal-2-Pin|pin@97||-154.75|-69||||
 NMetal-2-Pin|pin@98||-154.75|-169||||
 NMetal-2-Pin|pin@99||-154.75|-269||||
-NMetal-2-Pin|pin@100||-154.75|-368.75||||
+NMetal-2-Pin|pin@100||-154.75|-369||||
 NMetal-2-Pin|pin@101||168.5|-319||||
 NMetal-2-Pin|pin@102||168.5|-219||||
 NMetal-2-Pin|pin@103||168.5|-119||||
@@ -2085,7 +2085,7 @@ NMetal-2-Pin|pin@104||168.5|-19||||
 NMetal-2-Pin|pin@105||107.75|-343|||Y|
 NMetal-2-Pin|pin@106||-88.25|-318.75||||
 NMetal-3-Pin|pin@107||108.25|-362.75||||
-NMetal-2-Pin|pin@108||-88.25|-368.75||||
+NMetal-2-Pin|pin@108||-88.25|-369||||
 NMetal-2-Pin|pin@109||-88.25|-333.5||||
 NMetal-2-Pin|pin@110||-97.75|-369||||
 AMetal-2|net@0|||S2700|full_add@0|A|-88.25|9.5|full_add@0|vdd|-88.25|31
@@ -2247,7 +2247,7 @@ AMetal-2|net@176|||S900|full_add@6|gnd|-88.25|-319|pin@86||-88.25|-319
 AMetal-3|net@181|||S1800|pin@88||-95.25|-362.75|pin@89||-94.75|-362.75
 AMetal-3|net@182|||S900|pin@88||-95.25|-362.75|contact@34||-95.25|-363.75
 AMetal-2|net@183|||S1800|inverter@0|gnd|-114.25|-19|inverter@1|gnd|107.25|-19
-AMetal-2|net@186|||S2700|pin@90||-97.75|-368.75|pin@91||-97.75|-333.5
+AMetal-2|net@186|||S2700|pin@90||-97.75|-369|pin@91||-97.75|-333.5
 AMetal-2|net@189|||S900|pin@92||-154.75|44.5|pin@96||-154.75|31
 AMetal-2|net@191|||S0|inverter@0|vdd|-114.25|31|pin@96||-154.75|31
 AMetal-2|net@192|||S900|pin@96||-154.75|31|pin@97||-154.75|-69
@@ -2256,9 +2256,9 @@ AMetal-2|net@195|||S900|pin@97||-154.75|-69|pin@98||-154.75|-169
 AMetal-2|net@197|||S0|inverter@7|vdd|-134.5|-169|pin@98||-154.75|-169
 AMetal-2|net@198|||S900|pin@98||-154.75|-169|pin@99||-154.75|-269
 AMetal-2|net@200|||S0|inverter@10|vdd|-134.25|-269|pin@99||-154.75|-269
-AMetal-2|net@201|||S900|pin@99||-154.75|-269|pin@100||-154.75|-368.75
-AMetal-2|net@202|||S900|pin@100||-154.75|-368.75|pin@93||-154.75|-386
-AMetal-2|net@203|||S0|pin@90||-97.75|-368.75|pin@100||-154.75|-368.75
+AMetal-2|net@201|||S900|pin@99||-154.75|-269|pin@100||-154.75|-369
+AMetal-2|net@202|||S900|pin@100||-154.75|-369|pin@93||-154.75|-386
+AMetal-2|net@203|||S0|pin@90||-97.75|-369|pin@100||-154.75|-369
 AMetal-2|net@205|||S900|pin@101||168.5|-319|pin@95||168.5|-391.75
 AMetal-2|net@206|||S1800|inverter@9|gnd|111.25|-319|pin@101||168.5|-319
 AMetal-2|net@208|||S900|pin@102||168.5|-219|pin@101||168.5|-319
@@ -2270,11 +2270,11 @@ AMetal-2|net@214|||S900|pin@104||168.5|-19|pin@103||168.5|-119
 AMetal-2|net@215|||S1800|inverter@1|gnd|107.25|-19|pin@104||168.5|-19
 AMetal-2|net@216|||S2700|pin@86||-88.25|-319|pin@106||-88.25|-318.75
 AMetal-3|net@217|||S1800|pin@88||-95.25|-362.75|pin@107||108.25|-362.75
-AMetal-2|net@218|||S1800|pin@90||-97.75|-368.75|pin@108||-88.25|-368.75
+AMetal-2|net@218|||S1800|pin@90||-97.75|-369|pin@108||-88.25|-369
 AMetal-2|net@219|||S1800|pin@91||-97.75|-333.5|pin@109||-88.25|-333.5
 AMetal-2|net@220|||S0|full_add@9|gnd|-88.25|-319|inverter@8|gnd|-114.25|-319
 AMetal-2|net@221|||S0|full_add@9|vdd|-88.25|-369|pin@110||-97.75|-369
-AMetal-2|net@222|||S900|pin@90||-97.75|-368.75|pin@110||-97.75|-369
+AMetal-2|net@222|||S900|pin@90||-97.75|-369|pin@110||-97.75|-369
 AMetal-3|net@223|||S900|pin@107||108.25|-362.75|full_add@9|Co_bar|108.25|-363
 AMetal-2|net@224|||S|pin@109||-88.25|-333.5|full_add@9|B|-88.25|-333.5
 AMetal-2|net@225|||S900|pin@105||107.75|-343|full_add@9|S-bar|107.75|-343.25
