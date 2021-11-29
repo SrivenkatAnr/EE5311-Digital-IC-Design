@@ -25,8 +25,8 @@ y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y
 z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=-1 at 2.4005e-009
 
 
-Date: Fri Nov 26 22:54:40 2021
-Total elapsed time: 17.353 seconds.
+Date: Mon Nov 29 12:06:06 2021
+Total elapsed time: 19.808 seconds.
 
 tnom = 27
 temp = 27
@@ -39,7 +39,7 @@ rejected = 47
 matrix size = 11469
 fillins = 4302
 solver = Normal
-Thread vector: 5314.5/1725.9[8] 1432.5/261.1[8] 868.9/449.1[8] 258.8/126.3[8]  2592/500
-Matrix Compiler1: 2.62 MB object code size  2744.3/1428.4/[652.8]
-Matrix Compiler2: 1.53 MB object code size  955.2/886.7/[379.7]
+Thread vector: 5176.6/2389.4[8] 1459.8/435.0[8] 949.0/540.9[8] 388.5/201.8[7]  2592/500
+Matrix Compiler1: 2.62 MB object code size  3425.3/1707.0/[943.1]
+Matrix Compiler2: 1.53 MB object code size  1384.3/1197.2/[525.0]
 
