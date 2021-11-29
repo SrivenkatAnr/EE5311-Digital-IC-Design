@@ -8243,7 +8243,7 @@ Ezc||D5G2;|conn@24|y|O
 X
 
 # Cell multiplier-pipelined-tb;1{sch}
-Cmultiplier-pipelined-tb;1{sch}||schematic|1637817867610|1637947084727|
+Cmultiplier-pipelined-tb;1{sch}||schematic|1637817867610|1638177581398|
 IC2MOS_FF;1{ic}|C2MOS_FF@0||-40.5|-40.25|||D5G4;
 IC2MOS_FF;1{ic}|C2MOS_FF@1||-40.75|-53.5|||D5G4;
 IC2MOS_FF;1{ic}|C2MOS_FF@2||-40.75|-65.75|||D5G4;
@@ -8309,6 +8309,10 @@ NOff-Page|conn@28||43|-10||||
 NOff-Page|conn@29||43|-13.5||||
 NOff-Page|conn@30||43|-17||||
 NOff-Page|conn@31||43|-20.5||||
+NOff-Page|conn@32||-123|-13.25||||
+Iinverter;1{ic}|inverter@0||-121|-20|||D5G4;
+Iinverter;1{ic}|inverter@1||-104.75|-20|||D5G4;
+Iinverter;1{ic}|inverter@2||-122|-28.75|||D5G4;
 Imultiplier-pipelined;1{ic}|multipli@0||0.75|19.25|||D5G4;
 NWire_Pin|pin@0||-22.75|35.75||||
 NWire_Pin|pin@1||-22.25|33.5||||
@@ -8343,7 +8347,7 @@ NWire_Pin|pin@29||23.75|9.25||||
 NWire_Pin|pin@30||23|7.5||||
 NWire_Pin|pin@31||23|5.5||||
 NWire_Pin|pin@32||23|3.75||||
-Ngeneric:Invisible-Pin|pin@33||83.25|6.5|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 wc=3 ws=1 wg=1 Tc=0.29n,v1 vdd gnd DC {vdd},".include \"A4_Param_Inputs_Pulse.txt\"",v18 clk gnd PULSE ({vdd} 0 0.2n 1p 1p {Tc/2} {Tc}),v19 clk_bar gnd PULSE(0 {vdd} 0.2n 1p 1p {Tc/2} {Tc}),.tran 2.5n uic,.meas tran x1 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +,	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=2 td={Tc+0.25n},.meas tran y1 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +,	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=2 td={Tc+0.25n},.meas tran z1 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=6 td={Tc+0.25n},.meas tran x2 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +,	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=4 td={Tc+0.25n},.meas tran y2 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +,	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=4 td={Tc+0.25n},.meas tran z2 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=8 td={Tc+0.25n},.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@33||83.25|6.5|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 wc=3 ws=1 wg=1 Tc=0.29n Tr=100p,v1 vdd gnd DC {vdd},".include \"A4_Param_Inputs_Pulse.txt\"",v18 clock gnd PULSE ({vdd} 0 0.2n {Tr} {Tr} {Tc/2-Tr} {Tc}),.tran 3.5n uic,.meas tran x1 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +,	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=2 td={Tc+0.25n},.meas tran y1 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +,	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=2 td={Tc+0.25n},.meas tran z1 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=6 td={Tc+0.25n},.meas tran x2 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +,	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=4 td={Tc+0.25n},.meas tran y2 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +,	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=4 td={Tc+0.25n},.meas tran z2 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +,	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +,	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +,	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=8 td={Tc+0.25n},.option noopiter,.END]
 NWire_Pin|pin@34||-22.25|1.25||||
 NWire_Pin|pin@35||-23|1.25||||
 NWire_Pin|pin@36||-23.25|-0.75||||
@@ -8475,6 +8479,11 @@ NWire_Pin|pin@161||78.5|-131.25||||
 NWire_Pin|pin@162||96.5|-131.25||||
 NWire_Pin|pin@163||78.75|-134||||
 NWire_Pin|pin@164||78.75|-136||||
+NWire_Pin|pin@165||-130.75|-20||||
+NWire_Pin|pin@166||-131.25|-28.75||||
+NWire_Pin|pin@167||-95.75|-20||||
+NWire_Pin|pin@168||-112.75|-28.75||||
+NWire_Pin|pin@169||-131.75|-20||||
 Awire|clk|D5G1;||0|multipli@0|clk|-12.25|1.25|pin@34||-22.25|1.25
 Awire|clk|D5G1;||0|C2MOS_FF@0|clk|-46.75|-42|pin@39||-50.5|-42
 Awire|clk|D5G1;||0|C2MOS_FF@1|clk|-47|-55.25|pin@43||-50.75|-55.25
@@ -8508,6 +8517,7 @@ Awire|clk|D5G1;||0|C2MOS_FF@28|clk|79|-95.25|pin@151||78.75|-95.25
 Awire|clk|D5G1;||0|C2MOS_FF@29|clk|78.75|-108.5|pin@155||78.5|-108.5
 Awire|clk|D5G1;||0|C2MOS_FF@30|clk|78.75|-120.75|pin@159||78.5|-120.75
 Awire|clk|D5G1;||0|C2MOS_FF@31|clk|79|-134|pin@163||78.75|-134
+Awire|clk|D5G1;||1800|inverter@1|OUT|-101|-20|pin@167||-95.75|-20
 Awire|clk_bar|D5G1;||0|multipli@0|clk_bar|-12.25|-0.75|pin@36||-23.25|-0.75
 Awire|clk_bar|D5G1;||0|C2MOS_FF@0|clk_bar|-46.5|-44|pin@40||-50.5|-44
 Awire|clk_bar|D5G1;||0|C2MOS_FF@1|clk_bar|-46.75|-57.25|pin@44||-50.75|-57.25
@@ -8541,6 +8551,9 @@ Awire|clk_bar|D5G1;||0|C2MOS_FF@28|clk_bar|79.25|-97.25|pin@152||78.75|-97.25
 Awire|clk_bar|D5G1;||0|C2MOS_FF@29|clk_bar|79|-110.5|pin@156||78.5|-110.5
 Awire|clk_bar|D5G1;||0|C2MOS_FF@30|clk_bar|79|-122.75|pin@160||78.5|-122.75
 Awire|clk_bar|D5G1;||0|C2MOS_FF@31|clk_bar|79.25|-136|pin@164||78.75|-136
+Awire|clk_bar|D5G1;||1800|inverter@2|OUT|-118.25|-28.75|pin@168||-112.75|-28.75
+Awire|clock|D5G1;||0|inverter@0|INP|-126.5|-20|pin@165||-130.75|-20
+Awire|clock|D5G1;||0|inverter@2|INP|-127.5|-28.75|pin@166||-131.25|-28.75
 Awire|d_z0|D5G1;||0|multipli@0|z0|-20|17.75|pin@16||-21.5|17.75
 Awire|d_z0|D5G1;||0|C2MOS_FF@16|D|39.5|-39.5|pin@101||35.75|-39.5
 Awire|d_z1|D5G1;||0|multipli@0|z1|-20|15.75|pin@17||-21.5|15.75
@@ -8575,6 +8588,8 @@ Awire|d_z15|D5G1;||1800|multipli@0|z15|19.75|3.75|pin@32||23|3.75
 Awire|d_z15|D5G1;||0|C2MOS_FF@31|D|78.75|-131.25|pin@161||78.5|-131.25
 Awire|net@29|||1800|pin@28||22.75|9.25|pin@29||23.75|9.25
 Awire|net@34|||0|pin@34||-22.25|1.25|pin@35||-23|1.25
+Awire|net@35|||0|pin@165||-130.75|-20|pin@169||-131.75|-20
+Awire|net@36|||1800|inverter@0|OUT|-117.25|-20|inverter@1|INP|-110.25|-20
 Awire|q_x0|D5G1;||0|multipli@0|x0|-20|35.75|pin@0||-22.75|35.75
 Awire|q_x0|D5G1;||1800|C2MOS_FF@0|Q|-34.25|-39.25|pin@38||-29.25|-39.25
 Awire|q_x1|D5G1;||0|multipli@0|x1|-20|33.5|pin@1||-22.25|33.5
@@ -8639,6 +8654,7 @@ Awire|z12|D5G1;||1800|C2MOS_FF@28|Q|91.5|-92.5|pin@150||96.5|-92.5
 Awire|z13|D5G1;||1800|C2MOS_FF@29|Q|91.25|-105.75|pin@154||96.25|-105.75
 Awire|z14|D5G1;||1800|C2MOS_FF@30|Q|91.25|-118|pin@158||96.25|-118
 Awire|z15|D5G1;||1800|C2MOS_FF@31|Q|91.5|-131.25|pin@162||96.5|-131.25
+Eclock||D5G2;|conn@32|y|I
 Ex0||D5G2;|conn@0|a|I
 Ex1||D5G2;|conn@1|a|I
 Ex2||D5G2;|conn@2|a|I
