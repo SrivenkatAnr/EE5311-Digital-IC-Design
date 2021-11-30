@@ -22,21 +22,21 @@ y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y
 z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 2.71955e-009
 
 
-Date: Mon Nov 29 18:22:52 2021
-Total elapsed time: 17.729 seconds.
+Date: Tue Nov 30 16:27:34 2021
+Total elapsed time: 20.968 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3222
-traniter = 3222
+totiter = 3231
+traniter = 3231
 tranpoints = 1218
 accept = 1186
 rejected = 32
-matrix size = 11512
-fillins = 5010
+matrix size = 11494
+fillins = 5136
 solver = Normal
-Thread vector: 4889.3/2114.4[8] 1368.5/331.2[8] 858.2/526.8[8] 262.5/156.9[8]  2592/500
-Matrix Compiler1: 2.88 MB object code size  3122.2/1630.3/[776.6]
-Matrix Compiler2: 1.55 MB object code size  1067.1/951.8/[405.0]
+Thread vector: 6286.0/2285.7[8] 1492.8/450.8[8] 931.2/568.9[8] 342.5/213.0[8]  2592/500
+Matrix Compiler1: 2.93 MB object code size  3555.3/1881.8/[1015.4]
+Matrix Compiler2: 1.55 MB object code size  1386.5/1090.1/[491.5]
 
