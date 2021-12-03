@@ -6223,7 +6223,7 @@ Ezc||D5G2;X1.25;|pin@64||O
 X
 
 # Cell multiplier;1{lay}
-Cmultiplier;1{lay}||mocmos|1636793757771|1638463903021||DRC_last_good_drc_area_date()G1638463910931|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638463910931
+Cmultiplier;1{lay}||mocmos|1636793757771|1638511487207||DRC_last_good_drc_area_date()G1638511491670|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638511491670
 IStage1_comp;1{lay}|Stage1_c@1||-159.25|225.25|||D5G4;
 IStage2_comp;1{lay}|Stage2-4@0||71.25|73.25|||D5G4;
 IStage3_comp;1{lay}|Stage3_c@1||264.75|144.5|||D5G4;
@@ -6609,6 +6609,16 @@ NMetal-4-Metal-5-Con|contact@509||157.5|-197.5||||
 NMetal-1-Metal-2-Con|contact@510||147.75|-305.75||||
 NMetal-3-Metal-4-Con|contact@511||400|-409||||
 NMetal-2-Metal-3-Con|contact@512||400|-409||||
+NMetal-2-Metal-3-Con|contact@513||604|-506.5||||
+NMetal-3-Metal-4-Con|contact@514||604|-506.5||||
+NMetal-4-Metal-5-Con|contact@516||604|-506.5||||
+NMetal-4-Metal-5-Con|contact@517||554.75|-506.5||||
+NMetal-3-Metal-4-Con|contact@518||555|258.75||||
+NMetal-2-Metal-3-Con|contact@519||651|191||||
+NMetal-3-Metal-4-Con|contact@520||651|191||||
+NMetal-4-Metal-5-Con|contact@521||651|190.25||||
+NMetal-4-Metal-5-Con|contact@522||561.25|190.25||||
+NMetal-3-Metal-4-Con|contact@523||561.25|-513.25||||
 NMetal-2-Pin|pin@0||-66.5|265.25||||
 NMetal-2-Pin|pin@2||180.25|265.25||||
 NMetal-2-Pin|pin@3||157.25|-134.75||||
@@ -6897,6 +6907,14 @@ NMetal-4-Pin|pin@428||360.5|-352.25||||
 NMetal-4-Pin|pin@429||360.25|-455.75||||
 NMetal-4-Pin|pin@430||360|-455.75||||
 NMetal-4-Pin|pin@431||360|-455.75||||
+NMetal-4-Pin|pin@432||554.75|258.75||||
+NMetal-4-Pin|pin@433||554.75|-506.5||||
+NMetal-5-Pin|pin@434||554.75|-506.5||||
+NMetal-5-Pin|pin@436||563|190.25||||
+NMetal-5-Pin|pin@437||651|190.25||||
+NMetal-4-Pin|pin@438||561.25|190.25||||
+NMetal-3-Pin|pin@439||561.25|-509.75||||
+NMetal-3-Pin|pin@440||596.25|-509.75||||
 AMetal-2|net@1|||S2700|Stage2-4@0|vdd|-66.5|265.25|pin@0||-66.5|265.25
 AMetal-2|net@6|||S1800|Stage1_c@1|vdd_4|-333.25|-134.75|Stage2-4@0|vdd_4|-62.25|-134.75
 AMetal-2|net@9|||S1800|Stage8-V@0|vdd_4|-88.75|-134.75|Stage7_c@0|vdd_4|157.25|-134.75
@@ -7717,6 +7735,26 @@ AMetal-4|net@1271|||S0|pin@429||360.25|-455.75|pin@430||360|-455.75
 AMetal-4|net@1272|||S900|contact@420||360|-440.75|pin@430||360|-455.75
 AMetal-4|net@1273|||S0|pin@429||360.25|-455.75|pin@431||360|-455.75
 AMetal-4|net@1274|||S2700|contact@416||360|-463|pin@431||360|-455.75
+AMetal-2|net@1275|||S0|contact@513||604|-506.5|Stage5_c@0|ci0|599.75|-506.5
+AMetal-3|net@1276|||IJS2700|contact@514||604|-507|contact@513||604|-506.5
+AMetal-4|net@1278|||S900|pin@432||554.75|258.75|pin@433||554.75|-506.5
+AMetal-4|net@1279|||IJS2700|contact@516||604|-507.5|contact@514||604|-506.5
+AMetal-4|net@1280|||S900|pin@433||554.75|-506.5|contact@517||554.75|-506.75
+AMetal-5|net@1281|||IJS2700|contact@517||554.75|-506.75|pin@434||554.75|-506.5
+AMetal-5|net@1282|||S0|contact@516||604|-506.5|pin@434||554.75|-506.5
+AMetal-4|net@1283|||S2700|pin@432||554.75|258.75|contact@518||554.75|259.25
+AMetal-3|net@1284|||S0|Stage4_c@0|c0|651.5|259.25|contact@518||554.75|259.25
+AMetal-2|net@1285|||S1800|contact@519||650.5|191|Stage4_c@0|s1|651|191
+AMetal-3|net@1287||1|S1800|contact@520||651|190.5|contact@519||651|190.5
+AMetal-4|net@1288||1|S1800|contact@521||651|191|contact@520||651|191
+AMetal-5|net@1289|||S1800|pin@436||563|190.25|pin@437||651|190.25
+AMetal-5|net@1290|||IJS900|contact@521||651|191|pin@437||651|190.25
+AMetal-5|net@1291|||S0|pin@436||563|190.25|contact@522||562|190.25
+AMetal-4|net@1292|||IJS2700|contact@523||561.25|-512.75|pin@438||561.25|190.25
+AMetal-4|net@1293||1|S0|contact@522||561.25|190.25|pin@438||561.25|190.25
+AMetal-3|net@1294|||S900|pin@439||561.25|-509.75|contact@523||561.25|-513.25
+AMetal-3|net@1295|||S0|pin@440||596.25|-509.75|pin@439||561.25|-509.75
+AMetal-3|net@1296|||S900|pin@440||596.25|-509.75|Stage5_c@0|a0|596.25|-513.25
 X
 
 # Cell multiplier;1{sch}
