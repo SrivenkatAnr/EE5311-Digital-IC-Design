@@ -1041,7 +1041,7 @@ Ez1||D5G2;|conn@0|y|O
 X
 
 # Cell Stage1_comp;1{lay}
-CStage1_comp;1{lay}||mocmos|1638083077662|1638595475445||DRC_last_good_drc_area_date()G1638595478830|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638595478830
+CStage1_comp;1{lay}||mocmos|1638083077662|1638551368677||DRC_last_good_drc_area_date()G1638551396649|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638551396649
 Iand;1{lay}|and@20||-93|-34|Y||D5G4;
 Iand;1{lay}|and@21||-134|-34|Y||D5G4;
 Iand;1{lay}|and@22||-93|-86|||D5G4;
@@ -1277,15 +1277,6 @@ AMetal-2|net@942|||S2700|pin@105||-172.5|-10|pin@106||-172.5|-10
 AMetal-2|net@944|||IJS900|contact@74||-149|12|pin@108||-149|3
 AMetal-2|net@945|||S1800|pin@108||-149|3|pin@109||-126|3
 AMetal-2|net@946|||S900|pin@99||-126|11.75|pin@109||-126|3
-EA7||D5G2;|full_add@15|A|I
-EB0||D5G2;|full_add@16|B|I
-EB1||D5G2;|full_add@9|B|I
-EB2||D5G2;|full_add@10|B|I
-EB3@90812570|B3|D5G2;|full_add@11|B|I
-EB3|B4|D5G2;|full_add@12|B|I
-EB4|B5|D5G2;|full_add@13|B|I
-EB5|B6|D5G2;|full_add@14|B|I
-EB6|B7|D5G2;|full_add@15|B|I
 Ec0||D5G2;|inverter@0|OUT|O
 Ec1||D5G2;|full_add@9|Co_bar|O
 Ec2||D5G2;|full_add@10|Co_bar|O
@@ -6230,7 +6221,7 @@ Ezc||D5G2;X1.25;|pin@64||O
 X
 
 # Cell multiplier;1{lay}
-Cmultiplier;1{lay}||mocmos|1636793757771|1638595624188||DRC_last_good_drc_area_date()G1638595635110|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638595635110
+Cmultiplier;1{lay}||mocmos|1636793757771|1638588084396||DRC_last_good_drc_area_date()G1638588097329|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638588097329
 IStage1_comp;1{lay}|Stage1_c@1||-159.25|225.25|||D5G4;
 IStage2_comp;1{lay}|Stage2-4@0||71.25|73.25|||D5G4;
 IStage3_comp;1{lay}|Stage3_c@1||264.75|144.5|||D5G4;
@@ -7836,15 +7827,6 @@ NMetal-6-Pin|pin@780||-319.75|-461||||
 NMetal-6-Pin|pin@781||-338.25|-461||||
 NMetal-6-Pin|pin@782||-335.25|-510.75||||
 NMetal-6-Pin|pin@783||-338.25|-510.75||||
-NMetal-2-Pin|pin@784||-278.75|215.25||||
-NMetal-2-Pin|pin@785||-245.25|215.25||||
-NMetal-2-Pin|pin@786||-245.25|115.25||||
-NMetal-2-Pin|pin@787||-245.25|115.25||||
-NMetal-2-Pin|pin@788||-245.25|15.25||||
-NMetal-2-Pin|pin@789||-245.25|15.25||||
-NMetal-2-Pin|pin@790||-258.25|-84.75||||
-NMetal-2-Pin|pin@791||-258.25|-84.75||||
-NMetal-2-Pin|pin@792||-258.25|-134.75||||
 AMetal-2|net@1|||S2700|Stage2-4@0|vdd|-66.5|265.25|pin@0||-66.5|265.25
 AMetal-2|net@14|||S1800|Stage8-V@0|vdd|-114.75|-134.75|Stage7_c@0|vdd|157|-134.75
 AMetal-2|net@29|||S1800|pin@0||-66.5|265.25|pin@2||180.25|265.25
@@ -9738,24 +9720,6 @@ AMetal-5|net@2742||2|JS1800|contact@1287||-330.25|-510.75|contact@1288||-326.25|
 AMetal-1|net@2743|||S900|Stage8-V@0|z15|-326.25|-510.25|contact@1291||-326.25|-510.75
 AMetal-6|net@2744|||S1800|pin@782||-335.25|-510.75|contact@1287||-330.25|-510.75
 AMetal-6|net@2745|||S0|pin@782||-335.25|-510.75|pin@783||-338.25|-510.75
-AMetal-2|net@2746|||IJS900|Stage1_c@1|B0|-278.75|230.25|pin@784||-278.75|215.25
-AMetal-2|net@2747|||S1800|Stage1_c@1|gnd|-333.25|215.25|pin@784||-278.75|215.25
-AMetal-2|net@2748|||IJS2700|Stage1_c@1|B1|-245.25|200.25|pin@785||-245.25|215.25
-AMetal-2|net@2749|||S1800|Stage1_c@1|gnd|-333.25|215.25|pin@785||-245.25|215.25
-AMetal-2|net@2750|||S900|Stage1_c@1|B2|-245.25|130.25|pin@786||-245.25|115.25
-AMetal-2|net@2751|||S1800|Stage1_c@1|gnd2|-333.25|115.25|pin@786||-245.25|115.25
-AMetal-2|net@2752|||S2700|Stage1_c@1|B3@90812570|-245.25|100.25|pin@787||-245.25|115.25
-AMetal-2|net@2753|||S1800|Stage1_c@1|gnd2|-333.25|115.25|pin@787||-245.25|115.25
-AMetal-2|net@2754|||S900|Stage1_c@1|B3|-245.25|30.25|pin@788||-245.25|15.25
-AMetal-2|net@2755|||S1800|Stage1_c@1|gnd_2|-333.25|15.25|pin@788||-245.25|15.25
-AMetal-2|net@2756|||S2700|Stage1_c@1|B4|-245.25|0.25|pin@789||-245.25|15.25
-AMetal-2|net@2757|||S1800|Stage1_c@1|gnd_2|-333.25|15.25|pin@789||-245.25|15.25
-AMetal-2|net@2758|||S900|Stage1_c@1|B5|-258.25|-69.75|pin@790||-258.25|-84.75
-AMetal-2|net@2759|||S1800|Stage1_c@1|gnd_3|-332.75|-84.75|pin@790||-258.25|-84.75
-AMetal-2|net@2760|||S2700|Stage1_c@1|B6|-258.25|-99.75|pin@791||-258.25|-84.75
-AMetal-2|net@2761|||S1800|Stage1_c@1|gnd_3|-332.75|-84.75|pin@791||-258.25|-84.75
-AMetal-2|net@2762|||S900|Stage1_c@1|A7|-258.25|-113.25|pin@792||-258.25|-134.75
-AMetal-2|net@2763|||S1800|Stage1_c@1|vdd_4|-333.25|-134.75|pin@792||-258.25|-134.75
 Egnd||D5G2;|pin@737||G
 Evdd||D5G2;|pin@726||P
 Ex0||D5G2;|pin@661||I
