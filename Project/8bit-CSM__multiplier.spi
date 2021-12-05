@@ -1,0 +1,931 @@
+*** SPICE deck for cell 8bit-CSM__multiplier{lay} from library 8bit-CSM
+*** Created on Sat Nov 13, 2021 14:25:57
+*** Last revised on Sun Dec 05, 2021 22:35:49
+*** Written on Sun Dec 05, 2021 22:37:30 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.01FF
+***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    N-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=3.0ohms/sq
+***    Polysilicon-1:	areacap=0.1467FF/um^2,	edgecap=0.0608FF/um,	res=6.2ohms/sq
+***    Polysilicon-2:	areacap=1.0FF/um^2,	edgecap=0.0FF/um,	res=50.0ohms/sq
+***    Transistor-Poly:	areacap=0.09FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Poly-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.2ohms/sq
+***    Active-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Metal-1:	areacap=0.1209FF/um^2,	edgecap=0.1104FF/um,	res=0.078ohms/sq
+***    Via1:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
+***    Metal-2:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via2:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.9ohms/sq
+***    Metal-3:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via3:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-4:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via4:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-5:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via5:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-6:	areacap=0.0423FF/um^2,	edgecap=0.1273FF/um,	res=0.036ohms/sq
+***    Hi-Res:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
+
+*** SUBCIRCUIT _8bit-CSM__and FROM CELL and{lay}
+.SUBCKT _8bit-CSM__and A B gnd vdd Y
+Mnmos@3 net@57 A#2nmos@3_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.004P AD=0.003P PS=0.269U PD=0.154U
+Mnmos@4 net@55 B#2nmos@4_poly-right net@57 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.005P PS=0.154U PD=0.297U
+Mnmos@5 Y net@55#15nmos@5_poly-right gnd gnd nmos L=0.022U W=0.044U AS=0.004P AD=0.005P PS=0.269U PD=0.275U
+Mpmos@3 vdd A#0pmos@3_poly-left net@55 vdd pmos L=0.022U W=0.088U AS=0.005P AD=0.004P PS=0.297U PD=0.205U
+Mpmos@4 net@55 B#0pmos@4_poly-left vdd vdd pmos L=0.022U W=0.088U AS=0.004P AD=0.005P PS=0.205U PD=0.297U
+Mpmos@5 Y net@55#16pmos@5_poly-left vdd vdd pmos L=0.022U W=0.088U AS=0.004P AD=0.005P PS=0.205U PD=0.275U
+** Extracted Parasitic Capacitors ***
+C0 net@55 0 0.126fF
+C1 Y 0 0.062fF
+** Extracted Parasitic Resistors ***
+R0 A#0pmos@3_poly-left A#0pmos@3_poly-left##0 5.425
+R1 A#0pmos@3_poly-left##0 A#1pin@34_polysilicon-1 5.425
+R2 A#1pin@34_polysilicon-1 A#1pin@34_polysilicon-1##0 8.138
+R3 A#1pin@34_polysilicon-1##0 A#1pin@34_polysilicon-1##1 8.138
+R4 A#1pin@34_polysilicon-1##1 A#1pin@34_polysilicon-1##2 8.138
+R5 A#1pin@34_polysilicon-1##2 A#2nmos@3_poly-right 8.138
+R6 A#1pin@34_polysilicon-1 A 6.2
+R7 B#0pmos@4_poly-left B#0pmos@4_poly-left##0 8.913
+R8 B#0pmos@4_poly-left##0 B#0pmos@4_poly-left##1 8.913
+R9 B#0pmos@4_poly-left##1 B#0pmos@4_poly-left##2 8.913
+R10 B#0pmos@4_poly-left##2 B#1pin@35_polysilicon-1 8.913
+R11 B#1pin@35_polysilicon-1 B#2nmos@4_poly-right 7.75
+R12 B#1pin@35_polysilicon-1 B 4.65
+R13 net@55#12pin@39_polysilicon-1 net@55 6.2
+R14 net@55#15nmos@5_poly-right net@55#15nmos@5_poly-right##0 9.817
+R15 net@55#15nmos@5_poly-right##0 net@55#15nmos@5_poly-right##1 9.817
+R16 net@55#15nmos@5_poly-right##1 net@55#12pin@39_polysilicon-1 9.817
+R17 net@55#12pin@39_polysilicon-1 net@55#12pin@39_polysilicon-1##0 6.717
+R18 net@55#12pin@39_polysilicon-1##0 net@55#12pin@39_polysilicon-1##1 6.717
+R19 net@55#12pin@39_polysilicon-1##1 net@55#16pmos@5_poly-left 6.717
+.ENDS _8bit-CSM__and
+
+*** SUBCIRCUIT _8bit-CSM__full_adder FROM CELL full_adder{lay}
+.SUBCKT _8bit-CSM__full_adder A B Ci Co_bar gnd S_bar vdd
+Mnmos@0 net@11 A#2nmos@0_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.177U PD=0.17U
+Mnmos@1 gnd B#2nmos@1_poly-right net@11 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.17U PD=0.177U
+Mnmos@2 net@11 A#6nmos@2_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.177U PD=0.17U
+Mnmos@3 gnd B#6nmos@3_poly-right net@11 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.17U PD=0.177U
+Mnmos@4 net@11 A#10nmos@4_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.177U PD=0.17U
+Mnmos@5 gnd B#10nmos@5_poly-right net@11 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.17U PD=0.177U
+Mnmos@6 net@51 B#14nmos@6_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.002P PS=0.177U PD=0.149U
+Mnmos@7 Co_bar A#14nmos@7_poly-right net@51 gnd nmos L=0.022U W=0.088U AS=0.002P AD=0.005P PS=0.149U PD=0.201U
+Mnmos@8 net@11 Ci#5nmos@8_poly-right Co_bar gnd nmos L=0.022U W=0.088U AS=0.005P AD=0.003P PS=0.201U PD=0.17U
+Mnmos@9 Co_bar Ci#8nmos@9_poly-right net@11 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.005P PS=0.17U PD=0.201U
+Mnmos@10 net@11 Ci#12nmos@10_poly-right Co_bar gnd nmos L=0.022U W=0.088U AS=0.005P AD=0.003P PS=0.201U PD=0.17U
+Mnmos@11 gnd Ci#14nmos@11_poly-right net@157 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.16U PD=0.177U
+Mnmos@12 net@157 A#16nmos@12_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.177U PD=0.16U
+Mnmos@13 gnd B#17nmos@13_poly-right net@157 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.003P PS=0.16U PD=0.177U
+Mnmos@14 net@198 A#20nmos@14_poly-right gnd gnd nmos L=0.022U W=0.066U AS=0.003P AD=0.002P PS=0.177U PD=0.132U
+Mnmos@15 net@201 B#21nmos@15_poly-right net@198 gnd nmos L=0.022U W=0.066U AS=0.002P AD=0.002P PS=0.132U PD=0.132U
+Mnmos@16 S_bar Ci#19nmos@16_poly-right net@201 gnd nmos L=0.022U W=0.066U AS=0.002P AD=0.005P PS=0.132U PD=0.24U
+Mnmos@17 net@201 Ci#23nmos@17_poly-right S_bar gnd nmos L=0.022U W=0.066U AS=0.005P AD=0.002P PS=0.24U PD=0.132U
+Mnmos@18 net@198 B#25nmos@18_poly-right net@201 gnd nmos L=0.022U W=0.066U AS=0.002P AD=0.002P PS=0.132U PD=0.132U
+Mnmos@19 gnd A#24nmos@19_poly-right net@198 gnd nmos L=0.022U W=0.066U AS=0.002P AD=0.003P PS=0.132U PD=0.177U
+Mnmos@20 net@157 Co_bar#20nmos@20_poly-right S_bar gnd nmos L=0.022U W=0.088U AS=0.005P AD=0.003P PS=0.24U PD=0.16U
+Mpmos@0 net@2 A#0pmos@0_poly-left vdd vdd pmos L=0.022U W=0.176U AS=0.007P AD=0.006P PS=0.276U PD=0.268U
+Mpmos@1 vdd B#0pmos@1_poly-left net@2 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.007P PS=0.268U PD=0.276U
+Mpmos@2 net@2 A#4pmos@2_poly-left vdd vdd pmos L=0.022U W=0.176U AS=0.007P AD=0.006P PS=0.276U PD=0.268U
+Mpmos@3 vdd B#4pmos@3_poly-left net@2 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.007P PS=0.268U PD=0.276U
+Mpmos@4 net@2 A#8pmos@4_poly-left vdd vdd pmos L=0.022U W=0.176U AS=0.007P AD=0.006P PS=0.276U PD=0.268U
+Mpmos@5 vdd B#8pmos@5_poly-left net@2 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.007P PS=0.268U PD=0.276U
+Mpmos@6 net@67 B#12pmos@6_poly-left vdd vdd pmos L=0.022U W=0.176U AS=0.007P AD=0.003P PS=0.276U PD=0.237U
+Mpmos@7 Co_bar A#12pmos@7_poly-left net@67 vdd pmos L=0.022U W=0.176U AS=0.003P AD=0.005P PS=0.237U PD=0.201U
+Mpmos@8 net@2 Ci#3pmos@8_poly-left Co_bar vdd pmos L=0.022U W=0.176U AS=0.005P AD=0.006P PS=0.201U PD=0.268U
+Mpmos@9 Co_bar Ci#6pmos@9_poly-left net@2 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.005P PS=0.268U PD=0.201U
+Mpmos@10 net@2 Ci#10pmos@10_poly-left Co_bar vdd pmos L=0.022U W=0.176U AS=0.005P AD=0.006P PS=0.201U PD=0.268U
+Mpmos@11 vdd Ci#16pmos@11_poly-left net@154 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.007P PS=0.248U PD=0.276U
+Mpmos@12 net@154 A#18pmos@12_poly-left vdd vdd pmos L=0.022U W=0.176U AS=0.007P AD=0.006P PS=0.276U PD=0.248U
+Mpmos@13 vdd B#19pmos@13_poly-left net@154 vdd pmos L=0.022U W=0.176U AS=0.006P AD=0.007P PS=0.248U PD=0.276U
+Mpmos@14 net@205 A#22pmos@14_poly-left vdd vdd pmos L=0.022U W=0.132U AS=0.007P AD=0.004P PS=0.276U PD=0.198U
+Mpmos@15 net@207 B#23pmos@15_poly-left net@205 vdd pmos L=0.022U W=0.132U AS=0.004P AD=0.004P PS=0.198U PD=0.198U
+Mpmos@16 S_bar Ci#21pmos@16_poly-left net@207 vdd pmos L=0.022U W=0.132U AS=0.004P AD=0.005P PS=0.198U PD=0.24U
+Mpmos@17 net@207 Ci#25pmos@17_poly-left S_bar vdd pmos L=0.022U W=0.132U AS=0.005P AD=0.004P PS=0.24U PD=0.198U
+Mpmos@18 net@205 B#27pmos@18_poly-left net@207 vdd pmos L=0.022U W=0.132U AS=0.004P AD=0.004P PS=0.198U PD=0.198U
+Mpmos@19 vdd A#26pmos@19_poly-left net@205 vdd pmos L=0.022U W=0.132U AS=0.004P AD=0.007P PS=0.198U PD=0.276U
+Mpmos@20 net@154 Co_bar#22pmos@20_poly-left S_bar vdd pmos L=0.022U W=0.176U AS=0.005P AD=0.006P PS=0.24U PD=0.248U
+** Extracted Parasitic Capacitors ***
+C0 net@11 0 0.207fF
+C1 Co_bar 0 0.49fF
+C2 net@2 0 0.208fF
+C3 Ci 0 0.472fF
+C4 A 0 0.65fF
+C5 B 0 0.635fF
+C6 net@154 0 0.061fF
+C7 net@157 0 0.046fF
+C8 net@198 0 0.114fF
+C9 net@201 0 0.067fF
+C10 net@205 0 0.086fF
+C11 net@207 0 0.089fF
+C12 S_bar 0 0.458fF
+** Extracted Parasitic Resistors ***
+R0 Ci#3pmos@8_poly-left Ci#3pmos@8_poly-left##0 8.525
+R1 Ci#3pmos@8_poly-left##0 Ci 8.525
+R2 Ci Ci##0 6.975
+R3 Ci##0 Ci##1 6.975
+R4 Ci##1 Ci#5nmos@8_poly-right 6.975
+R5 Ci#6pmos@9_poly-left Ci#6pmos@9_poly-left##0 8.138
+R6 Ci#6pmos@9_poly-left##0 Ci#7pin@12_polysilicon-1 8.138
+R7 Ci#7pin@12_polysilicon-1 Ci#7pin@12_polysilicon-1##0 7.233
+R8 Ci#7pin@12_polysilicon-1##0 Ci#7pin@12_polysilicon-1##1 7.233
+R9 Ci#7pin@12_polysilicon-1##1 Ci#8nmos@9_poly-right 7.233
+R10 Ci#7pin@12_polysilicon-1 Ci 6.2
+R11 Ci#10pmos@10_poly-left Ci#10pmos@10_poly-left##0 8.525
+R12 Ci#10pmos@10_poly-left##0 Ci#11pin@13_polysilicon-1 8.525
+R13 Ci#11pin@13_polysilicon-1 Ci#11pin@13_polysilicon-1##0 6.975
+R14 Ci#11pin@13_polysilicon-1##0 Ci#11pin@13_polysilicon-1##1 6.975
+R15 Ci#11pin@13_polysilicon-1##1 Ci#12nmos@10_poly-right 6.975
+R16 Ci#11pin@13_polysilicon-1 Ci 6.2
+R17 A#0pmos@0_poly-left A#1pin@16_polysilicon-1 9.3
+R18 A#1pin@16_polysilicon-1 A#1pin@16_polysilicon-1##0 9.558
+R19 A#1pin@16_polysilicon-1##0 A#1pin@16_polysilicon-1##1 9.558
+R20 A#1pin@16_polysilicon-1##1 A#2nmos@0_poly-right 9.558
+R21 A#1pin@16_polysilicon-1 A 6.2
+R22 B#0pmos@1_poly-left B#0pmos@1_poly-left##0 9.3
+R23 B#0pmos@1_poly-left##0 B#0pmos@1_poly-left##1 9.3
+R24 B#0pmos@1_poly-left##1 B#1pin@17_polysilicon-1 9.3
+R25 B#1pin@17_polysilicon-1 B#1pin@17_polysilicon-1##0 5.038
+R26 B#1pin@17_polysilicon-1##0 B#2nmos@1_poly-right 5.038
+R27 B#1pin@17_polysilicon-1 B 4.65
+R28 A#4pmos@2_poly-left A#5pin@18_polysilicon-1 9.3
+R29 A#5pin@18_polysilicon-1 A#5pin@18_polysilicon-1##0 9.558
+R30 A#5pin@18_polysilicon-1##0 A#5pin@18_polysilicon-1##1 9.558
+R31 A#5pin@18_polysilicon-1##1 A#6nmos@2_poly-right 9.558
+R32 A#5pin@18_polysilicon-1 A 6.2
+R33 B#4pmos@3_poly-left B#4pmos@3_poly-left##0 9.3
+R34 B#4pmos@3_poly-left##0 B#4pmos@3_poly-left##1 9.3
+R35 B#4pmos@3_poly-left##1 B#5pin@19_polysilicon-1 9.3
+R36 B#5pin@19_polysilicon-1 B#5pin@19_polysilicon-1##0 5.038
+R37 B#5pin@19_polysilicon-1##0 B#6nmos@3_poly-right 5.038
+R38 B#5pin@19_polysilicon-1 B 6.2
+R39 A#8pmos@4_poly-left A#9pin@20_polysilicon-1 9.3
+R40 A#9pin@20_polysilicon-1 A#9pin@20_polysilicon-1##0 9.558
+R41 A#9pin@20_polysilicon-1##0 A#9pin@20_polysilicon-1##1 9.558
+R42 A#9pin@20_polysilicon-1##1 A#10nmos@4_poly-right 9.558
+R43 A#9pin@20_polysilicon-1 A 6.2
+R44 B#8pmos@5_poly-left B#8pmos@5_poly-left##0 9.558
+R45 B#8pmos@5_poly-left##0 B#8pmos@5_poly-left##1 9.558
+R46 B#8pmos@5_poly-left##1 B#9pin@21_polysilicon-1 9.558
+R47 B#9pin@21_polysilicon-1 B#10nmos@5_poly-right 9.3
+R48 B#9pin@21_polysilicon-1 B 6.2
+R49 B#12pmos@6_poly-left B#12pmos@6_poly-left##0 9.3
+R50 B#12pmos@6_poly-left##0 B#12pmos@6_poly-left##1 9.3
+R51 B#12pmos@6_poly-left##1 B#13pin@23_polysilicon-1 9.3
+R52 B#13pin@23_polysilicon-1 B#13pin@23_polysilicon-1##0 5.038
+R53 B#13pin@23_polysilicon-1##0 B#14nmos@6_poly-right 5.038
+R54 B#13pin@23_polysilicon-1 B 6.2
+R55 A#12pmos@7_poly-left A#13pin@25_polysilicon-1 9.3
+R56 A#13pin@25_polysilicon-1 A#13pin@25_polysilicon-1##0 9.558
+R57 A#13pin@25_polysilicon-1##0 A#13pin@25_polysilicon-1##1 9.558
+R58 A#13pin@25_polysilicon-1##1 A#14nmos@7_poly-right 9.558
+R59 A#13pin@25_polysilicon-1 A 6.2
+R60 Ci#14nmos@11_poly-right Ci#14nmos@11_poly-right##0 6.717
+R61 Ci#14nmos@11_poly-right##0 Ci#14nmos@11_poly-right##1 6.717
+R62 Ci#14nmos@11_poly-right##1 Ci#15pin@47_polysilicon-1 6.717
+R63 Ci#15pin@47_polysilicon-1 Ci#15pin@47_polysilicon-1##0 8.525
+R64 Ci#15pin@47_polysilicon-1##0 Ci#16pmos@11_poly-left 8.525
+R65 Ci#15pin@47_polysilicon-1 Ci 6.2
+R66 B#17nmos@13_poly-right B#18pin@48_polysilicon-1 9.3
+R67 B#18pin@48_polysilicon-1 B#18pin@48_polysilicon-1##0 9.3
+R68 B#18pin@48_polysilicon-1##0 B#18pin@48_polysilicon-1##1 9.3
+R69 B#18pin@48_polysilicon-1##1 B#19pmos@13_poly-left 9.3
+R70 B#18pin@48_polysilicon-1 B 6.2
+R71 A#16nmos@12_poly-right A#16nmos@12_poly-right##0 9.817
+R72 A#16nmos@12_poly-right##0 A#16nmos@12_poly-right##1 9.817
+R73 A#16nmos@12_poly-right##1 A 9.817
+R74 A A#18pmos@12_poly-left 7.75
+R75 A#20nmos@14_poly-right A#20nmos@14_poly-right##0 9.817
+R76 A#20nmos@14_poly-right##0 A#20nmos@14_poly-right##1 9.817
+R77 A#20nmos@14_poly-right##1 A#21pin@56_polysilicon-1 9.817
+R78 A#21pin@56_polysilicon-1 A#21pin@56_polysilicon-1##0 7.233
+R79 A#21pin@56_polysilicon-1##0 A#21pin@56_polysilicon-1##1 7.233
+R80 A#21pin@56_polysilicon-1##1 A#22pmos@14_poly-left 7.233
+R81 A#21pin@56_polysilicon-1 A 5.425
+R82 B#21nmos@15_poly-right B#21nmos@15_poly-right##0 5.425
+R83 B#21nmos@15_poly-right##0 B#22pin@57_polysilicon-1 5.425
+R84 B#22pin@57_polysilicon-1 B#22pin@57_polysilicon-1##0 8.06
+R85 B#22pin@57_polysilicon-1##0 B#22pin@57_polysilicon-1##1 8.06
+R86 B#22pin@57_polysilicon-1##1 B#22pin@57_polysilicon-1##2 8.06
+R87 B#22pin@57_polysilicon-1##2 B#22pin@57_polysilicon-1##3 8.06
+R88 B#22pin@57_polysilicon-1##3 B#23pmos@15_poly-left 8.06
+R89 B#22pin@57_polysilicon-1 B 6.2
+R90 Ci#19nmos@16_poly-right Ci#19nmos@16_poly-right##0 8.267
+R91 Ci#19nmos@16_poly-right##0 Ci#19nmos@16_poly-right##1 8.267
+R92 Ci#19nmos@16_poly-right##1 Ci#20pin@58_polysilicon-1 8.267
+R93 Ci#20pin@58_polysilicon-1 Ci#20pin@58_polysilicon-1##0 8.783
+R94 Ci#20pin@58_polysilicon-1##0 Ci#20pin@58_polysilicon-1##1 8.783
+R95 Ci#20pin@58_polysilicon-1##1 Ci#21pmos@16_poly-left 8.783
+R96 Ci#20pin@58_polysilicon-1 Ci 6.2
+R97 Ci#23nmos@17_poly-right Ci#23nmos@17_poly-right##0 8.267
+R98 Ci#23nmos@17_poly-right##0 Ci#23nmos@17_poly-right##1 8.267
+R99 Ci#23nmos@17_poly-right##1 Ci#24pin@59_polysilicon-1 8.267
+R100 Ci#24pin@59_polysilicon-1 Ci#24pin@59_polysilicon-1##0 8.783
+R101 Ci#24pin@59_polysilicon-1##0 Ci#24pin@59_polysilicon-1##1 8.783
+R102 Ci#24pin@59_polysilicon-1##1 Ci#25pmos@17_poly-left 8.783
+R103 Ci#24pin@59_polysilicon-1 Ci 5.425
+R104 B#25nmos@18_poly-right B#26pin@60_polysilicon-1 9.3
+R105 B#26pin@60_polysilicon-1 B#26pin@60_polysilicon-1##0 8.37
+R106 B#26pin@60_polysilicon-1##0 B#26pin@60_polysilicon-1##1 8.37
+R107 B#26pin@60_polysilicon-1##1 B#26pin@60_polysilicon-1##2 8.37
+R108 B#26pin@60_polysilicon-1##2 B#26pin@60_polysilicon-1##3 8.37
+R109 B#26pin@60_polysilicon-1##3 B#27pmos@18_poly-left 8.37
+R110 B#26pin@60_polysilicon-1 B 5.425
+R111 A#24nmos@19_poly-right A#24nmos@19_poly-right##0 9.817
+R112 A#24nmos@19_poly-right##0 A#24nmos@19_poly-right##1 9.817
+R113 A#24nmos@19_poly-right##1 A 9.817
+R114 A A##0 7.233
+R115 A##0 A##1 7.233
+R116 A##1 A#26pmos@19_poly-left 7.233
+R117 Co_bar#20nmos@20_poly-right Co_bar#21pin@68_polysilicon-1 9.3
+R118 Co_bar#21pin@68_polysilicon-1 Co_bar#21pin@68_polysilicon-1##0 9.3
+R119 Co_bar#21pin@68_polysilicon-1##0 Co_bar#21pin@68_polysilicon-1##1 9.3
+R120 Co_bar#21pin@68_polysilicon-1##1 Co_bar#22pmos@20_poly-left 9.3
+R121 Co_bar#21pin@68_polysilicon-1 Co_bar 5.425
+.ENDS _8bit-CSM__full_adder
+
+*** SUBCIRCUIT _8bit-CSM__inverter FROM CELL inverter{lay}
+.SUBCKT _8bit-CSM__inverter gnd INP OUT vdd
+Mnmos@0 OUT INP#0nmos@0_poly-right gnd gnd nmos L=0.022U W=0.044U AS=0.004P AD=0.005P PS=0.242U PD=0.275U
+Mpmos@0 OUT INP#2pmos@0_poly-left vdd vdd pmos L=0.022U W=0.088U AS=0.006P AD=0.005P PS=0.308U PD=0.275U
+** Extracted Parasitic Capacitors ***
+C0 OUT 0 0.046fF
+** Extracted Parasitic Resistors ***
+R0 INP#0nmos@0_poly-right INP#0nmos@0_poly-right##0 6.975
+R1 INP#0nmos@0_poly-right##0 INP#1pin@2_polysilicon-1 6.975
+R2 INP#1pin@2_polysilicon-1 INP#1pin@2_polysilicon-1##0 6.2
+R3 INP#1pin@2_polysilicon-1##0 INP#2pmos@0_poly-left 6.2
+R4 INP#1pin@2_polysilicon-1 INP 9.3
+.ENDS _8bit-CSM__inverter
+
+*** SUBCIRCUIT _8bit-CSM__nand2 FROM CELL nand2{lay}
+.SUBCKT _8bit-CSM__nand2 A B gnd vdd Y
+Mnmos@0 net@2 A#2nmos@0_poly-right gnd gnd nmos L=0.022U W=0.088U AS=0.005P AD=0.003P PS=0.297U PD=0.154U
+Mnmos@1 Y B#2nmos@1_poly-right net@2 gnd nmos L=0.022U W=0.088U AS=0.003P AD=0.005P PS=0.154U PD=0.297U
+Mpmos@0 vdd A#0pmos@0_poly-left Y vdd pmos L=0.022U W=0.088U AS=0.005P AD=0.003P PS=0.297U PD=0.154U
+Mpmos@1 Y B#0pmos@1_poly-left vdd vdd pmos L=0.022U W=0.088U AS=0.003P AD=0.005P PS=0.154U PD=0.297U
+** Extracted Parasitic Capacitors ***
+C0 Y 0 0.111fF
+** Extracted Parasitic Resistors ***
+R0 A#0pmos@0_poly-left A#0pmos@0_poly-left##0 5.425
+R1 A#0pmos@0_poly-left##0 A#1pin@21_polysilicon-1 5.425
+R2 A#1pin@21_polysilicon-1 A#1pin@21_polysilicon-1##0 8.138
+R3 A#1pin@21_polysilicon-1##0 A#1pin@21_polysilicon-1##1 8.138
+R4 A#1pin@21_polysilicon-1##1 A#1pin@21_polysilicon-1##2 8.138
+R5 A#1pin@21_polysilicon-1##2 A#2nmos@0_poly-right 8.138
+R6 A#1pin@21_polysilicon-1 A 6.2
+R7 B#0pmos@1_poly-left B#0pmos@1_poly-left##0 8.913
+R8 B#0pmos@1_poly-left##0 B#0pmos@1_poly-left##1 8.913
+R9 B#0pmos@1_poly-left##1 B#0pmos@1_poly-left##2 8.913
+R10 B#0pmos@1_poly-left##2 B#1pin@22_polysilicon-1 8.913
+R11 B#1pin@22_polysilicon-1 B#2nmos@1_poly-right 7.75
+R12 B#1pin@22_polysilicon-1 B 4.65
+.ENDS _8bit-CSM__nand2
+
+*** SUBCIRCUIT _8bit-CSM__Stage1_comp FROM CELL Stage1_comp{lay}
+.SUBCKT _8bit-CSM__Stage1_comp c0 c1 c2 c3 c4 c5 c6 c7 gnd gnd_1 gnd_2 gnd_3 s0 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x00a x00b x01a x01b x02a x02b x03a x03b x04a x04b x05a x05b x06a x06b x07a x07b x10a x10b x11a x11b x12a x12b x13a x13b x14a x14b x15a x15b x16a x16b x17a x17b z0
+Xand@20 x11a x11b gnd vdd_1 net@611 _8bit-CSM__and
+Xand@21 x01a x01b gnd vdd_1 net@614 _8bit-CSM__and
+Xand@22 x12a x12b gnd_1 vdd_1 net@636 _8bit-CSM__and
+Xand@23 x02a x02b gnd_1 vdd_1 net@639 _8bit-CSM__and
+Xand@24 x13a x13b gnd_1 vdd_2 net@660 _8bit-CSM__and
+Xand@25 x03a x03b gnd_1 vdd_2 net@663 _8bit-CSM__and
+Xand@26 x14a x14b gnd_2 vdd_2 net@686 _8bit-CSM__and
+Xand@27 x04a x04b gnd_2 vdd_2 net@689 _8bit-CSM__and
+Xand@28 x15a x15b gnd_2 vdd_3 net@710 _8bit-CSM__and
+Xand@29 x05a x05b gnd_2 vdd_3 net@713 _8bit-CSM__and
+Xand@34 x06a x06b gnd_3 vdd_3 net@811 _8bit-CSM__and
+Xand@35 x07a x07b gnd_3 vdd_4 z0 _8bit-CSM__and
+Xfull_add@9 net@611 gnd net@614 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 net@636 gnd_1 net@639 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@11 net@660 gnd_1 net@663 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@12 net@686 gnd_2 net@689 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@13 net@710 gnd_2 net@713 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xfull_add@14 net@735 gnd_3 net@811 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@15 vdd_4 gnd_3 net@851 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xfull_add@16 net@924 vdd net@931 net@914 gnd s0 vdd _8bit-CSM__full_adder
+Xinverter@0 gnd net@914 c0 vdd _8bit-CSM__inverter
+Xnand2@0 x16a x16b gnd_3 vdd_3 net@735 _8bit-CSM__nand2
+Xnand2@1 x17a x17b gnd_3 vdd_4 net@851 _8bit-CSM__nand2
+Xnand2@2 x00a x00b gnd vdd net@931 _8bit-CSM__nand2
+Xnand2@3 x10a x10b gnd vdd net@924 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@611 0 0.026fF
+C1 net@614 0 0.107fF
+C2 net@636 0 0.027fF
+C3 net@639 0 0.115fF
+C4 net@660 0 0.025fF
+C5 net@663 0 0.11fF
+C6 net@686 0 0.025fF
+C7 net@689 0 0.11fF
+C8 net@710 0 0.025fF
+C9 net@713 0 0.11fF
+C10 net@811 0 0.076fF
+C11 net@735 0 0.024fF
+C12 net@851 0 0.016fF
+C13 net@924 0 0.024fF
+C14 net@931 0 0.103fF
+C15 net@914 0 0.089fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage1_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage2_comp FROM CELL Stage2_comp{lay}
+.SUBCKT _8bit-CSM__Stage2_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s0 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b
+Xand@0 x7a x7b gnd_3 vdd_4 net@240 _8bit-CSM__and
+Xfull_add@4 a6 net@29 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@5 a5 net@49 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xfull_add@6 a4 net@62 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@7 a3 net@75 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@105 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@118 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@11 a0 net@131 ci0 c0 gnd s0 vdd _8bit-CSM__full_adder
+Xfull_add@12 vdd_4 net@240 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xnand2@2 x6a x6b gnd_3 vdd_3 net@29 _8bit-CSM__nand2
+Xnand2@3 x5a x5b gnd_2 vdd_3 net@49 _8bit-CSM__nand2
+Xnand2@4 x4a x4b gnd_2 vdd_2 net@62 _8bit-CSM__nand2
+Xnand2@5 x3a x3b gnd_1 vdd_2 net@75 _8bit-CSM__nand2
+Xnand2@7 x2a x2b gnd_1 vdd_1 net@105 _8bit-CSM__nand2
+Xnand2@8 x1a x1b gnd vdd_1 net@118 _8bit-CSM__nand2
+Xnand2@9 x0a x0b gnd vdd net@131 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@240 0 0.045fF
+C1 net@29 0 0.043fF
+C2 net@49 0 0.044fF
+C3 net@62 0 0.044fF
+C4 net@75 0 0.044fF
+C5 net@105 0 0.044fF
+C6 net@118 0 0.044fF
+C7 net@131 0 0.045fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage2_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage3_comp FROM CELL Stage3_comp{lay}
+.SUBCKT _8bit-CSM__Stage3_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b z3
+Xand@0 x6a x6b gnd_3 vdd_3 net@14 _8bit-CSM__and
+Xand@1 x5a x5b gnd_2 vdd_3 net@255 _8bit-CSM__and
+Xand@6 x4a x4b gnd_2 vdd_2 net@66 _8bit-CSM__and
+Xand@7 x3a x3b gnd_1 vdd_2 net@76 _8bit-CSM__and
+Xand@8 x2a x2b gnd_1 vdd_1 net@86 _8bit-CSM__and
+Xand@9 x1a x1b gnd vdd_1 net@96 _8bit-CSM__and
+Xand@11 x0a x0b gnd vdd net@125 _8bit-CSM__and
+Xfull_add@0 gnd_3 net@2 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xfull_add@1 a6 net@14 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@7 a4 net@66 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@8 a3 net@76 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@86 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@96 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@12 a0 net@125 ci0 c0 gnd net@139 vdd _8bit-CSM__full_adder
+Xfull_add@14 a5 net@255 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xinverter@0 gnd net@139 z3 vdd _8bit-CSM__inverter
+Xnand2@0 x7a x7b gnd_3 vdd_4 net@2 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@14 0 0.043fF
+C1 net@255 0 0.043fF
+C2 net@66 0 0.043fF
+C3 net@76 0 0.044fF
+C4 net@86 0 0.043fF
+C5 net@96 0 0.043fF
+C6 net@125 0 0.045fF
+C7 net@2 0 0.046fF
+C8 net@139 0 0.021fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage3_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage4_comp FROM CELL Stage4_comp{lay}
+.SUBCKT _8bit-CSM__Stage4_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s0 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b
+Xand@0 x7a x7b gnd_3 vdd_4 net@240 _8bit-CSM__and
+Xfull_add@4 a6 net@29 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@5 a5 net@49 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xfull_add@6 a4 net@62 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@7 a3 net@75 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@105 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@118 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@11 a0 net@131 ci0 c0 gnd s0 vdd _8bit-CSM__full_adder
+Xfull_add@12 vdd_4 net@240 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xnand2@2 x6a x6b gnd_3 vdd_3 net@29 _8bit-CSM__nand2
+Xnand2@3 x5a x5b gnd_2 vdd_3 net@49 _8bit-CSM__nand2
+Xnand2@4 x4a x4b gnd_2 vdd_2 net@62 _8bit-CSM__nand2
+Xnand2@5 x3a x3b gnd_1 vdd_2 net@75 _8bit-CSM__nand2
+Xnand2@7 x2a x2b gnd_1 vdd_1 net@105 _8bit-CSM__nand2
+Xnand2@8 x1a x1b gnd vdd_1 net@118 _8bit-CSM__nand2
+Xnand2@9 x0a x0b gnd vdd net@131 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@240 0 0.045fF
+C1 net@29 0 0.043fF
+C2 net@49 0 0.044fF
+C3 net@62 0 0.044fF
+C4 net@75 0 0.044fF
+C5 net@105 0 0.044fF
+C6 net@118 0 0.044fF
+C7 net@131 0 0.042fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage4_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage5_comp FROM CELL Stage5_comp{lay}
+.SUBCKT _8bit-CSM__Stage5_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b z3
+Xand@0 x6a x6b gnd_3 vdd_3 net@14 _8bit-CSM__and
+Xand@1 x5a x5b gnd_2 vdd_3 net@255 _8bit-CSM__and
+Xand@6 x4a x4b gnd_2 vdd_2 net@66 _8bit-CSM__and
+Xand@7 x3a x3b gnd_1 vdd_2 net@76 _8bit-CSM__and
+Xand@8 x2a x2b gnd_1 vdd_1 net@86 _8bit-CSM__and
+Xand@9 x1a x1b gnd vdd_1 net@96 _8bit-CSM__and
+Xand@11 x0a x0b gnd vdd net@125 _8bit-CSM__and
+Xfull_add@0 gnd_3 net@2 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xfull_add@1 a6 net@14 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@7 a4 net@66 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@8 a3 net@76 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@86 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@96 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@12 a0 net@125 ci0 c0 gnd net@139 vdd _8bit-CSM__full_adder
+Xfull_add@14 a5 net@255 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xinverter@0 gnd net@139 z3 vdd _8bit-CSM__inverter
+Xnand2@0 x7a x7b gnd_3 vdd_4 net@2 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@14 0 0.043fF
+C1 net@255 0 0.043fF
+C2 net@66 0 0.043fF
+C3 net@76 0 0.044fF
+C4 net@86 0 0.043fF
+C5 net@96 0 0.043fF
+C6 net@125 0 0.043fF
+C7 net@2 0 0.046fF
+C8 net@139 0 0.021fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage5_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage6_comp FROM CELL Stage6_comp{lay}
+.SUBCKT _8bit-CSM__Stage6_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s0 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b
+Xand@0 x7a x7b gnd_3 vdd_4 net@240 _8bit-CSM__and
+Xfull_add@4 a6 net@29 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@5 a5 net@49 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xfull_add@6 a4 net@62 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@7 a3 net@75 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@105 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@118 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@11 a0 net@131 ci0 c0 gnd s0 vdd _8bit-CSM__full_adder
+Xfull_add@12 vdd_4 net@240 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xnand2@2 x6a x6b gnd_3 vdd_3 net@29 _8bit-CSM__nand2
+Xnand2@3 x5a x5b gnd_2 vdd_3 net@49 _8bit-CSM__nand2
+Xnand2@4 x4a x4b gnd_2 vdd_2 net@62 _8bit-CSM__nand2
+Xnand2@5 x3a x3b gnd_1 vdd_2 net@75 _8bit-CSM__nand2
+Xnand2@7 x2a x2b gnd_1 vdd_1 net@105 _8bit-CSM__nand2
+Xnand2@8 x1a x1b gnd vdd_1 net@118 _8bit-CSM__nand2
+Xnand2@9 x0a x0b gnd vdd net@131 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@240 0 0.046fF
+C1 net@29 0 0.043fF
+C2 net@49 0 0.044fF
+C3 net@62 0 0.044fF
+C4 net@75 0 0.044fF
+C5 net@105 0 0.044fF
+C6 net@118 0 0.044fF
+C7 net@131 0 0.042fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage6_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage7_comp FROM CELL Stage7_comp{lay}
+.SUBCKT _8bit-CSM__Stage7_comp a0 a1 a2 a3 a4 a5 a6 c0 c1 c2 c3 c4 c5 c6 c7 ci0 ci1 ci2 ci3 ci4 ci5 ci6 ci7 gnd gnd_1 gnd_2 gnd_3 s0 s1 s2 s3 s4 s5 s6 s7 vdd vdd_1 vdd_2 vdd_3 vdd_4 x0a x0b x1a x1b x2a x2b x3a x3b x4a x4b x5a x5b x6a x6b x7a x7b
+Xand@0 x7a x7b gnd_3 vdd_4 net@240 _8bit-CSM__and
+Xfull_add@4 a6 net@29 ci6 c6 gnd_3 s6 vdd_3 _8bit-CSM__full_adder
+Xfull_add@5 a5 net@49 ci5 c5 gnd_2 s5 vdd_3 _8bit-CSM__full_adder
+Xfull_add@6 a4 net@62 ci4 c4 gnd_2 s4 vdd_2 _8bit-CSM__full_adder
+Xfull_add@7 a3 net@75 ci3 c3 gnd_1 s3 vdd_2 _8bit-CSM__full_adder
+Xfull_add@9 a2 net@105 ci2 c2 gnd_1 s2 vdd_1 _8bit-CSM__full_adder
+Xfull_add@10 a1 net@118 ci1 c1 gnd s1 vdd_1 _8bit-CSM__full_adder
+Xfull_add@11 a0 net@131 ci0 c0 gnd net@267 vdd _8bit-CSM__full_adder
+Xfull_add@12 gnd_3 net@240 ci7 c7 gnd_3 s7 vdd_4 _8bit-CSM__full_adder
+Xinverter@0 gnd net@267 s0 vdd _8bit-CSM__inverter
+Xnand2@2 x6a x6b gnd_3 vdd_3 net@29 _8bit-CSM__nand2
+Xnand2@3 x5a x5b gnd_2 vdd_3 net@49 _8bit-CSM__nand2
+Xnand2@4 x4a x4b gnd_2 vdd_2 net@62 _8bit-CSM__nand2
+Xnand2@5 x3a x3b gnd_1 vdd_2 net@75 _8bit-CSM__nand2
+Xnand2@7 x2a x2b gnd_1 vdd_1 net@105 _8bit-CSM__nand2
+Xnand2@8 x1a x1b gnd vdd_1 net@118 _8bit-CSM__nand2
+Xnand2@9 x0a x0b gnd vdd net@131 _8bit-CSM__nand2
+** Extracted Parasitic Capacitors ***
+C0 net@240 0 0.045fF
+C1 net@29 0 0.043fF
+C2 net@49 0 0.044fF
+C3 net@62 0 0.044fF
+C4 net@75 0 0.044fF
+C5 net@105 0 0.044fF
+C6 net@118 0 0.044fF
+C7 net@131 0 0.041fF
+C8 net@267 0 0.02fF
+** Extracted Parasitic Resistors ***
+.ENDS _8bit-CSM__Stage7_comp
+
+*** SUBCIRCUIT _8bit-CSM__Stage8-VM_comp FROM CELL Stage8-VM_comp{lay}
+.SUBCKT _8bit-CSM__Stage8-VM_comp a0 a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6 b7 ci0 gnd gnd_1 gnd_2 gnd_3 vdd vdd_1 vdd_2 vdd_3 vdd_4 z10 z11 z12 z13 z14 z15 z16 z8 z9
+Xfull_add@0 vdd_4 net@7 net@17#1pin@6_metal-3 z16 gnd_3 net@14 vdd_4 _8bit-CSM__full_adder
+Xfull_add@1 a6 b6 net@63#1pin@28_metal-3 net@17 gnd_3 z14 vdd_3 _8bit-CSM__full_adder
+Xfull_add@2 net@53 net@35 net@75#1pin@35_metal-3 net@63 gnd_2 net@44 vdd_3 _8bit-CSM__full_adder
+Xfull_add@3 a4 b4 net@102#1pin@48_metal-3 net@75 gnd_2 z12 vdd_2 _8bit-CSM__full_adder
+Xfull_add@4 net@94 net@81 net@129 net@102 gnd_1 net@88 vdd_2 _8bit-CSM__full_adder
+Xfull_add@5 a2 b2 net@119#1pin@69_metal-3 net@129#3full_add@5_Co_bar gnd_1 z10 vdd_1 _8bit-CSM__full_adder
+Xfull_add@6 net@150 net@137 net@164 net@119 gnd net@144 vdd_1 _8bit-CSM__full_adder
+Xfull_add@9 a0 vdd ci0 net@164#11pin@107_metal-3 gnd z8 vdd _8bit-CSM__full_adder
+Xinverter@0 gnd_3 b7 net@7 vdd_4 _8bit-CSM__inverter
+Xinverter@1 gnd_3 net@14 z15 vdd_4 _8bit-CSM__inverter
+Xinverter@2 gnd_2 b5 net@35 vdd_3 _8bit-CSM__inverter
+Xinverter@3 gnd_2 net@44 z13 vdd_3 _8bit-CSM__inverter
+Xinverter@4 gnd_2 a5 net@53 vdd_3 _8bit-CSM__inverter
+Xinverter@5 gnd_1 b3 net@81 vdd_2 _8bit-CSM__inverter
+Xinverter@6 gnd_1 net@88 z11 vdd_2 _8bit-CSM__inverter
+Xinverter@7 gnd_1 a3 net@94 vdd_2 _8bit-CSM__inverter
+Xinverter@8 gnd b1 net@137 vdd_1 _8bit-CSM__inverter
+Xinverter@9 gnd net@144 z9 vdd_1 _8bit-CSM__inverter
+Xinverter@10 gnd a1 net@150 vdd_1 _8bit-CSM__inverter
+** Extracted Parasitic Capacitors ***
+C0 net@7 0 0.051fF
+C1 net@14 0 0.021fF
+C2 net@17#1pin@6_metal-3 0 0.37fF
+C3 net@35 0 0.052fF
+C4 net@44 0 0.019fF
+C5 net@53 0 0.1fF
+C6 net@63#1pin@28_metal-3 0 0.327fF
+C7 net@75#1pin@35_metal-3 0 0.372fF
+C8 net@81 0 0.052fF
+C9 net@88 0 0.019fF
+C10 net@94 0 0.167fF
+C11 net@102#1pin@48_metal-3 0 0.329fF
+C12 net@129 0 0.374fF
+C13 net@137 0 0.053fF
+C14 net@144 0 0.018fF
+C15 net@150 0 0.108fF
+C16 net@119#1pin@69_metal-3 0 0.327fF
+C17 net@164 0 0.38fF
+C18 net@17 0 0.22fF
+C19 net@63 0 0.227fF
+C20 net@75 0 0.22fF
+C21 net@102 0 0.227fF
+C22 net@129#3full_add@5_Co_bar 0 0.22fF
+C23 net@119 0 0.227fF
+C24 net@164#11pin@107_metal-3 0 0.222fF
+** Extracted Parasitic Resistors ***
+R0 net@17 net@17#1pin@6_metal-3 5.258
+R1 net@63 net@63#1pin@28_metal-3 5.427
+R2 net@75 net@75#1pin@35_metal-3 5.265
+R3 net@102 net@102#1pin@48_metal-3 5.427
+R4 net@119 net@119#1pin@69_metal-3 5.427
+R5 net@129#3full_add@5_Co_bar net@129 5.258
+R6 net@164 net@164#11pin@107_metal-3 5.291
+.ENDS _8bit-CSM__Stage8-VM_comp
+
+*** SUBCIRCUIT _8bit-CSM__multiplier FROM CELL 8bit-CSM__multiplier{lay}
+.SUBCKT _8bit-CSM__multiplier gnd vdd x0 x1 x2 x3 x4 x5 x6 x7 y0 y1 y2 y3 y4 y5 y6 y7 z0 z1 z10 z11 z12 z13 z14 z15 z2 z3 z4 z5 z6 z7 z8 z9 zc
+XStage1_c@1 net@788 net@239 net@267 net@297 net@332 net@359 net@391 net@417 gnd gnd gnd gnd z1 net@250 net@284 net@320 net@346 net@379 net@397 net@414 vdd vdd vdd vdd vdd y1#0contact@626_metal-1-metal-2 x0#0contact@868_metal-1-metal-2 y1#0contact@626_metal-1-metal-2 x1#2contact@864_metal-1-metal-2 y1#0contact@626_metal-1-metal-2 x2#0contact@872_metal-1-metal-2 y1#0contact@626_metal-1-metal-2 x3#0contact@876_metal-1-metal-2 y1#0contact@626_metal-1-metal-2 x4#0contact@880_metal-1-metal-2 
++y1#0contact@626_metal-1-metal-2 x5#0contact@884_metal-1-metal-2 y1#0contact@626_metal-1-metal-2 x6#0contact@888_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x0#5contact@892_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x1#2contact@864_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x2#0contact@872_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x3#0contact@876_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x4#0contact@880_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x5#0contact@884_metal-1-metal-2 
++y0#0contact@659_metal-1-metal-2 x6#0contact@888_metal-1-metal-2 y0#0contact@659_metal-1-metal-2 x7#31contact@1125_metal-2-metal-3 y1#0contact@626_metal-1-metal-2 x7#31contact@1125_metal-2-metal-3 z0#0contact@1228_metal-2-metal-3 _8bit-CSM__Stage1_comp
+XStage2-4@0 net@250 net@284 net@320 net@346 net@379 net@397 net@391 net@434 net@446 net@528 net@538 net@496 net@554 net@569 net@614 net@788 net@239 net@267 net@297 net@332 net@359 net@414 net@417 gnd gnd gnd gnd z2 net@459 net@484 net@543 net@507 net@560 net@576 net@594 vdd vdd vdd vdd vdd y2#0contact@692_metal-3-metal-4 x0#9contact@896_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 x1#0Stage2-4@0_x1b y2#0contact@692_metal-3-metal-4 x2#5contact@904_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 
++x3#5contact@908_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 x4#5contact@912_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 x5#5contact@916_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 x6#5contact@920_metal-1-metal-2 y2#0contact@692_metal-3-metal-4 x7#0contact@924_metal-1-metal-2 _8bit-CSM__Stage2_comp
+XStage3_c@1 net@459 net@484 net@543 net@507 net@560 net@554 net@594 net@624 net@657 net@677 net@695 net@712 net@732 net@751 net@779 net@434 net@446 net@528 net@538 net@496 net@576 net@569 net@614 gnd gnd gnd gnd net@639 net@663 net@686 net@701 net@720 net@738 net@767 vdd vdd vdd vdd vdd y3#0Stage3_c@1_x0a x0#14contact@928_metal-1-metal-2 y3#0Stage3_c@1_x0a x1#11contact@932_metal-1-metal-2 y3#0Stage3_c@1_x0a x2#10contact@936_metal-1-metal-2 y3#0Stage3_c@1_x0a x3#10contact@940_metal-1-metal-2 
++y3#0Stage3_c@1_x0a x4#10contact@944_metal-1-metal-2 y3#0Stage3_c@1_x0a x5#10contact@948_metal-1-metal-2 y3#0Stage3_c@1_x0a x6#9contact@952_metal-1-metal-2 y3#0Stage3_c@1_x0a x7#6contact@956_metal-1-metal-2 z3 _8bit-CSM__Stage3_comp
+XStage4_c@0 net@639 net@663 net@686 net@701 net@712 net@738 net@767 net@1275#9Stage4_c@0_c0 net@1321 net@1360 net@1383 net@1386 net@1459 net@1463 net@1466#5Stage4_c@0_c7 net@624 net@657 net@677 net@695 net@720 net@732 net@751 net@779 gnd gnd gnd gnd z4 net@1285 net@1339#6pin@452_metal-4 net@1374 net@1389 net@1399 net@1494 net@1503 vdd vdd vdd vdd vdd y4#0contact@748_metal-3-metal-4 x0#19contact@960_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x1#16contact@964_metal-1-metal-2 
++y4#0contact@748_metal-3-metal-4 x2#15contact@968_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x3#15contact@972_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x4#15contact@976_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x5#15contact@980_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x6#9contact@952_metal-1-metal-2 y4#0contact@748_metal-3-metal-4 x7#6contact@956_metal-1-metal-2 _8bit-CSM__Stage4_comp
+XStage5_c@0 net@1285#8contact@524_metal-4-metal-5 net@1339 net@1374#7pin@483_metal-4 net@1383#2pin@486_metal-4 net@1399#6contact@581_metal-4-metal-5 net@1494#8pin@519_metal-4 net@1503#6pin@522_metal-4 net@1132 net@1118 net@1056 net@1041 net@1025 net@1037 net@1081 net@966 net@1275 net@1321#4pin@450_metal-4 net@1360#2pin@472_metal-4 net@1389#7contact@569_metal-3-metal-4 net@1386#2pin@488_metal-4 net@1459#3contact@586_metal-2-metal-3 net@1463#2contact@587_metal-2-metal-3 net@1466 gnd gnd gnd gnd net@1062 
++net@1073 net@996 net@994 net@990 net@992 net@983 vdd vdd vdd vdd vdd y5 x0#24contact@992_metal-1-metal-2 y5 x1#21contact@996_metal-1-metal-2 y5 x2#20contact@1000_metal-1-metal-2 y5 x3#20contact@1004_metal-1-metal-2 y5 x4#20contact@1008_metal-1-metal-2 y5 x5#20contact@1012_metal-1-metal-2 y5 x6#19contact@1016_metal-1-metal-2 y5 x7#16contact@1020_metal-1-metal-2 z5#0contact@1232_metal-3-metal-4 _8bit-CSM__Stage5_comp
+XStage6_c@0 net@1062 net@1073 net@1056 net@994 net@990 net@992 net@983 net@1184 net@1162 net@1167 net@1199 net@1203 net@1205 net@1207 net@1210 net@1132 net@1118 net@996 net@1041 net@1025 net@1037 net@1081 net@966 gnd gnd gnd gnd z6#0contact@1239_metal-4-metal-5 net@1181 net@1147 net@1166 net@1223 net@1220 net@1217 net@1214 vdd vdd vdd vdd vdd y6 x0#29contact@1024_metal-1-metal-2 y6 x1#26contact@1028_metal-1-metal-2 y6 x2#25contact@1032_metal-1-metal-2 y6 x3#25contact@1036_metal-1-metal-2 y6 
++x4#25contact@1040_metal-1-metal-2 y6 x5#25contact@1044_metal-1-metal-2 y6 x6#24contact@1048_metal-1-metal-2 y6 x7#21contact@1052_metal-1-metal-2 _8bit-CSM__Stage6_comp
+XStage7_c@0 net@1181 net@1162 net@1166 net@1223 net@1220 net@1217 net@1214 net@955 net@936 net@920 net@902 net@883 net@866 net@851 net@832 net@1184 net@1147 net@1167 net@1199 net@1203 net@1205 net@1207 net@1210 gnd gnd gnd gnd z7#0contact@1243_metal-4-metal-5 net@946 net@926 net@912 net@891 net@874 net@856 net@845 vdd vdd vdd vdd vdd y7 x0#29contact@1024_metal-1-metal-2 y7 x1#26contact@1028_metal-1-metal-2 y7 x2#25contact@1032_metal-1-metal-2 y7 x3#25contact@1036_metal-1-metal-2 y7 
++x4#25contact@1040_metal-1-metal-2 y7 x5#25contact@1044_metal-1-metal-2 y7 x6#24contact@1048_metal-1-metal-2 y7 x7#21contact@1052_metal-1-metal-2 _8bit-CSM__Stage7_comp
+XStage8-V@0 net@955 net@926 net@912 net@891 net@874 net@856 net@845 net@936 net@920 net@902 net@883 net@866 net@851 net@832 net@946 gnd gnd gnd gnd vdd vdd vdd vdd vdd z10 z11 z12 z13 z14 z15 zc z8 z9 _8bit-CSM__Stage8-VM_comp
+** Extracted Parasitic Capacitors ***
+C0 net@788 0 0.127fF
+C1 net@239 0 0.113fF
+C2 net@267 0 0.112fF
+C3 net@297 0 0.116fF
+C4 net@332 0 0.115fF
+C5 net@359 0 0.123fF
+C6 net@391 0 0.155fF
+C7 net@417 0 0.143fF
+C8 z1 0 0.057fF
+C9 net@250 0 0.148fF
+C10 net@284 0 0.181fF
+C11 net@320 0 0.192fF
+C12 net@346 0 0.181fF
+C13 net@379 0 0.191fF
+C14 net@397 0 0.208fF
+C15 net@414 0 0.195fF
+C16 y1#0contact@626_metal-1-metal-2 0 1.199fF
+C17 x0#0contact@868_metal-1-metal-2 0 0.77fF
+C18 x1#2contact@864_metal-1-metal-2 0 0.433fF
+C19 x2#0contact@872_metal-1-metal-2 0 0.523fF
+C20 x3#0contact@876_metal-1-metal-2 0 0.49fF
+C21 x4#0contact@880_metal-1-metal-2 0 0.525fF
+C22 x5#0contact@884_metal-1-metal-2 0 0.49fF
+C23 x6#0contact@888_metal-1-metal-2 0 0.535fF
+C24 y0#0contact@659_metal-1-metal-2 0 1.314fF
+C25 x0#5contact@892_metal-1-metal-2 0 0.463fF
+C26 x7#31contact@1125_metal-2-metal-3 0 0.385fF
+C27 z0#0contact@1228_metal-2-metal-3 0 0.397fF
+C28 net@434 0 0.142fF
+C29 net@446 0 0.145fF
+C30 net@528 0 0.145fF
+C31 net@538 0 0.145fF
+C32 net@496 0 0.146fF
+C33 net@554 0 0.137fF
+C34 net@569 0 0.145fF
+C35 net@614 0 0.106fF
+C36 z2 0 0.055fF
+C37 net@459 0 0.18fF
+C38 net@484 0 0.209fF
+C39 net@543 0 0.221fF
+C40 net@507 0 0.207fF
+C41 net@560 0 0.221fF
+C42 net@576 0 0.216fF
+C43 net@594 0 0.219fF
+C44 y2#0contact@692_metal-3-metal-4 0 1.357fF
+C45 x0#9contact@896_metal-1-metal-2 0 0.326fF
+C46 x1#0Stage2-4@0_x1b 0 0.538fF
+C47 x2#5contact@904_metal-1-metal-2 0 0.508fF
+C48 x3#5contact@908_metal-1-metal-2 0 0.52fF
+C49 x4#5contact@912_metal-1-metal-2 0 0.507fF
+C50 x5#5contact@916_metal-1-metal-2 0 0.518fF
+C51 x6#5contact@920_metal-1-metal-2 0 0.506fF
+C52 x7#0contact@924_metal-1-metal-2 0 0.531fF
+C53 net@624 0 0.162fF
+C54 net@657 0 0.11fF
+C55 net@677 0 0.107fF
+C56 net@695 0 0.108fF
+C57 net@712 0 0.102fF
+C58 net@732 0 0.109fF
+C59 net@751 0 0.106fF
+C60 net@779 0 0.143fF
+C61 net@639 0 0.274fF
+C62 net@663 0 0.174fF
+C63 net@686 0 0.188fF
+C64 net@701 0 0.174fF
+C65 net@720 0 0.196fF
+C66 net@738 0 0.173fF
+C67 net@767 0 0.223fF
+C68 y3#0Stage3_c@1_x0a 0 1.306fF
+C69 x0#14contact@928_metal-1-metal-2 0 0.534fF
+C70 x1#11contact@932_metal-1-metal-2 0 0.869fF
+C71 x2#10contact@936_metal-1-metal-2 0 0.873fF
+C72 x3#10contact@940_metal-1-metal-2 0 0.883fF
+C73 x4#10contact@944_metal-1-metal-2 0 0.889fF
+C74 x5#10contact@948_metal-1-metal-2 0 0.895fF
+C75 x6#9contact@952_metal-1-metal-2 0 1.317fF
+C76 x7#6contact@956_metal-1-metal-2 0 1.322fF
+C77 z3 0 0.057fF
+C78 net@1275#9Stage4_c@0_c0 0 0.181fF
+C79 net@1321 0 0.75fF
+C80 net@1360 0 0.609fF
+C81 net@1383 0 0.694fF
+C82 net@1386 0 0.568fF
+C83 net@1459 0 0.628fF
+C84 net@1463 0 0.51fF
+C85 net@1466#5Stage4_c@0_c7 0 0.571fF
+C86 z4 0 0.055fF
+C87 net@1285 0 0.736fF
+C88 net@1339#6pin@452_metal-4 0 0.7fF
+C89 net@1374 0 0.669fF
+C90 net@1389 0 0.625fF
+C91 net@1399 0 0.611fF
+C92 net@1494 0 0.573fF
+C93 net@1503 0 0.554fF
+C94 y4#0contact@748_metal-3-metal-4 0 1.294fF
+C95 x0#19contact@960_metal-1-metal-2 0 0.45fF
+C96 x1#16contact@964_metal-1-metal-2 0 0.449fF
+C97 x2#15contact@968_metal-1-metal-2 0 0.441fF
+C98 x3#15contact@972_metal-1-metal-2 0 0.433fF
+C99 x4#15contact@976_metal-1-metal-2 0 0.427fF
+C100 x5#15contact@980_metal-1-metal-2 0 0.42fF
+C101 net@1285#8contact@524_metal-4-metal-5 0 0.592fF
+C102 net@1339 0 0.579fF
+C103 net@1374#7pin@483_metal-4 0 0.551fF
+C104 net@1383#2pin@486_metal-4 0 0.575fF
+C105 net@1399#6contact@581_metal-4-metal-5 0 0.489fF
+C106 net@1494#8pin@519_metal-4 0 0.454fF
+C107 net@1503#6pin@522_metal-4 0 0.435fF
+C108 net@1132 0 0.14fF
+C109 net@1118 0 0.14fF
+C110 net@1056 0 0.135fF
+C111 net@1041 0 0.139fF
+C112 net@1025 0 0.142fF
+C113 net@1037 0 0.139fF
+C114 net@1081 0 0.141fF
+C115 net@966 0 0.141fF
+C116 net@1275 0 0.578fF
+C117 net@1321#4pin@450_metal-4 0 0.644fF
+C118 net@1360#2pin@472_metal-4 0 0.513fF
+C119 net@1389#7contact@569_metal-3-metal-4 0 0.526fF
+C120 net@1386#2pin@488_metal-4 0 0.468fF
+C121 net@1459#3contact@586_metal-2-metal-3 0 0.529fF
+C122 net@1463#2contact@587_metal-2-metal-3 0 0.413fF
+C123 net@1466 0 0.48fF
+C124 net@1062 0 0.218fF
+C125 net@1073 0 0.205fF
+C126 net@996 0 0.195fF
+C127 net@994 0 0.208fF
+C128 net@990 0 0.217fF
+C129 net@992 0 0.205fF
+C130 net@983 0 0.215fF
+C131 y5 0 0.905fF
+C132 x0#24contact@992_metal-1-metal-2 0 0.306fF
+C133 x1#21contact@996_metal-1-metal-2 0 0.318fF
+C134 x2#20contact@1000_metal-1-metal-2 0 0.304fF
+C135 x3#20contact@1004_metal-1-metal-2 0 0.315fF
+C136 x4#20contact@1008_metal-1-metal-2 0 0.303fF
+C137 x5#20contact@1012_metal-1-metal-2 0 0.317fF
+C138 x6#19contact@1016_metal-1-metal-2 0 0.304fF
+C139 x7#16contact@1020_metal-1-metal-2 0 0.306fF
+C140 z5#0contact@1232_metal-3-metal-4 0 0.324fF
+C141 net@1184 0 0.108fF
+C142 net@1162 0 0.099fF
+C143 net@1167 0 0.106fF
+C144 net@1199 0 0.108fF
+C145 net@1203 0 0.108fF
+C146 net@1205 0 0.108fF
+C147 net@1207 0 0.107fF
+C148 net@1210 0 0.143fF
+C149 z6#0contact@1239_metal-4-metal-5 0 0.36fF
+C150 net@1181 0 0.184fF
+C151 net@1147 0 0.177fF
+C152 net@1166 0 0.184fF
+C153 net@1223 0 0.173fF
+C154 net@1220 0 0.184fF
+C155 net@1217 0 0.17fF
+C156 net@1214 0 0.18fF
+C157 y6 0 0.899fF
+C158 x0#29contact@1024_metal-1-metal-2 0 1.425fF
+C159 x1#26contact@1028_metal-1-metal-2 0 1.105fF
+C160 x2#25contact@1032_metal-1-metal-2 0 1.101fF
+C161 x3#25contact@1036_metal-1-metal-2 0 1.1fF
+C162 x4#25contact@1040_metal-1-metal-2 0 1.09fF
+C163 x5#25contact@1044_metal-1-metal-2 0 1.105fF
+C164 x6#24contact@1048_metal-1-metal-2 0 1.092fF
+C165 x7#21contact@1052_metal-1-metal-2 0 1.112fF
+C166 net@955 0 0.132fF
+C167 net@936 0 0.099fF
+C168 net@920 0 0.16fF
+C169 net@902 0 0.097fF
+C170 net@883 0 0.161fF
+C171 net@866 0 0.1fF
+C172 net@851 0 0.16fF
+C173 net@832 0 0.063fF
+C174 z7#0contact@1243_metal-4-metal-5 0 0.302fF
+C175 net@946 0 0.192fF
+C176 net@926 0 0.126fF
+C177 net@912 0 0.215fF
+C178 net@891 0 0.125fF
+C179 net@874 0 0.215fF
+C180 net@856 0 0.127fF
+C181 net@845 0 0.177fF
+C182 y7 0 0.893fF
+C183 z8 0 0.075fF
+C184 z9 0 0.031fF
+C185 z10 0 0.063fF
+C186 z11 0 0.029fF
+C187 z12 0 0.062fF
+C188 z13 0 0.029fF
+C189 z14 0 0.063fF
+C190 z15 0 0.029fF
+C191 net@1275#7pin@432_metal-4 0 0.488fF
+C192 x0#52contact@1192_metal-4-metal-5 0 0.909fF
+C193 y2 0 0.423fF
+C194 y3 0 0.423fF
+C195 y4 0 0.423fF
+C196 z5 0 0.301fF
+C197 z6 0 0.299fF
+C198 x0 0 0.235fF
+C199 x1 0 0.236fF
+C200 x2 0 0.236fF
+C201 x3 0 0.235fF
+C202 x4 0 0.236fF
+C203 x5 0 0.236fF
+C204 x6 0 0.236fF
+C205 x7 0 0.253fF
+C206 y1 0 0.305fF
+C207 z0 0 0.28fF
+C208 y0 0 0.347fF
+C209 z7 0 0.277fF
+** Extracted Parasitic Resistors ***
+R0 net@1275#9Stage4_c@0_c0 net@1275#7pin@432_metal-4 4.336
+R1 net@1275#7pin@432_metal-4 net@1275#7pin@432_metal-4##0 5.48
+C210 net@1275#7pin@432_metal-4##0 0 0.305fF
+R2 net@1275#7pin@432_metal-4##0 net@1275 5.48
+R3 net@1285#8contact@524_metal-4-metal-5 net@1285 8.723
+R4 net@1321 net@1321#4pin@450_metal-4 9.679
+R5 net@1339#6pin@452_metal-4 net@1339 9.146
+R6 net@1360 net@1360##0 5.476
+C211 net@1360##0 0 0.305fF
+R7 net@1360##0 net@1360#2pin@472_metal-4 5.476
+R8 net@1374 net@1374#7pin@483_metal-4 8.996
+R9 net@1383 net@1383#2pin@486_metal-4 9.984
+R10 net@1386 net@1386##0 5.489
+C212 net@1386##0 0 0.306fF
+R11 net@1386##0 net@1386#2pin@488_metal-4 5.489
+R12 net@1389 net@1389#7contact@569_metal-3-metal-4 8.964
+R13 net@1399 net@1399#6contact@581_metal-4-metal-5 9.016
+R14 net@1459 net@1459#3contact@586_metal-2-metal-3 9.809
+R15 net@1463 net@1463##0 5.502
+C213 net@1463##0 0 0.307fF
+R16 net@1463##0 net@1463#2contact@587_metal-2-metal-3 5.502
+R17 net@1466#5Stage4_c@0_c7 net@1466 9.809
+R18 net@1494 net@1494#8pin@519_metal-4 9.178
+R19 net@1503 net@1503#6pin@522_metal-4 9.042
+R20 y2#0contact@692_metal-3-metal-4 y2#0contact@692_metal-3-metal-4##0 6.745
+C214 y2#0contact@692_metal-3-metal-4##0 0 0.423fF
+R21 y2#0contact@692_metal-3-metal-4##0 y2#0contact@692_metal-3-metal-4##1 6.745
+C215 y2#0contact@692_metal-3-metal-4##1 0 0.423fF
+R22 y2#0contact@692_metal-3-metal-4##1 y2 6.745
+R23 y3#0Stage3_c@1_x0a y3#0Stage3_c@1_x0a##0 6.747
+C216 y3#0Stage3_c@1_x0a##0 0 0.423fF
+R24 y3#0Stage3_c@1_x0a##0 y3#0Stage3_c@1_x0a##1 6.747
+C217 y3#0Stage3_c@1_x0a##1 0 0.423fF
+R25 y3#0Stage3_c@1_x0a##1 y3 6.747
+R26 y4#0contact@748_metal-3-metal-4 y4#0contact@748_metal-3-metal-4##0 6.747
+C218 y4#0contact@748_metal-3-metal-4##0 0 0.423fF
+R27 y4#0contact@748_metal-3-metal-4##0 y4#0contact@748_metal-3-metal-4##1 6.747
+C219 y4#0contact@748_metal-3-metal-4##1 0 0.423fF
+R28 y4#0contact@748_metal-3-metal-4##1 y4 6.747
+R29 x0#14contact@928_metal-1-metal-2 x0#14contact@928_metal-1-metal-2##0 6.403
+C220 x0#14contact@928_metal-1-metal-2##0 0 0.357fF
+R30 x0#14contact@928_metal-1-metal-2##0 x0#0contact@868_metal-1-metal-2 6.403
+R31 x0#9contact@896_metal-1-metal-2 x0#14contact@928_metal-1-metal-2 4.147
+R32 x7#0contact@924_metal-1-metal-2 x7#6contact@956_metal-1-metal-2 6.513
+R33 x1#0Stage2-4@0_x1b x1#2contact@864_metal-1-metal-2 6.825
+R34 x2#5contact@904_metal-1-metal-2 x2#0contact@872_metal-1-metal-2 6.143
+R35 x7#0contact@924_metal-1-metal-2 x7#31contact@1125_metal-2-metal-3 5.707
+R36 x0#29contact@1024_metal-1-metal-2 x0#29contact@1024_metal-1-metal-2##0 5.961
+C221 x0#29contact@1024_metal-1-metal-2##0 0 0.332fF
+R37 x0#29contact@1024_metal-1-metal-2##0 x0#5contact@892_metal-1-metal-2 5.961
+R38 x0#29contact@1024_metal-1-metal-2 x0#24contact@992_metal-1-metal-2 6.76
+R39 x1#26contact@1028_metal-1-metal-2 x1#21contact@996_metal-1-metal-2 6.74
+R40 x2#25contact@1032_metal-1-metal-2 x2#20contact@1000_metal-1-metal-2 6.74
+R41 x3#25contact@1036_metal-1-metal-2 x3#20contact@1004_metal-1-metal-2 6.74
+R42 x4#25contact@1040_metal-1-metal-2 x4#20contact@1008_metal-1-metal-2 6.747
+R43 x5#25contact@1044_metal-1-metal-2 x5#20contact@1012_metal-1-metal-2 6.754
+R44 x6#24contact@1048_metal-1-metal-2 x6#19contact@1016_metal-1-metal-2 6.747
+R45 x7#21contact@1052_metal-1-metal-2 x7#16contact@1020_metal-1-metal-2 6.052
+R46 x0#0contact@868_metal-1-metal-2 x0#0contact@868_metal-1-metal-2##0 7.325
+C222 x0#0contact@868_metal-1-metal-2##0 0 0.408fF
+R47 x0#0contact@868_metal-1-metal-2##0 x0#52contact@1192_metal-4-metal-5 7.325
+R48 x0#52contact@1192_metal-4-metal-5 x0#19contact@960_metal-1-metal-2 5.038
+R49 x0#52contact@1192_metal-4-metal-5 x0#52contact@1192_metal-4-metal-5##0 5.2
+C223 x0#52contact@1192_metal-4-metal-5##0 0 0.29fF
+R50 x0#52contact@1192_metal-4-metal-5##0 x0#29contact@1024_metal-1-metal-2 5.2
+R51 x1#16contact@964_metal-1-metal-2 x1#11contact@932_metal-1-metal-2 4.862
+R52 x1#11contact@932_metal-1-metal-2 x1#11contact@932_metal-1-metal-2##0 5.2
+C224 x1#11contact@932_metal-1-metal-2##0 0 0.29fF
+R53 x1#11contact@932_metal-1-metal-2##0 x1#26contact@1028_metal-1-metal-2 5.2
+R54 x2#15contact@968_metal-1-metal-2 x2#10contact@936_metal-1-metal-2 4.661
+R55 x2#10contact@936_metal-1-metal-2 x2#10contact@936_metal-1-metal-2##0 5.2
+C225 x2#10contact@936_metal-1-metal-2##0 0 0.29fF
+R56 x2#10contact@936_metal-1-metal-2##0 x2#25contact@1032_metal-1-metal-2 5.2
+R57 x3#15contact@972_metal-1-metal-2 x3#10contact@940_metal-1-metal-2 4.498
+R58 x3#10contact@940_metal-1-metal-2 x3#10contact@940_metal-1-metal-2##0 5.19
+C226 x3#10contact@940_metal-1-metal-2##0 0 0.289fF
+R59 x3#10contact@940_metal-1-metal-2##0 x3#25contact@1036_metal-1-metal-2 5.19
+R60 x4#10contact@944_metal-1-metal-2 x4#10contact@944_metal-1-metal-2##0 5.2
+C227 x4#10contact@944_metal-1-metal-2##0 0 0.29fF
+R61 x4#10contact@944_metal-1-metal-2##0 x4#25contact@1040_metal-1-metal-2 5.2
+R62 x4#15contact@976_metal-1-metal-2 x4#10contact@944_metal-1-metal-2 4.323
+R63 x5#15contact@980_metal-1-metal-2 x5#10contact@948_metal-1-metal-2 4.154
+R64 x5#10contact@948_metal-1-metal-2 x5#10contact@948_metal-1-metal-2##0 5.2
+C228 x5#10contact@948_metal-1-metal-2##0 0 0.29fF
+R65 x5#10contact@948_metal-1-metal-2##0 x5#25contact@1044_metal-1-metal-2 5.2
+R66 x6#9contact@952_metal-1-metal-2 x6#9contact@952_metal-1-metal-2##0 5.193
+C229 x6#9contact@952_metal-1-metal-2##0 0 0.289fF
+R67 x6#9contact@952_metal-1-metal-2##0 x6#24contact@1048_metal-1-metal-2 5.193
+R68 x7#6contact@956_metal-1-metal-2 x7#6contact@956_metal-1-metal-2##0 5.197
+C230 x7#6contact@956_metal-1-metal-2##0 0 0.29fF
+R69 x7#6contact@956_metal-1-metal-2##0 x7#21contact@1052_metal-1-metal-2 5.197
+R70 z5#0contact@1232_metal-3-metal-4 z5#0contact@1232_metal-3-metal-4##0 5.398
+C231 z5#0contact@1232_metal-3-metal-4##0 0 0.301fF
+R71 z5#0contact@1232_metal-3-metal-4##0 z5 5.398
+R72 z6#0contact@1239_metal-4-metal-5 z6#0contact@1239_metal-4-metal-5##0 5.369
+C232 z6#0contact@1239_metal-4-metal-5##0 0 0.299fF
+R73 z6#0contact@1239_metal-4-metal-5##0 z6 5.369
+R74 x0#19contact@960_metal-1-metal-2 x0 5.629
+R75 x1#16contact@964_metal-1-metal-2 x1 5.636
+R76 x1#0Stage2-4@0_x1b x1#11contact@932_metal-1-metal-2 5.922
+R77 x2#15contact@968_metal-1-metal-2 x2 5.642
+R78 x2#5contact@904_metal-1-metal-2 x2#10contact@936_metal-1-metal-2 5.935
+R79 x3#15contact@972_metal-1-metal-2 x3 5.629
+R80 x3#10contact@940_metal-1-metal-2 x3#5contact@908_metal-1-metal-2 5.935
+R81 x3#5contact@908_metal-1-metal-2 x3#0contact@876_metal-1-metal-2 6.383
+R82 x4#10contact@944_metal-1-metal-2 x4#5contact@912_metal-1-metal-2 5.922
+R83 x4#5contact@912_metal-1-metal-2 x4#0contact@880_metal-1-metal-2 6.123
+R84 x4#15contact@976_metal-1-metal-2 x4 5.636
+R85 x5#10contact@948_metal-1-metal-2 x5#5contact@916_metal-1-metal-2 5.922
+R86 x5#5contact@916_metal-1-metal-2 x5#0contact@884_metal-1-metal-2 6.396
+R87 x5#15contact@980_metal-1-metal-2 x5 5.636
+R88 x6#0contact@888_metal-1-metal-2 x6#5contact@920_metal-1-metal-2 6.065
+R89 x6#5contact@920_metal-1-metal-2 x6#9contact@952_metal-1-metal-2 5.928
+R90 x6#9contact@952_metal-1-metal-2 x6 5.636
+R91 x7#6contact@956_metal-1-metal-2 x7 6.065
+R92 y1#0contact@626_metal-1-metal-2 y1#0contact@626_metal-1-metal-2##0 5.48
+C233 y1#0contact@626_metal-1-metal-2##0 0 0.305fF
+R93 y1#0contact@626_metal-1-metal-2##0 y1 5.48
+R94 z0#0contact@1228_metal-2-metal-3 z0#0contact@1228_metal-2-metal-3##0 5.028
+C234 z0#0contact@1228_metal-2-metal-3##0 0 0.28fF
+R95 z0#0contact@1228_metal-2-metal-3##0 z0 5.028
+R96 y0#0contact@659_metal-1-metal-2 y0#0contact@659_metal-1-metal-2##0 6.22
+C235 y0#0contact@659_metal-1-metal-2##0 0 0.347fF
+R97 y0#0contact@659_metal-1-metal-2##0 y0 6.22
+R98 z7#0contact@1243_metal-4-metal-5 z7 6.617
+.ENDS _8bit-CSM__multiplier
+
+
+*X_8bit-CSM__multiplier gnd vdd x0 x1 x2 x3 x4 x5 x6 x7 y0 y1 y2 y3 y4 y5 y6 y7 z0 z1 z10 z11 z12 z13 z14 z15 z2 z3 z4 z5 z6 z7 z8 z9 zc _8bit-CSM__multiplier
+
