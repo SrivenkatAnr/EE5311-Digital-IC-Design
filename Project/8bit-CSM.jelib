@@ -6221,7 +6221,7 @@ Ezc||D5G2;X1.25;|pin@64||O
 X
 
 # Cell multiplier;1{lay}
-Cmultiplier;1{lay}||mocmos|1636793757771|1638588084396||DRC_last_good_drc_area_date()G1638588097329|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638588097329
+Cmultiplier;1{lay}||mocmos|1636793757771|1638669036772||DRC_last_good_drc_area_date()G1638669044073|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638669044073
 IStage1_comp;1{lay}|Stage1_c@1||-159.25|225.25|||D5G4;
 IStage2_comp;1{lay}|Stage2-4@0||71.25|73.25|||D5G4;
 IStage3_comp;1{lay}|Stage3_c@1||264.75|144.5|||D5G4;
@@ -7291,6 +7291,17 @@ NMetal-4-Metal-5-Con|contact@1288||-326.25|-510.75||1||
 NMetal-3-Metal-4-Con|contact@1289||-326.25|-510.75||1||
 NMetal-2-Metal-3-Con|contact@1290||-326.25|-510.75||1||
 NMetal-1-Metal-2-Con|contact@1291||-326.25|-510.75||1||
+NMetal-3-Metal-4-Con|contact@1292||447.75|171.25||||
+NMetal-3-Metal-4-Con|contact@1293||448|193.75||||
+NMetal-4-Metal-5-Con|contact@1294||-266.5|186.5||||
+NMetal-4-Metal-5-Con|contact@1295||-276|186.5||||
+NMetal-3-Metal-4-Con|contact@1296||-275.75|186.5||||
+NMetal-2-Metal-3-Con|contact@1297||-275.75|186.5||||
+NMetal-4-Metal-5-Con|contact@1298||-265.75|86.75||||
+NMetal-4-Metal-5-Con|contact@1299||-275.75|86.75||||
+NMetal-4-Metal-5-Con|contact@1300||-263.5|-13.5||||
+NMetal-4-Metal-5-Con|contact@1301||-275.75|-13.5||||
+NMetal-3-Metal-4-Con|contact@1302||-275.75|-13.5||||
 NMetal-2-Pin|pin@0||-66.5|265.25||||
 NMetal-2-Pin|pin@2||180.25|265.25||||
 NMetal-2-Pin|pin@7||476.25|215.25||||
@@ -7827,6 +7838,7 @@ NMetal-6-Pin|pin@780||-319.75|-461||||
 NMetal-6-Pin|pin@781||-338.25|-461||||
 NMetal-6-Pin|pin@782||-335.25|-510.75||||
 NMetal-6-Pin|pin@783||-338.25|-510.75||||
+NMetal-4-Pin|pin@784||447.75|193.75||||
 AMetal-2|net@1|||S2700|Stage2-4@0|vdd|-66.5|265.25|pin@0||-66.5|265.25
 AMetal-2|net@14|||S1800|Stage8-V@0|vdd|-114.75|-134.75|Stage7_c@0|vdd|157|-134.75
 AMetal-2|net@29|||S1800|pin@0||-66.5|265.25|pin@2||180.25|265.25
@@ -8152,7 +8164,6 @@ AMetal-3|net@650||1|S900|contact@179||455|243.75|Stage4_c@0|a0|455|243.75
 AMetal-4|net@654|||S2700|contact@178||455|205.75|contact@179||455|243.75
 AMetal-4|net@655|||S2700|contact@178||455|205.75|contact@179||455|243.75
 AMetal-3|net@657|||S1800|Stage3_c@1|c1|425|171.25|pin@250||448|171.25
-AMetal-3|net@658|||S2700|pin@250||448|171.25|pin@252||448|193.5
 AMetal-3|net@659|||S0|pin@251||448.25|193.5|pin@252||448|193.5
 AMetal-3|net@660|||S2700|pin@252||448|193.5|contact@182||448|193.75
 AMetal-2|net@661|||S1800|contact@182||448|193.5|pin@253||451.5|193.5
@@ -9420,7 +9431,6 @@ AMetal-2|net@2346|||S|contact@1100||-293|236.25|contact@1138||-293|236.25
 AMetal-5|net@2347|||S0|contact@903||-30.5|194.25|contact@1139||-293|194.25
 AMetal-5|net@2348|||S0|contact@1139||-293|194.25|pin@646||-339.25|194.25
 AMetal-4|net@2349|||S900|pin@662||-293|230.5|contact@1139||-293|194.25
-AMetal-4|net@2350|||S0|pin@663||-266.5|186.5|contact@1140||-275.75|186.5
 AMetal-3|net@2351|||S|contact@1105||-275.75|186.5|contact@1140||-275.75|186.5
 AMetal-5|net@2352|||IJS0|contact@907||-30.25|136.25|contact@1141||-266.5|136.25
 AMetal-5|net@2353|||IJS0|contact@1141||-266.5|136.25|contact@875||-317|136.25
@@ -9430,7 +9440,6 @@ AMetal-5|net@2356|||S0|contact@943||198|93.5|contact@1142||-275.75|93.5
 AMetal-5|net@2357|||S0|contact@1142||-275.75|93.5|pin@655||-339.25|93.5
 AMetal-4|net@2358|||S900|pin@664||-275.75|127.5|contact@1142||-275.75|93.5
 AMetal-3|net@2359|||S1800|contact@1143||-275.75|86.75|contact@1144||-275.75|86.75
-AMetal-4|net@2360|||S0|pin@665||-265.75|86.75|contact@1143||-275.75|86.75
 AMetal-2|net@2361|||S|contact@1112||-275.75|86.75|contact@1144||-275.75|86.75
 AMetal-5|net@2362|||S0|contact@947||197.5|36.25|contact@1145||-265.75|36.25
 AMetal-5|net@2363|||S0|contact@1145||-265.75|36.25|pin@649||-339.25|36.25
@@ -9445,7 +9454,6 @@ AMetal-4|net@2371||1|S900|contact@1130||-272.75|-105.75|contact@1147||-272.75|-1
 AMetal-5|net@2372||1|S900|contact@1147||-272.75|-105.75|pin@669||-272.75|-106
 AMetal-5|net@2373|||S1800|pin@668||-339.25|-106|pin@669||-272.75|-106
 AMetal-3|net@2374|||S1800|contact@1148||-275.75|-13.5|contact@1149||-275.75|-13.5
-AMetal-4|net@2375|||S0|pin@670||-263.5|-13.5|contact@1148||-275.75|-13.5
 AMetal-2|net@2376|||S|contact@1120||-275.75|-13.5|contact@1149||-275.75|-13.5
 AMetal-5|net@2377|||S1800|pin@644||-339.25|-64.25|contact@1150||-263.5|-64.25
 AMetal-5|net@2378|||S1800|contact@1150||-263.5|-64.25|pin@658||197.75|-64.25
@@ -9720,6 +9728,22 @@ AMetal-5|net@2742||2|JS1800|contact@1287||-330.25|-510.75|contact@1288||-326.25|
 AMetal-1|net@2743|||S900|Stage8-V@0|z15|-326.25|-510.25|contact@1291||-326.25|-510.75
 AMetal-6|net@2744|||S1800|pin@782||-335.25|-510.75|contact@1287||-330.25|-510.75
 AMetal-6|net@2745|||S0|pin@782||-335.25|-510.75|pin@783||-338.25|-510.75
+AMetal-3|net@2746|||S1800|pin@250||448|171.25|contact@1292||448.25|171.25
+AMetal-3|net@2747|||IJS1800|contact@1293||447.5|193.75|contact@182||448|193.75
+AMetal-4|net@2748|||S2700|contact@1292||447.75|171.25|pin@784||447.75|193.75
+AMetal-4|net@2749|||IJS0|contact@1293||448|193.75|pin@784||447.75|193.75
+AMetal-4|net@2750|||S900|pin@663||-266.5|186.5|contact@1294||-266.5|186.5
+AMetal-3|net@2751|||S|contact@1296||-275.75|186.5|contact@1297||-275.75|186.5
+AMetal-4|net@2752|||IJS1800|contact@1295||-277|186.5|contact@1296||-275.75|186.5
+AMetal-2|net@2753|||S|contact@1104||-275.75|186.5|contact@1297||-275.75|186.5
+AMetal-5|net@2756|||IJS1800|contact@1295||-276|186.5|contact@1294||-266.5|186.5
+AMetal-4|net@2757|||S900|pin@665||-265.75|86.75|contact@1298||-265.75|86.75
+AMetal-4|net@2758|||IJS1800|contact@1299||-276.75|86.75|contact@1143||-275.75|86.75
+AMetal-5|net@2759|||S1800|contact@1299||-275.75|86.75|contact@1298||-265.75|86.75
+AMetal-4|net@2760|||S900|pin@670||-263.5|-13.5|contact@1300||-263.5|-13.5
+AMetal-4|net@2761|||IJS1800|contact@1301||-276.25|-13.5|contact@1302||-275.75|-13.5
+AMetal-3|net@2762|||S|contact@1149||-275.75|-13.5|contact@1302||-275.75|-13.5
+AMetal-5|net@2763|||S1800|contact@1301||-275.75|-13.5|contact@1300||-263.5|-13.5
 Egnd||D5G2;|pin@737||G
 Evdd||D5G2;|pin@726||P
 Ex0||D5G2;|pin@661||I
