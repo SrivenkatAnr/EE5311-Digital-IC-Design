@@ -10,7 +10,7 @@ Vschematic|sch
 Tmocmos|MininumCapacitanceINmocmos()D0.01|ScaleFORmocmos()D11.0
 
 # Cell 8bit-CSM__multiplier;1{lay}
-C8bit-CSM__multiplier;1{lay}|multiplier|mocmos|1636793757771|1638724051092||DRC_last_good_drc_area_date()G1638723960736|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+C8bit-CSM__multiplier;1{lay}|multiplier|mocmos|1636793757771|1638724051092||DRC_last_good_drc_area_date()G1638804138058|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 IStage1_comp;1{lay}|Stage1_c@1||-159.25|225.25|||D5G4;|ATTRP_c0_ATTR_C(D5G1;N)S0.13fF|ATTRP_c1_ATTR_C(D5G1;N)S0.11fF|ATTRP_c2_ATTR_C(D5G1;N)S0.11fF|ATTRP_c3_ATTR_C(D5G1;N)S0.12fF|ATTRP_c4_ATTR_C(D5G1;N)S0.12fF|ATTRP_c5_ATTR_C(D5G1;N)S0.12fF|ATTRP_c6_ATTR_C(D5G1;N)S0.15fF|ATTRP_c7_ATTR_C(D5G1;N)S0.14fF|ATTRP_s0_ATTR_C(D5G1;N)S0.06fF|ATTRP_s1_ATTR_C(D5G1;N)S0.15fF|ATTRP_s2_ATTR_C(D5G1;N)S0.18fF|ATTRP_s3_ATTR_C(D5G1;N)S0.19fF|ATTRP_s4_ATTR_C(D5G1;N)S0.18fF|ATTRP_s5_ATTR_C(D5G1;N)S0.19fF|ATTRP_s6_ATTR_C(D5G1;N)S0.21fF|ATTRP_s7_ATTR_C(D5G1;N)S0.19fF|ATTRP_x00a_ATTR_C(D5G1;N)S1.2fF|ATTRP_x00b_ATTR_C(D5G1;N)S0.77fF|ATTRP_x01b_ATTR_C(D5G1;N)S0.43fF|ATTRP_x02b_ATTR_C(D5G1;N)S0.52fF|ATTRP_x03b_ATTR_C(D5G1;N)S0.49fF|ATTRP_x04b_ATTR_C(D5G1;N)S0.53fF|ATTRP_x05b_ATTR_C(D5G1;N)S0.49fF|ATTRP_x06b_ATTR_C(D5G1;N)S0.54fF|ATTRP_x07a_ATTR_C(D5G1;N)S1.31fF|ATTRP_x07b_ATTR_C(D5G1;N)S0.46fF|ATTRP_x16b_ATTR_C(D5G1;N)S0.39fF|ATTRP_z0_ATTR_C(D5G1;N)S0.4fF
 IStage2_comp;1{lay}|Stage2-4@0||71.25|73.25|||D5G4;|ATTRP_c0_ATTR_C(D5G1;N)S0.14fF|ATTRP_c1_ATTR_C(D5G1;N)S0.14fF|ATTRP_c2_ATTR_C(D5G1;N)S0.15fF|ATTRP_c3_ATTR_C(D5G1;N)S0.14fF|ATTRP_c4_ATTR_C(D5G1;N)S0.15fF|ATTRP_c5_ATTR_C(D5G1;N)S0.14fF|ATTRP_c6_ATTR_C(D5G1;N)S0.14fF|ATTRP_c7_ATTR_C(D5G1;N)S0.11fF|ATTRP_s1_ATTR_C(D5G1;N)S0.18fF|ATTRP_s2_ATTR_C(D5G1;N)S0.21fF|ATTRP_s3_ATTR_C(D5G1;N)S0.22fF|ATTRP_s4_ATTR_C(D5G1;N)S0.21fF|ATTRP_s5_ATTR_C(D5G1;N)S0.22fF|ATTRP_s6_ATTR_C(D5G1;N)S0.22fF|ATTRP_s7_ATTR_C(D5G1;N)S0.22fF|ATTRP_x0a_ATTR_C(D5G1;N)S1.36fF|ATTRP_x0b_ATTR_C(D5G1;N)S0.33fF|ATTRP_x1b_ATTR_C(D5G1;N)S0.54fF|ATTRP_x2b_ATTR_C(D5G1;N)S0.51fF|ATTRP_x3b_ATTR_C(D5G1;N)S0.52fF|ATTRP_x4b_ATTR_C(D5G1;N)S0.51fF|ATTRP_x5b_ATTR_C(D5G1;N)S0.52fF|ATTRP_x6b_ATTR_C(D5G1;N)S0.51fF|ATTRP_x7b_ATTR_C(D5G1;N)S0.53fF|ATTRP_z2_ATTR_C(D5G1;N)S0.06fF
 IStage3_comp;1{lay}|Stage3_c@1||264.75|144.5|||D5G4;|ATTRP_c0_ATTR_C(D5G1;N)S0.16fF|ATTRP_c1_ATTR_C(D5G1;N)S0.11fF|ATTRP_c2_ATTR_C(D5G1;N)S0.11fF|ATTRP_c3_ATTR_C(D5G1;N)S0.11fF|ATTRP_c4_ATTR_C(D5G1;N)S0.1fF|ATTRP_c5_ATTR_C(D5G1;N)S0.11fF|ATTRP_c6_ATTR_C(D5G1;N)S0.11fF|ATTRP_c7_ATTR_C(D5G1;N)S0.14fF|ATTRP_s1_ATTR_C(D5G1;N)S0.27fF|ATTRP_s2_ATTR_C(D5G1;N)S0.17fF|ATTRP_s3_ATTR_C(D5G1;N)S0.19fF|ATTRP_s4_ATTR_C(D5G1;N)S0.17fF|ATTRP_s5_ATTR_C(D5G1;N)S0.2fF|ATTRP_s6_ATTR_C(D5G1;N)S0.17fF|ATTRP_s7_ATTR_C(D5G1;N)S0.22fF|ATTRP_x0a_ATTR_C(D5G1;N)S1.31fF|ATTRP_x0b_ATTR_C(D5G1;N)S0.53fF|ATTRP_x1b_ATTR_C(D5G1;N)S0.87fF|ATTRP_x2b_ATTR_C(D5G1;N)S0.87fF|ATTRP_x3b_ATTR_C(D5G1;N)S0.88fF|ATTRP_x4b_ATTR_C(D5G1;N)S0.89fF|ATTRP_x5b_ATTR_C(D5G1;N)S0.89fF|ATTRP_x6b_ATTR_C(D5G1;N)S1.32fF|ATTRP_x7b_ATTR_C(D5G1;N)S1.32fF|ATTRP_z3_ATTR_C(D5G1;N)S0.06fF
@@ -3655,7 +3655,7 @@ Eclk_bar||D5G2;|conn@3|y|I
 X
 
 # Cell FF_tb;1{sch}
-CFF_tb;1{sch}||schematic|1637821071600|1637821725603|
+CFF_tb;1{sch}||schematic|1637821071600|1638813762626|
 IC2MOS_FF;1{ic}|C2MOS_FF@0||-4|10.25|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-20.25|11.25||||
@@ -3669,7 +3669,7 @@ NWire_Pin|pin@4||-14.25|6.5||||
 NWire_Pin|pin@5||-17|1.25||||
 NWire_Pin|pin@6||-17.25|-2.5||||
 NWire_Pin|pin@7||-16.5|-2.5||||
-Ngeneric:Invisible-Pin|pin@8||10|-3.25|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8,v1 vdd gnd DC {vdd},v2 clk gnd PULSE ({vdd} 0 0 100p 100p 0.4n 1n),v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),v4 D gnd PWL (0 0 0.1n {vdd} 1n {vdd}),.tran 2n uic,.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@8||24.25|-3|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8,v1 vdd gnd DC {vdd},v2 clk gnd PULSE ({vdd} 0 0 100p 100p 0.4n 1n),v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),v4 D gnd PWL (0 0 {t-100p} 0 {t} {vdd} 2n {vdd}),.meas tran Tdc +,	+ TRIG V(D) val={vdd/2} rise=1,	+ TARG V(clk) val={vdd/2} rise=2,.meas tran Tcq +,	+ TRIG V(clk) val={vdd/2} rise=2,	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,.meas tran Tdq +,	+ TRIG V(D) val={vdd/2} rise=1,	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,.step param t 0.5n 0.59n 1p,.tran 2n uic,.option noopiter,.END]
 Awire|clk|D5G1;||0|C2MOS_FF@0|clk|-10.25|8.5|pin@2||-14.25|8.5
 Awire|clk_bar|D5G1;||0|C2MOS_FF@0|clk_bar|-10|6.5|pin@4||-14.25|6.5
 Awire|net@0|||1800|conn@0|y|-18.25|11.25|pin@0||-10.5|11.25
@@ -4585,7 +4585,7 @@ Ez1||D5G2;|conn@0|y|O
 X
 
 # Cell Stage1_comp;1{lay}
-CStage1_comp;1{lay}||mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638690605447|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage1_comp;1{lay}||mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638690605447|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@20||-93|-34|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.03fF
 Iand;1{lay}|and@21||-134|-34|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.11fF
 Iand;1{lay}|and@22||-93|-86|||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.03fF
@@ -5351,7 +5351,7 @@ Ez2||D5G2;X4.25;|conn@0|a|O
 X
 
 # Cell Stage2_comp;1{lay}
-CStage2_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638323191527|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage2_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638323191527|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-93.5|-182|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@2||-87|-143|||||ATTRP__ATTR_C(D5G1;N)S0.04fF
@@ -6019,7 +6019,7 @@ Ez3||D5G2;|conn@10|y|O
 X
 
 # Cell Stage3_comp;1{lay}
-CStage3_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638381134881|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage3_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638381134881|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-43.25|-205.25|||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Iand;1{lay}|and@1||-43.25|-153.25|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Iand;1{lay}|and@6||-43.25|-105.25|||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
@@ -6221,7 +6221,7 @@ Ez3||D5G2;|inverter@0|OUT|O
 X
 
 # Cell Stage4_comp;1{lay}
-CStage4_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638273038714|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage4_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638273038714|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-94|-182|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@2||-87|-143|||||ATTRP__ATTR_C(D5G1;N)S0.04fF
@@ -6426,7 +6426,7 @@ Ex7b||D5G2;|and@0|B|I
 X
 
 # Cell Stage5_comp;1{lay}
-CStage5_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638520325106|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage5_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638520325106|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-43.25|-205.25|||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Iand;1{lay}|and@1||-43.25|-153.25|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Iand;1{lay}|and@6||-43.25|-105.25|||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
@@ -6616,7 +6616,7 @@ Ez3||D5G2;|inverter@0|OUT|O
 X
 
 # Cell Stage6_comp;1{lay}
-CStage6_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638274653090|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage6_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638274653090|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-93.75|-182|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.05fF
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@2||-87|-143|||||ATTRP__ATTR_C(D5G1;N)S0.04fF
@@ -7294,7 +7294,7 @@ Ez2||D5G2;X4.25;|conn@0|a|O
 X
 
 # Cell Stage7_comp;1{lay}
-CStage7_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638455245820|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage7_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638455245820|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Iand;1{lay}|and@0||-77.75|-182|Y||D5G4;|ATTRP_Y_ATTR_C(D5G1;N)S0.04fF
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@2||-87|-143|||||ATTRP__ATTR_C(D5G1;N)S0.04fF
@@ -8041,7 +8041,7 @@ Ez16||D5G2;|conn@8|a|O
 X
 
 # Cell Stage8-VM_comp;1{lay}
-CStage8-VM_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638423921140|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+CStage8-VM_comp;1{lay}|Stage1_comp|mocmos|1638083077662|1638724051092||DRC_last_good_drc_area_date()G1638423921140|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||-88.25|-283|||Y||ATTRP__ATTR_C(D5G1;N)S0.05fF
 NMetal-1-Metal-2-Con|contact@2||108.25|-293.5|||Y||ATTRP__ATTR_C(D5G1;N)S0.02fF
@@ -8409,7 +8409,7 @@ EY||D5G2;|pin@4||O
 X
 
 # Cell and;1{lay}
-Cand;1{lay}||mocmos|1636792454925|1638724051092||DRC_last_good_drc_area_date()G1638122892477|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+Cand;1{lay}||mocmos|1636792454925|1638724051092||DRC_last_good_drc_area_date()G1638122892477|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@14||-25|14||3||
 NMetal-1-P-Active-Con|contact@15||-33|14||3|||ATTRP__ATTR_C(D5G1;N)S0.13fF
@@ -8640,7 +8640,7 @@ ES_bar||D5G2;X0.25;Y-0.25;|pin@8||O
 X
 
 # Cell full_adder;1{lay}
-Cfull_adder;1{lay}||mocmos|1636788029185|1638724051092||DRC_last_good_drc_area_date()G1638098953523|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+Cfull_adder;1{lay}||mocmos|1636788029185|1638724051092||DRC_last_good_drc_area_date()G1638098953523|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-51|-15.25||3||
 NMetal-1-N-Active-Con|contact@1||-43|-15.25||3|||ATTRP__ATTR_C(D5G1;N)S0.21fF
@@ -9520,7 +9520,7 @@ EOUT||D5G2;X2;|pin@2||O
 X
 
 # Cell inverter;1{lay}
-Cinverter;1{lay}||mocmos|1636791994768|1638724051092||DRC_last_good_drc_area_date()G1638098269222|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+Cinverter;1{lay}||mocmos|1636791994768|1638724051092||DRC_last_good_drc_area_date()G1638098269222|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-6.5|-6.5||||
 NMetal-1-N-Active-Con|contact@1||2.5|-6.5|||||ATTRP__ATTR_C(D5G1;N)S0.05fF
@@ -16861,7 +16861,7 @@ EY||D5G2;|pin@4||O
 X
 
 # Cell nand2;1{lay}
-Cnand2;1{lay}||mocmos|1636792064223|1638724051092||DRC_last_good_drc_area_date()G1638108929924|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638723960736
+Cnand2;1{lay}||mocmos|1636792064223|1638724051092||DRC_last_good_drc_area_date()G1638108929924|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||0|12||3||
 NMetal-1-P-Active-Con|contact@1||-8|12||3|||ATTRP__ATTR_C(D5G1;N)S0.11fF
@@ -17033,7 +17033,7 @@ Eclk_2||D5G2;|pin@6||I
 X
 
 # Cell tristate_inv;1{sch}
-Ctristate_inv;1{sch}||schematic|1637819322731|1637819783068|
+Ctristate_inv;1{sch}||schematic|1637819322731|1638814597407|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@2||-8.25|10.5||||
 NOff-Page|conn@3||-39.75|10.5||||
