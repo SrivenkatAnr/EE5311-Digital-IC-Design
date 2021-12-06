@@ -1,0 +1,16 @@
+v2 x7 gnd DC {VDD}
+v3 x6 gnd DC {VDD}
+v4 x5 gnd DC {VDD}
+v5 x4 gnd DC {VDD}
+v6 x3 gnd DC {VDD}
+v7 x2 gnd DC {VDD}
+v8 x1 gnd DC 0
+v9 x0 gnd DC {VDD}
+v10 y7 gnd DC {VDD}
+v11 y6 gnd DC {VDD}
+v12 y5 gnd DC {VDD}
+v13 y4 gnd DC {VDD}
+v14 y3 gnd DC {VDD}
+v15 y2 gnd DC {VDD}
+v16 y1 gnd DC {VDD}
+v17 y0 gnd DC {VDD}
