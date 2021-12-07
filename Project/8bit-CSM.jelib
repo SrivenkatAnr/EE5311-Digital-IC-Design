@@ -554,7 +554,7 @@ ES[3:0]||D5G2;X-3;|conn@4|a|O
 X
 
 # Cell 4bit-CLA-tb;1{sch}
-C4bit-CLA-tb;1{sch}||schematic|1638884181304|1638888091355|
+C4bit-CLA-tb;1{sch}||schematic|1638884181304|1638888345310|
 I4bit-CLA;1{ic}|4bit-CLA@0||-10|4.5|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-33|6.5||||
@@ -567,7 +567,7 @@ NBus_Pin|pin@1||-22|4.5||||
 NBus_Pin|pin@2||2.5|3.5||||
 NWire_Pin|pin@3||2.5|5.5||||
 NWire_Pin|pin@4||-22|2.5||||
-Ngeneric:Invisible-Pin|pin@5||-8|20|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"","*.include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 ,v1 vdd gnd DC {vdd},v2 Cin gnd DC 0,".include \"Project_Param_CLA.txt\"",.tran 3.5n,".meas tran x1 (round(V(a[3]))*8 + round(V(a[2]))*4 + round(V(a[1]))*2 + round(V(a[0]))*1) at 1n",".meas tran y1 (round(V(b[3]))*8 + round(V(b[2]))*4 + round(V(b[1]))*2 + round(V(b[0]))*1) at 1n",".meas tran z1 (round(V(co))*16 + round(V(s[3]))*8 + round(V(s[2]))*4 + round(V(s[1]))*2 + round(V(s[0]))*1) at 1n ",.END]
+Ngeneric:Invisible-Pin|pin@5||-8|20|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"C:\\Users\\welcome\\Desktop\\DIC\\22nm_HP.pm\"","*.include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8 ,v1 vdd gnd DC {vdd},v2 Cin gnd DC 0,".include \"Project_Param_CLA.txt\"",.tran 3.5n,".meas tran x1 param (round(V(a[3]))*8 + round(V(a[2]))*4 + round(V(a[1]))*2 + round(V(a[0]))*1) at 1n",".meas tran y1 param (round(V(b[3]))*8 + round(V(b[2]))*4 + round(V(b[1]))*2 + round(V(b[0]))*1) at 1n",".meas tran z1 param (round(V(co))*16 + round(V(s[3]))*8 + round(V(s[2]))*4 + round(V(s[1]))*2 + round(V(s[0]))*1) at 1n ",.END]
 Abus|A[3:0]|D5G1;||IJ0|4bit-CLA@0|A[3:0]|-15|6.5|pin@0||-22|6.5
 Abus|B[3:0]|D5G1;||IJ0|4bit-CLA@0|B[3:0]|-15|4.5|pin@1||-22|4.5
 Awire|Cin|D5G1;||0|4bit-CLA@0|Cin|-15|2.5|pin@4||-22|2.5
