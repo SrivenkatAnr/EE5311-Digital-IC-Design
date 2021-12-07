@@ -1,0 +1,16 @@
+v3 A[7] gnd DC {VDD}
+v4 A[6] gnd DC {VDD}
+v5 A[5] gnd DC {VDD}
+v6 A[4] gnd DC {VDD}
+v7 A[3] gnd DC {VDD}
+v8 A[2] gnd DC {VDD}
+v9 A[1] gnd DC {VDD}
+v10 A[0] gnd DC {VDD}
+v11 B[7] gnd DC {VDD}
+v12 B[6] gnd DC {VDD}
+v13 B[5] gnd DC {VDD}
+v14 B[4] gnd DC {VDD}
+v15 B[3] gnd DC {VDD}
+v16 B[2] gnd DC {VDD}
+v17 B[1] gnd DC {VDD}
+v18 B[0] gnd DC {VDD}
