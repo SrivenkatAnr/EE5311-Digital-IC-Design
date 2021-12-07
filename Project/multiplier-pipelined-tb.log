@@ -1,42 +1,42 @@
 Circuit: *** SPICE deck for cell multiplier-pipelined-tb{sch} from library 8bit-CSM
 
-V17: Removing PWL point (7.45e-010,0.8)
-V15: Removing PWL point (7.45e-010,0.8)
-V13: Removing PWL point (7.45e-010,0.8)
-V12: Removing PWL point (7.45e-010,0.8)
-V11: Removing PWL point (7.45e-010,0.8)
-V10: Removing PWL point (7.45e-010,0.8)
-V9: Removing PWL point (7.45e-010,0.8)
-V7: Removing PWL point (7.45e-010,0.8)
-V5: Removing PWL point (7.45e-010,0.8)
-V4: Removing PWL point (7.45e-010,0.8)
-V3: Removing PWL point (7.45e-010,0.8)
-V2: Removing PWL point (7.45e-010,0.8)
+V17: Removing PWL point (7.42e-010,0.8)
+V15: Removing PWL point (7.42e-010,0.8)
+V13: Removing PWL point (7.42e-010,0.8)
+V12: Removing PWL point (7.42e-010,0.8)
+V11: Removing PWL point (7.42e-010,0.8)
+V10: Removing PWL point (7.42e-010,0.8)
+V9: Removing PWL point (7.42e-010,0.8)
+V7: Removing PWL point (7.42e-010,0.8)
+V5: Removing PWL point (7.42e-010,0.8)
+V4: Removing PWL point (7.42e-010,0.8)
+V3: Removing PWL point (7.42e-010,0.8)
+V2: Removing PWL point (7.42e-010,0.8)
 Per .tran options, skipping operating point for transient analysis.
 
-x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 8.56687e-010
-y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 8.56687e-010
-z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 1.35012e-009
-x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 1.10505e-009
-y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 1.10505e-009
-z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 1.59512e-009
+x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 8.54125e-010
+y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 8.54125e-010
+z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 1.34553e-009
+x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 1.10149e-009
+y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 1.10149e-009
+z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 1.58951e-009
 
 
-Date: Tue Dec 07 12:01:17 2021
-Total elapsed time: 19.638 seconds.
+Date: Tue Dec 07 12:23:23 2021
+Total elapsed time: 20.318 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3757
-traniter = 3757
-tranpoints = 1413
-accept = 1342
-rejected = 71
-matrix size = 11226
-fillins = 6070
+totiter = 3893
+traniter = 3893
+tranpoints = 1477
+accept = 1372
+rejected = 105
+matrix size = 11208
+fillins = 6174
 solver = Normal
-Thread vector: 4649.3/1698.1[8] 1394.4/268.2[8] 853.7/479.7[8] 259.8/158.5[8]  2592/500
-Matrix Compiler1: 3.15 MB object code size  3086.1/1725.4/[765.7]
-Matrix Compiler2: 1.54 MB object code size  922.2/879.1/[389.1]
+Thread vector: 4545.6/1851.5[8] 1397.5/242.0[8] 879.8/470.6[8] 251.2/136.9[7]  2592/500
+Matrix Compiler1: 3.21 MB object code size  3198.4/1731.2/[735.4]
+Matrix Compiler2: 1.54 MB object code size  1007.8/880.7/[396.8]
 
