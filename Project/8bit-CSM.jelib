@@ -36,7 +36,7 @@ ES[3:0]||D5G2;X3.5;|pin@8||O
 X
 
 # Cell 4bit-CLA;1{sch}
-C4bit-CLA;1{sch}||schematic|1638812849477|1638887446176|
+C4bit-CLA;1{sch}||schematic|1638812849477|1638894389510|
 I4bit-CLA;1{ic}|4bit-CLA@0||164|38|||D5G4;
 IC_GEN_AND;1{ic}|C_GEN_AN@0||-48.5|-9.25|||D5G4;
 IC_Inverter;1{ic}|C_Invert@0||4.5|-56|RRR||D5G4;
@@ -64,14 +64,14 @@ NTransistor|nmos@8||55.5|-25|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5
 NTransistor|nmos@9||51.5|-32.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S16|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@10||51.5|-38.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S16|SIM_spice_model(D5G1;Y-3.25;)Snmos
 NTransistor|nmos@11||63.5|-35.25|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S8|SIM_spice_model(D5G1;Y-3.25;)Snmos
-NTransistor|nmos@12||74|-31.75|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S{16/3}|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
+NTransistor|nmos@12||74|-31.75|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S6|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@13||55.5|-15.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S16|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@14||86.75|-22.5|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S4|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@15||111.5|-32|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@16||107.5|-39.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@17||107.5|-45.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;Y-3.25;)Snmos
 NTransistor|nmos@18||119.5|-42.25|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S10|SIM_spice_model(D5G1;Y-3.25;)Snmos
-NTransistor|nmos@19||130|-38.75|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S{20/3}|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
+NTransistor|nmos@19||130|-38.75|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S7|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@20||111.5|-22.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@21||142.75|-29.5|||XR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S5|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
 NTransistor|nmos@22||111.5|-12.75|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;X-0.25;Y-3;)Snmos
@@ -275,14 +275,14 @@ NTransistor|pmos@10||63.5|16.5|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_widt
 NTransistor|pmos@11||55.5|1.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S32|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@12||73.75|16.5|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S16|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@13||55.5|-6|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S32|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
-NTransistor|pmos@14||86.75|10|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S{32/3}|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
+NTransistor|pmos@14||86.75|10|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S11|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@15||111.5|17.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@16||107.5|24.75|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@17||119.5|24.75|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@18||111.5|9.75|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@19||129.75|24.75|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S20|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@20||111.5|2.25|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
-NTransistor|pmos@21||142.75|18.25|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S{40/3}|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
+NTransistor|pmos@21||142.75|18.25|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S14|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@22||111.5|-4.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S40|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NTransistor|pmos@23||153.75|11.5|||XR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S10|SIM_spice_model(D5G1;X0.25;Y-3.25;)Spmos
 NPower|pwr@0||-13.25|5.5||||
@@ -293,8 +293,8 @@ Abus|A[3:0]|D5G1;||IJ0|C_GEN_AN@0|A[7:0]|-53.5|-8.25|pin@1||-61.75|-8.25
 Abus|A[3:0]|D5G1;||IJ0|C_PROP_X@0|A[7:0]|-53.75|-17.5|pin@3||-61.75|-17.5
 Abus|B[3:0]|D5G1;||IJ0|C_GEN_AN@0|B[7:0]|-53.5|-10.25|pin@2||-61.75|-10.25
 Abus|B[3:0]|D5G1;||IJ0|C_PROP_X@0|B[7:0]|-53.75|-19.5|pin@4||-61.75|-19.5
+Abus|C[2:0],Cin|D5G1;R||IJ2700|S_XOR@0|B[7:0]|11.25|-52.25|pin@189||11.25|-43.5
 Abus|C[3:0]|D5G1;R||IJ900|C_Invert@0|C[3:0]|4.5|-61|pin@188||4.5|-67.5
-Abus|C[3:0]|D5G1;R||IJ2700|S_XOR@0|B[7:0]|11.25|-52.25|pin@189||11.25|-43.5
 Awire|C[3]|D5G1;X-2.5;||0|conn@3|y|27|-54|pin@192||24|-54
 Awire|C_bar[0]|D5G1;X4.75;||1800|pin@9||-9|-11.75|pin@28||-4.25|-11.75
 Awire|C_bar[1]|D5G1;X-1.25;Y1;||1800|pin@41||29.75|-13.5|pin@64||32.75|-13.5
