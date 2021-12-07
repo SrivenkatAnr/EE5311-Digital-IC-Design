@@ -21,10 +21,10 @@ with open("A4_Param_Inputs_Pulse.txt",'w') as f:
 	for i in range(8):
 		bit1 = "{VDD}" if x1_2s[i]==str(1) else "0"
 		bit2 = "{VDD}" if x2_2s[i]==str(1) else "0"
-		f.write("v"+str(i+2)+" x"+str(7-i)+" gnd PWL (0 0 {10p+2*Tc} 0 {20p+2*Tc} "+bit1+" {10p+3*Tc} "+bit1+" {20p+3*Tc} "+bit2+" 3n "+bit2+")"+"\n")
+		f.write("v"+str(i+2)+" x"+str(7-i)+" gnd PWL (0 0 {100p+2*Tc} 0 {200p+2*Tc} "+bit1+" {100p+3*Tc} "+bit1+" {200p+3*Tc} "+bit2+" 3n "+bit2+")"+"\n")
 	for i in range(8):
 		bit1 = "{VDD}" if y1_2s[i]==str(1) else "0"
 		bit2 = "{VDD}" if y2_2s[i]==str(1) else "0"
-		f.write("v"+str(i+10)+" y"+str(7-i)+" gnd PWL (0 0 {10p+2*Tc} 0 {20p+2*Tc} "+bit1+" {10p+3*Tc} "+bit1+" {20p+3*Tc} "+bit2+" 3n "+bit2+")"+"\n")
+		f.write("v"+str(i+10)+" y"+str(7-i)+" gnd PWL (0 0 {100p+2*Tc} 0 {200p+2*Tc} "+bit1+" {100p+3*Tc} "+bit1+" {200p+3*Tc} "+bit2+" 3n "+bit2+")"+"\n")
 print("Text File Updated!!")
 
