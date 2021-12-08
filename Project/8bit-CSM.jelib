@@ -3631,35 +3631,41 @@ Eclk_bar||D5G2;|conn@3|y|I
 X
 
 # Cell FF_tb;1{sch}
-CFF_tb;1{sch}||schematic|1637821071600|1638863271299|
+CFF_tb;1{sch}||schematic|1637821071600|1638982483083|
 IC2MOS_FF;1{ic}|C2MOS_FF@0||-4|10.25|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
-NOff-Page|conn@0||-20.25|11.25||||
+NOff-Page|conn@0||-39.5|11.25||||
 NOff-Page|conn@1||-21|1.25||||
 NOff-Page|conn@3||10.75|11.25||||
 Iinverter;1{ic}|inverter@0||-32.25|-9.25|||D5G4;
 Iinverter;1{ic}|inverter@1||-16|-9.25|||D5G4;
+Iinverter;1{ic}|inverter@2||-26.75|11.25|||D5G4;
+Iinverter;1{ic}|inverter@3||-19.75|11.25|||D5G4;
 NWire_Pin|pin@0||-10.5|11.25||||
 NWire_Pin|pin@1||2.25|11.25||||
 NWire_Pin|pin@2||-14.25|8.5||||
 NWire_Pin|pin@4||-14.25|6.5||||
 NWire_Pin|pin@5||-17|1.25||||
-Ngeneric:Invisible-Pin|pin@8||28.25|-3.5|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"","*.include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",*.params vdd=0.8,*v1 vdd gnd DC {vdd},*v2 clock gnd PULSE ({vdd} 0 10p 10p 10p 0.49n 1n),*v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),*v4 D gnd PWL (0 0 {t-10p} 0 {t} {vdd} 2n {vdd}),*v4 D gnd PWL (0 {vdd} {t-10p} {vdd} {t} 0 2n 0),*.meas tran Tdc +,*	+ TRIG V(D) val={vdd/2} fall=1,*	+ TARG V(clk) val={vdd/2} rise=2 td=0.3n,*.meas tran Tcq +,*	+ TRIG V(clk) val={vdd/2} rise=2 td=0.3n,*	+ TARG V(Q) val={vdd/2} fall=1 td=0.3n,*.meas tran Tdq +,*	+ TRIG V(D) val={vdd/2} fall=1,*	+ TARG V(Q) val={vdd/2} fall=1 td=0.3n,*.step param t 1.47n 1.52n 0.5p,*.tran 2.5n uic,*.option noopiter,*.END]
+Ngeneric:Invisible-Pin|pin@8||38.5|-6.25|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8,v1 vdd gnd DC {vdd},v2 clock gnd PULSE ({vdd} 0 100p 100p 100p 0.4n 1n),*v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),*v4 D gnd PWL (0 0 {t-100p} 0 {t} {vdd} 2n {vdd}),v4 D gnd PWL (0 {vdd} {t-10p} {vdd} {t} 0 2n 0),.meas tran Tdc +,	+ TRIG V(D) val={vdd/2} fall=1,	+ TARG V(clk) val={vdd/2} rise=2 td=0.3n,.meas tran Tcq +,	+ TRIG V(clk) val={vdd/2} rise=2 td=0.3n,	+ TARG V(Q) val={vdd/2} fall=1 td=0.3n,.meas tran Tdq +,	+ TRIG V(D) val={vdd/2} fall=1,	+ TARG V(Q) val={vdd/2} fall=1 td=0.3n,.step param t 1.603n 1.653n 0.5p,.tran 2.5n uic,.option noopiter,.END]
 NWire_Pin|pin@9||-42|-9.25||||
 NWire_Pin|pin@10||-7|-9.25||||
 NWire_Pin|pin@11||-43|-9.25||||
-Ngeneric:Invisible-Pin|pin@18||-8|-29|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"",".include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",.params vdd=0.8,v1 vdd gnd DC {vdd},v2 clock gnd PULSE ({vdd} 0 200p 10p 10p 0.49n 1n),*v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),v4 D gnd PWL (0 0 {t-10p} 0 {t} {vdd} 2n {vdd}),.meas tran Tdc +,	+ TRIG V(D) val={vdd/2} rise=1,	+ TARG V(clk) val={vdd/2} rise=2,.meas tran Tcq +,	+ TRIG V(clk) val={vdd/2} rise=2,	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,.meas tran Tdq +,	+ TRIG V(D) val={vdd/2} rise=1,	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,.step param t 0.651n 0.701n 0.5p,.tran 2.1n uic,.option noopiter,.END]
+Ngeneric:Invisible-Pin|pin@18||-8|-29|||||SIM_spice_card(D5G1.25;)S["*.include \"C:\\Users\\Hemanth Ram\\Desktop\\sem7\\ee5311\\22nm_HP.pm\"","*.include \"H:\\Acads\\Sem7\\EE5311_Digital_IC_Design\\DIC-Electric\\22nm_HP.pm\"",*.params vdd=0.8,*v1 vdd gnd DC {vdd},*v2 clock gnd PULSE ({vdd} 0 200p 100p 100p 0.4n 1n),*v3 clk_bar gnd PULSE(0 {vdd} 0 100p 100p 0.4n 1n),*v4 D gnd PWL (0 0 {t-100p} 0 {t} {vdd} 2n {vdd}),*.meas tran Tdc +,*	+ TRIG V(D) val={vdd/2} rise=1,*	+ TARG V(clk) val={vdd/2} rise=2,*.meas tran Tcq +,*	+ TRIG V(clk) val={vdd/2} rise=2,*	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,*.meas tran Tdq +,*	+ TRIG V(D) val={vdd/2} rise=1,*	+ TARG V(Q) val={vdd/2} rise=1 td=0.4n,*.step param t 0.72n 0.77n 0.5p,*.tran 2.1n uic,*.option noopiter,*.END]
+NWire_Pin|pin@19||-36.25|11.25||||
+Awire|Din|D5G1;||1800|inverter@3|OUT|-16|11.25|pin@0||-10.5|11.25
 Awire|clk|D5G1;||0|C2MOS_FF@0|clk|-10.25|8.5|pin@2||-14.25|8.5
 Awire|clk|D5G1;||1800|inverter@1|OUT|-12.25|-9.25|pin@10||-7|-9.25
 Awire|clk_bar|D5G1;||0|C2MOS_FF@0|clk_bar|-10|6.5|pin@4||-14.25|6.5
 Awire|clk_bar|D5G1;||0|inverter@1|INP|-21.5|-9.25|inverter@0|OUT|-28.5|-9.25
 Awire|clock|D5G1;||0|inverter@0|INP|-37.75|-9.25|pin@9||-42|-9.25
-Awire|net@0|||1800|conn@0|y|-18.25|11.25|pin@0||-10.5|11.25
 Awire|net@1|||2700|C2MOS_FF@0|D|-10.5|11.25|pin@0||-10.5|11.25
 Awire|net@2|||900|C2MOS_FF@0|Q|2.25|11.25|pin@1||2.25|11.25
 Awire|net@3|||0|conn@3|a|8.75|11.25|pin@1||2.25|11.25
 Awire|net@8|||1800|conn@1|y|-19|1.25|pin@5||-17|1.25
 Awire|net@13|||0|pin@9||-42|-9.25|pin@11||-43|-9.25
+Awire|net@14|||1800|inverter@3|INP|-25.25|11.25|inverter@2|OUT|-23|11.25
+Awire|net@16|||0|inverter@2|INP|-32.25|11.25|pin@19||-36.25|11.25
+Awire|net@17|||0|pin@19||-36.25|11.25|conn@0|y|-37.5|11.25
 ED||D5G2;|conn@0|y|I
 EQ||D5G2;|conn@3|a|O
 Eclk|clock|D5G2;|conn@1|y|I
