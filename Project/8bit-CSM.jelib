@@ -8395,7 +8395,7 @@ EY||D5G2;|pin@4||O
 X
 
 # Cell and;1{lay}
-Cand;1{lay}||mocmos|1636792454925|1638724051092||DRC_last_good_drc_area_date()G1638122892477|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
+Cand;1{lay}||mocmos|1636792454925|1638724051092||DRC_last_good_drc_area_date()G1639033505551|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@14||-25|14||3||
 NMetal-1-P-Active-Con|contact@15||-33|14||3|||ATTRP__ATTR_C(D5G1;N)S0.13fF
@@ -9506,7 +9506,7 @@ EOUT||D5G2;X2;|pin@2||O
 X
 
 # Cell inverter;1{lay}
-Cinverter;1{lay}||mocmos|1636791994768|1638724051092||DRC_last_good_drc_area_date()G1638098269222|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
+Cinverter;1{lay}||mocmos|1636791994768|1638724051092||DRC_last_good_drc_area_date()G1639033546768|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-6.5|-6.5||||
 NMetal-1-N-Active-Con|contact@1||2.5|-6.5|||||ATTRP__ATTR_C(D5G1;N)S0.05fF
@@ -17337,7 +17337,7 @@ EY||D5G2;|pin@4||O
 X
 
 # Cell nand2;1{lay}
-Cnand2;1{lay}||mocmos|1636792064223|1638724051092||DRC_last_good_drc_area_date()G1638108929924|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
+Cnand2;1{lay}||mocmos|1636792064223|1638724051092||DRC_last_good_drc_area_date()G1639033613104|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1638804138058
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||0|12||3||
 NMetal-1-P-Active-Con|contact@1||-8|12||3|||ATTRP__ATTR_C(D5G1;N)S0.11fF
