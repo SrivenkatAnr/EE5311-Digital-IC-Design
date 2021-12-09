@@ -1,42 +1,46 @@
 Circuit: *** SPICE deck for cell multiplier-pipelined-tb{sch} from library 8bit-CSM
 
-V17: Removing PWL point (9.94e-010,0.8)
-V15: Removing PWL point (9.94e-010,0.8)
-V13: Removing PWL point (9.94e-010,0.8)
-V12: Removing PWL point (9.94e-010,0.8)
-V11: Removing PWL point (9.94e-010,0.8)
-V10: Removing PWL point (9.94e-010,0.8)
-V9: Removing PWL point (9.94e-010,0.8)
-V7: Removing PWL point (9.94e-010,0.8)
-V5: Removing PWL point (9.94e-010,0.8)
-V4: Removing PWL point (9.94e-010,0.8)
-V3: Removing PWL point (9.94e-010,0.8)
-V2: Removing PWL point (9.94e-010,0.8)
+V17: Removing PWL point (1.03e-009,0.8)
+V16: Removing PWL point (7.2e-010,0)
+V15: Removing PWL point (1.03e-009,0.8)
+V14: Removing PWL point (7.2e-010,0)
+V13: Removing PWL point (1.03e-009,0.8)
+V12: Removing PWL point (1.03e-009,0.8)
+V11: Removing PWL point (1.03e-009,0.8)
+V10: Removing PWL point (1.03e-009,0.8)
+V9: Removing PWL point (1.03e-009,0.8)
+V8: Removing PWL point (7.2e-010,0)
+V7: Removing PWL point (1.03e-009,0.8)
+V6: Removing PWL point (7.2e-010,0)
+V5: Removing PWL point (1.03e-009,0.8)
+V4: Removing PWL point (1.03e-009,0.8)
+V3: Removing PWL point (1.03e-009,0.8)
+V2: Removing PWL point (1.03e-009,0.8)
 Per .tran options, skipping operating point for transient analysis.
 
-x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 1.21429e-009
-y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 1.21429e-009
-z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 1.81022e-009
-x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 1.51214e-009
-y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 1.51214e-009
-z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 2.10817e-009
+x1: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-11 at 1.25063e-009
+y1: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-11 at 1.25063e-009
+z1: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=121 at 1.87031e-009
+x2: (round(v(q_x7))*(-128) + round(v(q_x6))*64 + round(v(q_x5))*32 + round(v(q_x4))*16 +  round(v(q_x3))*8 + round(v(q_x2))*4 + round(v(q_x1))*2 + round(v(q_x0))*1)=-1 at 1.56043e-009
+y2: (round(v(q_y7))*(-128) + round(v(q_y6))*64 + round(v(q_y5))*32 + round(v(q_y4))*16 +  round(v(q_y3))*8 + round(v(q_y2))*4 + round(v(q_y1))*2 + round(v(q_y0))*1)=-1 at 1.56043e-009
+z2: (round(v(z15))*(-32768) + round(v(z14))*16384 + round(v(z13))*8192 + round(v(z12))*4096 +  round(v(z11))*2048 + round(v(z10))*1024 + round(v(z9))*512 + round(v(z8))*256 +  round(v(z7))*128 + round(v(z6))*64 + round(v(z5))*32 + round(v(z4))*16 +  round(v(z3))*8 + round(v(z2))*4 + round(v(z1))*2 + round(v(z0))*1)=1 at 2.18029e-009
 
 
-Date: Wed Dec 08 21:12:08 2021
-Total elapsed time: 19.009 seconds.
+Date: Thu Dec 09 12:13:50 2021
+Total elapsed time: 24.485 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3323
-traniter = 3323
-tranpoints = 1227
-accept = 1180
-rejected = 47
+totiter = 3251
+traniter = 3251
+tranpoints = 1217
+accept = 1174
+rejected = 43
 matrix size = 11586
 fillins = 6958
 solver = Normal
-Thread vector: 5174.4/1966.7[8] 1486.4/243.4[8] 903.8/449.1[8] 254.5/144.6[8]  2592/500
-Matrix Compiler1: 3.55 MB object code size  3419.7/1828.4/[916.3]
-Matrix Compiler2: 1.60 MB object code size  998.1/912.7/[451.9]
+Thread vector: 6294.8/2146.2[8] 1494.5/248.0[8] 906.2/456.0[8] 283.7/160.1[8]  2592/500
+Matrix Compiler1: 3.55 MB object code size  3287.7/1866.4/[878.6]
+Matrix Compiler2: 1.60 MB object code size  968.3/950.3/[492.9]
 

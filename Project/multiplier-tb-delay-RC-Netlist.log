@@ -11,24 +11,24 @@ V10: Removing PWL point (1e-009,0.8)
 V9: Removing PWL point (1e-009,0.8)
 Per .tran options, skipping operating point for transient analysis.
 
-multiplier-delay=6.16871e-010 FROM 1.05e-009 TO 1.66687e-009
+multiplier-delay=6.23958e-010 FROM 1.10825e-009 TO 1.73221e-009
 
 
-Date: Sun Dec 05 22:39:27 2021
-Total elapsed time: 33.775 seconds.
+Date: Thu Dec 09 12:24:27 2021
+Total elapsed time: 39.482 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2907
-traniter = 2907
-tranpoints = 1057
-accept = 1056
+totiter = 2844
+traniter = 2844
+tranpoints = 1054
+accept = 1053
 rejected = 1
-matrix size = 22142
-fillins = 26882
+matrix size = 22590
+fillins = 27536
 solver = Normal
-Thread vector: 7939.7/3307.6[8] 2054.8/495.9[8] 1123.1/565.1[8] 735.5/651.0[2]  2592/500
-Matrix Compiler1: 4.71 MB object code size  7264.3/3877.8/[2041.4]
-Matrix Compiler2: 2.84 MB object code size  2782.7/2771.6/[1230.9]
+Thread vector: 8665.2/3066.0[8] 2100.2/497.2[8] 1141.1/582.0[8] 787.9/514.0[7]  2592/500
+Matrix Compiler1: 4.86 MB object code size  6797.7/3872.2/[2066.8]
+Matrix Compiler2: 2.89 MB object code size  2473.6/2849.2/[1347.8]
 
