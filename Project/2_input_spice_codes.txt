@@ -1,0 +1,58 @@
+*multiplier_tb spice code
+
+*.include "C:\Users\Hemanth Ram\Desktop\sem7\ee5311\22nm_HP.pm"
+.include "H:\Acads\Sem7\EE5311_Digital_IC_Design\DIC-Electric\22nm_HP.pm"
+*.params vdd=0.8 Tc=0.568n Tr=100p *Schematic
+.params vdd=0.8 Tc=0.86n Tr=100p *Netlist
+v1 vdd gnd DC {vdd}
+.include "A4_Param_Inputs_Pulse.txt"
+v18 clock gnd PULSE ({vdd} 0 0.2n {Tr} {Tr} {Tc/2-Tr} {Tc})
+.tran 5n uic
+.meas tran x1 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +
+	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=2 td={2*Tc+0.45n}
+.meas tran y1 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +
+	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=2 td={2*Tc+0.45n}
+.meas tran z1 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +
+	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +
+	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +
+	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=4 td={2*Tc+0.45n}
+.meas tran x2 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +
+	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=4 td={2*Tc+0.45n}
+.meas tran y2 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +
+	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=4 td={2*Tc+0.45n}
+.meas tran z2 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +
+	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +
+	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +
+	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=6 td={2*Tc+0.45n}
+.option noopiter
+.END
+
+
+*multiplier-pipelined-tb spice code
+
+.include "H:\Acads\Sem7\EE5311_Digital_IC_Design\DIC-Electric\22nm_HP.pm"
+*.params vdd=0.8 Tc=0.31n Tr=100p *Schematic
+.params vdd=0.8 Tc=0.4n Tr=100p *Layout Netlist
+v1 vdd gnd DC {vdd}
+.include "A4_Param_Inputs_Pulse.txt"
+v18 clock gnd PULSE ({vdd} 0 0.2n {Tr} {Tr} {Tc/2-Tr} {Tc})
+*v19 clk_bar gnd PULSE (0 {vdd} 0.2n {Tr} {Tr} {Tc/2-Tr} {Tc})
+.tran 3.5n uic
+.meas tran x1 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +
+	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=2 td={2*Tc+0.45n}
+.meas tran y1 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +
+	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=2 td={2*Tc+0.45n}
+.meas tran z1 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +
+	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +
+	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +
+	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=6 td={2*Tc+0.45n}
+.meas tran x2 find (round(V(q_x7))*(-128) + round(V(q_x6))*64 + round(V(q_x5))*32 + round(V(q_x4))*16 +
+	+ round(V(q_x3))*8 + round(V(q_x2))*4 + round(V(q_x1))*2 + round(V(q_x0))*1) when v(clk)={0.5*vdd} cross=4 td={2*Tc+0.45n}
+.meas tran y2 find (round(V(q_y7))*(-128) + round(V(q_y6))*64 + round(V(q_y5))*32 + round(V(q_y4))*16 +
+	+ round(V(q_y3))*8 + round(V(q_y2))*4 + round(V(q_y1))*2 + round(V(q_y0))*1) when v(clk)={0.5*vdd} cross=4 td={2*Tc+0.45n}
+.meas tran z2 find (round(V(z15))*(-32768) + round(V(z14))*16384 + round(V(z13))*8192 + round(V(z12))*4096 +
+	+ round(V(z11))*2048 + round(V(z10))*1024 + round(V(z9))*512 + round(V(z8))*256 +
+	+ round(V(z7))*128 + round(V(z6))*64 + round(V(z5))*32 + round(V(z4))*16 +
+	+ round(V(z3))*8 + round(V(z2))*4 + round(V(z1))*2 + round(V(z0))*1) when v(clk)={0.5*vdd} cross=8 td={2*Tc+0.45n}
+.option noopiter
+.END
